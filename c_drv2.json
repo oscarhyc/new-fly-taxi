@@ -1,0 +1,295 @@
+[
+ {
+  "file": "p099M2/C0988a.java",
+  "paths": [
+   "/v6/fleet/select_car_driver"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "id",
+   "service_list",
+   "v",
+   "lang"
+  ],
+  "resp": []
+ },
+ {
+  "file": "p163U2/C1662a.java",
+  "paths": [
+   "/v6/driver/get_driver_auth"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "driver_auth_id",
+   "auth_type",
+   "auth_id",
+   "notification_id",
+   "version",
+   "driver_name",
+   "driver_email",
+   "driver_misc",
+   "driver_misc2",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": []
+ },
+ {
+  "file": "p155T2/C1578a.java",
+  "paths": [
+   "/v6/payme/add_driver_auth",
+   "/v6/payme/edit_driver_auth",
+   "/v6/payme/remove_driver_auth"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "driver_misc",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "driver_auth_id"
+  ],
+  "resp": []
+ },
+ {
+  "file": "p051G2/C0596a.java",
+  "paths": [
+   "/v6/driver/add_driver_car_model",
+   "/v6/driver/delete_driver_car_model",
+   "/v6/driver/select_driver_car_model2",
+   "/v6/driver/update_driver_car_model",
+   "/v6/fleet/get_car_driver_list"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "car_number",
+   "car_model_id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "id",
+   "driver_car_model_id"
+  ],
+  "resp": []
+ },
+ {
+  "file": "p075J2/C0788a.java",
+  "paths": [
+   "/v6/device/integrity_challenge_test",
+   "/v6/device/jwt_authorization"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "platform",
+   "v",
+   "app",
+   "lang",
+   "did",
+   "access_token",
+   "nonce",
+   "login_integrity_id",
+   "token",
+   "error_message"
+  ],
+  "resp": []
+ },
+ {
+  "file": "p187X2/C1935a.java",
+  "paths": [
+   "/v6/driver/batch_info2"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "lang",
+   "v"
+  ],
+  "resp": []
+ },
+ {
+  "file": "p187X2/C1936b.java",
+  "paths": [
+   "/v6/driver/logout",
+   "/v6/gps/jwt_update_driver",
+   "/v6/gps/update_driver"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "bid",
+   "lat",
+   "lng",
+   "direction",
+   "speed",
+   "lon",
+   "city_id",
+   "ct"
+  ],
+  "resp": []
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "paths": [
+   "/v6/book/accept",
+   "/v6/book/book_complete_ride",
+   "/v6/book/book_start_ride",
+   "/v6/book/create",
+   "/v6/book/driver_arrived_dropoff1",
+   "/v6/book/driver_arrived_pickup",
+   "/v6/book/driver_cancel",
+   "/v6/book/list",
+   "/v6/book/lock",
+   "/v6/book/user_no_show",
+   "/v6/fleet/book_accept"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "bid",
+   "did",
+   "driver_lat",
+   "driver_lng",
+   "user_type",
+   "integrity",
+   "accessibility",
+   "log_list",
+   "driver_gps_list",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "city_id",
+   "book_charge_id",
+   "uid",
+   "pickup_lat",
+   "pickup_lon",
+   "pickup_address",
+   "dropoff1_address",
+   "dropoff1_lat",
+   "dropoff1_lon",
+   "ct",
+   "date_pickup",
+   "group_id",
+   "remark",
+   "opt",
+   "pay_mode",
+   "tel",
+   "lat",
+   "lng",
+   "t",
+   "distance"
+  ],
+  "resp": []
+ },
+ {
+  "file": "p131Q2/C1301a.java",
+  "paths": [
+   "/v6/octopus/remove_driver_auth",
+   "/v6/octopus/request_card_payment",
+   "/v6/octopus/request_driver_linkage",
+   "/v6/octopus/update_driver_linkage"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "amount",
+   "bid",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "city_id",
+   "driver_auth_id",
+   "hashed_driver_id",
+   "mertAccRef"
+  ],
+  "resp": []
+ },
+ {
+  "file": "p203Z2/C2051a.java",
+  "paths": [
+   "/v6/wechat/add_driver_auth"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": []
+ },
+ {
+  "file": "p123P2/C1215a.java",
+  "paths": [
+   "/v6/driver/login",
+   "/v6/member/create_login_token"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "lang",
+   "v",
+   "tel",
+   "city_id",
+   "imei",
+   "pwd",
+   "fcm_id",
+   "lat",
+   "lon",
+   "user_token",
+   "device_id",
+   "device_name",
+   "db_config_version",
+   "crc",
+   "environment",
+   "accessibility",
+   "version",
+   "app",
+   "app_id"
+  ],
+  "resp": []
+ }
+]

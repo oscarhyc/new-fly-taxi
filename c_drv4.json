@@ -1,0 +1,1100 @@
+[
+ {
+  "file": "p099M2/C0988a.java",
+  "sig": "public void m4334a(String str, String str2, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/fleet/select_car_driver"
+  ],
+  "params": [
+   "id",
+   "service_list",
+   "v",
+   "lang"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p163U2/C1662a.java",
+  "sig": "public void m7189a(C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/get_driver_auth"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "driver_auth_id",
+   "auth_type",
+   "auth_id",
+   "notification_id",
+   "version",
+   "driver_name",
+   "driver_email",
+   "driver_misc",
+   "driver_misc2",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p155T2/C1578a.java",
+  "sig": "public void m6764a(String str, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/payme/add_driver_auth"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "driver_misc",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p155T2/C1578a.java",
+  "sig": "public void m6765c(String str, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/payme/remove_driver_auth"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "driver_auth_id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p155T2/C1578a.java",
+  "sig": "public void m6766d(String str, String str2, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/payme/edit_driver_auth"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "driver_auth_id",
+   "driver_misc",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p195Y2/C1967a.java",
+  "sig": "public void m8361a(C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/get_hk_driver_tel_status"
+  ],
+  "params": [
+   "did",
+   "v",
+   "lang",
+   "city_id",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p195Y2/C1967a.java",
+  "sig": "public void m8362c(C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/update_hk_driver_tel"
+  ],
+  "params": [
+   "did",
+   "v",
+   "lang",
+   "city_id",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p051G2/C0596a.java",
+  "sig": "public void m2838a(String str, String str2, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/add_driver_car_model"
+  ],
+  "params": [
+   "did",
+   "car_number",
+   "car_model_id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p051G2/C0596a.java",
+  "sig": "public void m2839b(String str, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/delete_driver_car_model"
+  ],
+  "params": [
+   "did",
+   "id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p051G2/C0596a.java",
+  "sig": "public void m2840c(C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/fleet/get_car_driver_list"
+  ],
+  "params": [
+   "did",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p051G2/C0596a.java",
+  "sig": "public void m2841e(String str, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/select_driver_car_model2"
+  ],
+  "params": [
+   "id",
+   "v",
+   "lang"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p051G2/C0596a.java",
+  "sig": "public void m2842f(String str, String str2, String str3, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/update_driver_car_model"
+  ],
+  "params": [
+   "did",
+   "driver_car_model_id",
+   "car_number",
+   "car_model_id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p067I2/C0738a.java",
+  "sig": "public void m3388b(C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/api/get_config_sqlite"
+  ],
+  "params": [
+   "user_type",
+   "did",
+   "lang",
+   "access_token",
+   "v",
+   "app_id"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p075J2/C0788a.java",
+  "sig": "public void m3621a(C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/device/integrity_challenge_test"
+  ],
+  "params": [
+   "platform",
+   "v",
+   "app",
+   "lang",
+   "did",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p075J2/C0788a.java",
+  "sig": "public void m3622b(String str, String str2, String str3, String str4, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/device/jwt_authorization"
+  ],
+  "params": [
+   "nonce",
+   "login_integrity_id",
+   "token",
+   "error_message",
+   "platform",
+   "v",
+   "app",
+   "lang",
+   "did",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p187X2/C1935a.java",
+  "sig": "public void m8243a(C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/batch_info2"
+  ],
+  "params": [
+   "did",
+   "lang",
+   "v"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p187X2/C1936b.java",
+  "sig": "public void m8245a(Activity activity, String str, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/logout"
+  ],
+  "params": [
+   "did",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p187X2/C1936b.java",
+  "sig": "public void m8246c(Location location, String str, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/gps/jwt_update_driver",
+   "/v6/gps/update_driver"
+  ],
+  "params": [
+   "bid",
+   "lat",
+   "lng",
+   "direction",
+   "speed",
+   "lang",
+   "v",
+   "did",
+   "lon",
+   "city_id",
+   "ct",
+   "app",
+   "app_id",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p107N2/C1033a.java",
+  "sig": "public void m4642a(String str, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/driver_book"
+  ],
+  "params": [
+   "did",
+   "bid",
+   "v",
+   "app",
+   "app_id",
+   "app_date",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p083K2/C0815a.java",
+  "sig": "public void m3791b(C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/reg_doc_verify"
+  ],
+  "params": [
+   "did",
+   "ct",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p083K2/C0815a.java",
+  "sig": "public void m3792c(DriverDocTypeItem driverDocTypeItem, List list, List list2, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/reg_doc_detail"
+  ],
+  "params": [
+   "city_id",
+   "ct",
+   "did",
+   "doc_type_id",
+   "doc_name",
+   "pic_type",
+   "doc_number",
+   "date_doc_valid_to",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p091L2/C0905a.java",
+  "sig": "public void m4130b(Activity activity, RegisterItem registerItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/reg"
+  ],
+  "params": [
+   "tel",
+   "imei",
+   "device_id",
+   "pwd",
+   "ct",
+   "city_id",
+   "fcm_id",
+   "referrer",
+   "v",
+   "app",
+   "app_id",
+   "lang"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p115O2/C1137a.java",
+  "sig": "public void m4955b(String str, String str2, String str3, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/integrity/verify"
+  ],
+  "params": [
+   "nonce",
+   "token",
+   "error_message",
+   "platform",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "did",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p139R2/C1414a.java",
+  "sig": "public void m6170b(DriverOptionItem driverOptionItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/update_driver_option"
+  ],
+  "params": [
+   "did",
+   "option_id",
+   "option_value",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "sig": "public void m6637a(OrderItem orderItem, Location location, List list, List list2, List list3, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/accept"
+  ],
+  "params": [
+   "bid",
+   "did",
+   "driver_lat",
+   "driver_lng",
+   "user_type",
+   "integrity",
+   "accessibility",
+   "log_list",
+   "driver_gps_list",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "sig": "public void m6638b(OrderItem orderItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/driver_cancel"
+  ],
+  "params": [
+   "bid",
+   "did",
+   "city_id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "sig": "public void m6639c(OrderItem orderItem, List list, C3272g.b bVar, C3272g.a aVar) throws Throwable",
+  "paths": [
+   "/v6/book/create"
+  ],
+  "params": [
+   "book_charge_id",
+   "user_type",
+   "uid",
+   "pickup_lat",
+   "pickup_lon",
+   "pickup_address",
+   "dropoff1_address",
+   "dropoff1_lat",
+   "dropoff1_lon",
+   "city_id",
+   "ct",
+   "date_pickup",
+   "group_id",
+   "remark",
+   "opt",
+   "pay_mode",
+   "tel",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "sig": "public void m6640d(OrderItem orderItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/driver_arrived_dropoff1"
+  ],
+  "params": [
+   "city_id",
+   "bid",
+   "did",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "sig": "public void m6641e(OrderItem orderItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/driver_arrived_pickup"
+  ],
+  "params": [
+   "bid",
+   "did",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "sig": "public void m6643h(double d8, double d9, Date date, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/list"
+  ],
+  "params": [
+   "lat",
+   "lng",
+   "t",
+   "lang",
+   "v"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "sig": "public void m6644i(OrderItem orderItem, Location location, List list, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/lock"
+  ],
+  "params": [
+   "bid",
+   "did",
+   "ct",
+   "date_pickup",
+   "driver_lat",
+   "driver_lng",
+   "accessibility",
+   "distance",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "sig": "public void m6645j(OrderItem orderItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/book_complete_ride"
+  ],
+  "params": [
+   "city_id",
+   "bid",
+   "did",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "sig": "public void m6646k(OrderItem orderItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/book_start_ride"
+  ],
+  "params": [
+   "city_id",
+   "bid",
+   "did",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "sig": "public void m6647l(OrderItem orderItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/user_no_show"
+  ],
+  "params": [
+   "bid",
+   "did",
+   "city_id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p131Q2/C1301a.java",
+  "sig": "public void m5608a(String str, String str2, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/octopus/request_card_payment"
+  ],
+  "params": [
+   "did",
+   "amount",
+   "bid",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p131Q2/C1301a.java",
+  "sig": "public void m5609c(String str, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/octopus/remove_driver_auth"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "driver_auth_id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p131Q2/C1301a.java",
+  "sig": "public void m5610d(C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/octopus/request_driver_linkage"
+  ],
+  "params": [
+   "did",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p131Q2/C1301a.java",
+  "sig": "public void m5611e(String str, String str2, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/octopus/update_driver_linkage"
+  ],
+  "params": [
+   "did",
+   "hashed_driver_id",
+   "mertAccRef",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p203Z2/C2051a.java",
+  "sig": "public void m8673a(String str, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/wechat/add_driver_auth"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p059H2/C0651a.java",
+  "sig": "public void m3018a(ComplainTypeItem complainTypeItem, OrderItem orderItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/add_driver_complain"
+  ],
+  "params": [
+   "did",
+   "driver_complain_type_id",
+   "complain_desc",
+   "cid",
+   "bid",
+   "v",
+   "app",
+   "app_id",
+   "city_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p059H2/C0651a.java",
+  "sig": "public void m3019c(CustomerServiceItem customerServiceItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/user/get_user_complain_review_lock"
+  ],
+  "params": [
+   "id",
+   "admin_did",
+   "date_up",
+   "v",
+   "app",
+   "app_id",
+   "city_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p059H2/C0651a.java",
+  "sig": "public void m3020d(String str, String str2, String str3, Date date, String str4, String str5, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/user/update_user_complain_review_release"
+  ],
+  "params": [
+   "id",
+   "suspend_reason_type",
+   "suspend_reason",
+   "suspend_by",
+   "suspend_date_force_lock",
+   "release_reason_type",
+   "release_reason",
+   "release_by",
+   "v",
+   "app",
+   "app_id",
+   "city_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p059H2/C0651a.java",
+  "sig": "public void m3021e(String str, String str2, String str3, Date date, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/user/update_user_complain_review_suspend"
+  ],
+  "params": [
+   "id",
+   "suspend_reason_type",
+   "suspend_reason",
+   "suspend_by",
+   "suspend_date_force_lock",
+   "v",
+   "app",
+   "app_id",
+   "city_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p179W2/C1810a.java",
+  "sig": "public void m7599b(String str, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/uber_link_account"
+  ],
+  "params": [
+   "did",
+   "redirect_uri",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p123P2/C1215a.java",
+  "sig": "public void m5229a(C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/member/create_login_token"
+  ],
+  "params": [
+   "lang",
+   "v"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p123P2/C1215a.java",
+  "sig": "public void m5230b(Activity activity, String str, String str2, String str3, String str4, String str5, LocationItem locationItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/driver/login"
+  ],
+  "params": [
+   "tel",
+   "city_id",
+   "imei",
+   "pwd",
+   "fcm_id",
+   "lat",
+   "lon",
+   "user_token",
+   "device_id",
+   "device_name",
+   "db_config_version",
+   "crc",
+   "environment",
+   "accessibility",
+   "version",
+   "v",
+   "app",
+   "app_id",
+   "lang"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p171V2/C1712a.java",
+  "sig": "public void m7308a(OrderItem orderItem, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/get_book_direction"
+  ],
+  "params": [
+   "city_id",
+   "pickup_lat",
+   "pickup_lon",
+   "dropoff1_lat",
+   "dropoff1_lon",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ },
+ {
+  "file": "p171V2/C1712a.java",
+  "sig": "public void m7309c(OrderItem orderItem, String str, float f8, float f9, String str2, C3272g.b bVar, C3272g.a aVar)",
+  "paths": [
+   "/v6/book/update_book_direction"
+  ],
+  "params": [
+   "city_id",
+   "pickup_lat",
+   "pickup_lon",
+   "dropoff1_lat",
+   "dropoff1_lon",
+   "points",
+   "distance",
+   "duration",
+   "source",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": false
+ }
+]

@@ -1,0 +1,24 @@
+# --- never commit: binaries, decompiled code, dumps, captures, PII ---
+apks/
+out/
+x/
+logs/
+manual/
+captures/
+*.apk
+*.xapk
+*.html
+__pycache__/
+*.pyc
+*.mitm
+
+# large raw extraction dumps (regenerable; contain full string tables)
+r_pax.json
+r_drv.json
+deep_pax.json
+deep_drv.json
+c_drv.json
+c_pax2.json
+c_pax3.json
+pa_drv.json
+pa_pax.json

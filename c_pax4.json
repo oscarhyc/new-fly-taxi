@@ -1,0 +1,669 @@
+[
+ {
+  "file": "p088R2/C0612a.java",
+  "sig": "public void m2443b(UserOptionItem userOptionItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/cust/update_user_option"
+  ],
+  "params": [
+   "uid",
+   "option_id",
+   "option_value",
+   "v",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p098T2/C0677b.java",
+  "sig": "public void m2628b(String str, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/pay/get_tran"
+  ],
+  "params": [
+   "cid",
+   "currency_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p098T2/C0677b.java",
+  "sig": "public void m2629c(C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/pay/get_user_wallet"
+  ],
+  "params": [
+   "uid",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p098T2/C0676a.java",
+  "sig": "public void m2626b(C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/pay/create_tran_netopia_verify"
+  ],
+  "params": [
+   "uid",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p078P2/C0568a.java",
+  "sig": "public String m2220b(String str, String str2, String str3, AddressNameItem addressNameItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/reg"
+  ],
+  "params": [
+   "auth_id",
+   "city_id",
+   "notification_id",
+   "sso_type",
+   "sso_token",
+   "access_token",
+   "address_name",
+   "t_and_c_date",
+   "v",
+   "app_id",
+   "lang"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p078P2/C0568a.java",
+  "sig": "public void m2221c(CityItem cityItem, LanguageItem languageItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/update_user_city_by_cid"
+  ],
+  "params": [
+   "cid",
+   "city_id",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p073O2/C0435a.java",
+  "sig": "public void m1761a(String str, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/add_user_referral_driver"
+  ],
+  "params": [
+   "city_id",
+   "uid",
+   "did",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p073O2/C0435a.java",
+  "sig": "public void m1762c(C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/get_user_referral_driver"
+  ],
+  "params": [
+   "city_id",
+   "uid",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p048J2/C0343a.java",
+  "sig": "public void m1544a(C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/create_login_token"
+  ],
+  "params": [
+   "uid",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p038H2/C0266a.java",
+  "sig": "public void m1252b(C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/api/get_config_sqlite"
+  ],
+  "params": [
+   "user_type",
+   "uid",
+   "lang",
+   "access_token",
+   "v",
+   "app_id"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p063M2/C0390a.java",
+  "sig": "public void m1652a(String str, String str2, String str3, String str4, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/book/get_book_direction"
+  ],
+  "params": [
+   "uid",
+   "city_id",
+   "pickup_lat",
+   "pickup_lon",
+   "dropoff1_lat",
+   "dropoff1_lon",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p063M2/C0390a.java",
+  "sig": "public void m1653c(String str, String str2, String str3, String str4, String str5, float f4, float f5, String str6, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/book/update_book_direction"
+  ],
+  "params": [
+   "uid",
+   "city_id",
+   "pickup_lat",
+   "pickup_lon",
+   "dropoff1_lat",
+   "dropoff1_lon",
+   "points",
+   "distance",
+   "duration",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p058L2/C0376a.java",
+  "sig": "public void m1612a(OrderItem orderItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/book/book_complete_ride"
+  ],
+  "params": [
+   "city_id",
+   "bid",
+   "uid",
+   "did",
+   "user_type",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p058L2/C0376a.java",
+  "sig": "public void m1613b(C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/book/user_book"
+  ],
+  "params": [
+   "uid",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p058L2/C0376a.java",
+  "sig": "public void m1614c(OrderItem orderItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/book/cancel"
+  ],
+  "params": [
+   "bid",
+   "uid",
+   "user_type",
+   "opt",
+   "group_id",
+   "date_pickup",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p058L2/C0376a.java",
+  "sig": "public void m1615e(OrderItem orderItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/book/user_book_detail"
+  ],
+  "params": [
+   "bid",
+   "uid",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p058L2/C0376a.java",
+  "sig": "public void m1616f(OrderItem orderItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/book/user_cancel"
+  ],
+  "params": [
+   "bid",
+   "uid",
+   "city_id",
+   "user_type",
+   "opt",
+   "group_id",
+   "date_pickup",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p068N2/C0421a.java",
+  "sig": "public void m1746b(C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/rider_refer_eligible"
+  ],
+  "params": [
+   "uid",
+   "city_id",
+   "v",
+   "app",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p068N2/C0421a.java",
+  "sig": "public void m1747c(String str, String str2, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/rider_refer_submit"
+  ],
+  "params": [
+   "uid",
+   "city_id",
+   "did",
+   "doc_number",
+   "v",
+   "app",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p033G2/C0231a.java",
+  "sig": "public void m1137a(AddressItem addressItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/add_favourite_address"
+  ],
+  "params": [
+   "uid",
+   "city_id",
+   "address_name",
+   "address_lat",
+   "address_lon",
+   "address_tag",
+   "address_category",
+   "address_type",
+   "id",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p033G2/C0231a.java",
+  "sig": "public void m1138c(AddressItem addressItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/remove_favourite_address"
+  ],
+  "params": [
+   "uid",
+   "city_id",
+   "id",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p033G2/C0231a.java",
+  "sig": "public void m1139d(C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/remove_historical_address"
+  ],
+  "params": [
+   "uid",
+   "city_id",
+   "v",
+   "app",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p053K2/C0357a.java",
+  "sig": "public void m1588b(OrderItem orderItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/book/get_meetup_data"
+  ],
+  "params": [
+   "city_id",
+   "cid",
+   "bid",
+   "did",
+   "book_direction_id",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p093S2/C0643a.java",
+  "sig": "public void m2495a(C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/get_hk_user_tel_status"
+  ],
+  "params": [
+   "cid",
+   "v",
+   "lang",
+   "city_id",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p093S2/C0643a.java",
+  "sig": "public void m2496c(String str, String str2, String str3, String str4, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/update_firebase_user_tel"
+  ],
+  "params": [
+   "uid",
+   "verify_type",
+   "sessionInfo",
+   "code",
+   "idToken",
+   "lang",
+   "v",
+   "city_id",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p093S2/C0643a.java",
+  "sig": "public void m2497d(String str, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/update_hk_user_tel"
+  ],
+  "params": [
+   "cid",
+   "tel",
+   "v",
+   "lang",
+   "city_id",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p083Q2/C0583a.java",
+  "sig": "public void m2246a(String str, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/book/get_book_autocomplete"
+  ],
+  "params": [
+   "q",
+   "uid",
+   "v",
+   "city_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p083Q2/C0583a.java",
+  "sig": "public void m2247c(LocationItem locationItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/book/get_book_address_nearby"
+  ],
+  "params": [
+   "uid",
+   "lat",
+   "lng",
+   "v",
+   "city_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p083Q2/C0583a.java",
+  "sig": "public void m2248d(Location location, String str, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/gps/update_user"
+  ],
+  "params": [
+   "cid",
+   "bid",
+   "lat",
+   "lon",
+   "city_id",
+   "v",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p083Q2/C0583a.java",
+  "sig": "public void m2249e(String str, String str2, String str3, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/gps/get_user_nearby_drivers"
+  ],
+  "params": [
+   "uid",
+   "lat",
+   "lng",
+   "ct_list",
+   "app_list",
+   "v",
+   "city_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ },
+ {
+  "file": "p028F2/C0202a.java",
+  "sig": "public void m1033a(OrderItem orderItem, ComplainTypeItem complainTypeItem, C1791k.b bVar, C1791k.a aVar)",
+  "paths": [
+   "/v6/user/add_user_complain"
+  ],
+  "params": [
+   "city_id",
+   "uid",
+   "bid",
+   "did",
+   "complain_type_id",
+   "complain_desc",
+   "complain_value1",
+   "complain_value2",
+   "complain_value3",
+   "v",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "http": [
+   "1"
+  ],
+  "encrypt": true
+ }
+]

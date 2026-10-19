@@ -1,0 +1,547 @@
+[
+ {
+  "file": "p099M2/C0988a.java",
+  "paths": [
+   "/v6/fleet/select_car_driver"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "id",
+   "service_list",
+   "v",
+   "lang"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p163U2/C1662a.java",
+  "paths": [
+   "/v6/driver/get_driver_auth"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "driver_auth_id",
+   "auth_type",
+   "auth_id",
+   "notification_id",
+   "version",
+   "driver_name",
+   "driver_email",
+   "driver_misc",
+   "driver_misc2",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p155T2/C1578a.java",
+  "paths": [
+   "/v6/payme/add_driver_auth",
+   "/v6/payme/edit_driver_auth",
+   "/v6/payme/remove_driver_auth"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "driver_misc",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "driver_auth_id"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p195Y2/C1967a.java",
+  "paths": [
+   "/v6/driver/get_hk_driver_tel_status",
+   "/v6/driver/update_hk_driver_tel"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "v",
+   "lang",
+   "city_id",
+   "access_token"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p051G2/C0596a.java",
+  "paths": [
+   "/v6/driver/add_driver_car_model",
+   "/v6/driver/delete_driver_car_model",
+   "/v6/driver/select_driver_car_model2",
+   "/v6/driver/update_driver_car_model",
+   "/v6/fleet/get_car_driver_list"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "car_number",
+   "car_model_id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "id",
+   "driver_car_model_id"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p067I2/C0738a.java",
+  "paths": [
+   "/v6/api/get_config_sqlite"
+  ],
+  "http": [
+   "0",
+   "1"
+  ],
+  "params": [
+   "user_type",
+   "did",
+   "lang",
+   "access_token",
+   "v",
+   "app_id"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p075J2/C0788a.java",
+  "paths": [
+   "/v6/device/integrity_challenge_test",
+   "/v6/device/jwt_authorization"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "platform",
+   "v",
+   "app",
+   "lang",
+   "did",
+   "access_token",
+   "nonce",
+   "login_integrity_id",
+   "token",
+   "error_message"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p187X2/C1935a.java",
+  "paths": [
+   "/v6/driver/batch_info2"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "lang",
+   "v"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p187X2/C1936b.java",
+  "paths": [
+   "/v6/driver/logout",
+   "/v6/gps/jwt_update_driver",
+   "/v6/gps/update_driver"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "bid",
+   "lat",
+   "lng",
+   "direction",
+   "speed",
+   "lon",
+   "city_id",
+   "ct"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p107N2/C1033a.java",
+  "paths": [
+   "/v6/book/driver_book"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "bid",
+   "v",
+   "app",
+   "app_id",
+   "app_date",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p083K2/C0815a.java",
+  "paths": [
+   "/v6/driver/reg_doc_detail",
+   "/v6/driver/reg_doc_verify"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "ct",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "city_id",
+   "doc_type_id",
+   "doc_name",
+   "pic_type",
+   "doc_number",
+   "date_doc_valid_to"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p091L2/C0905a.java",
+  "paths": [
+   "/v6/driver/reg"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "tel",
+   "imei",
+   "device_id",
+   "pwd",
+   "ct",
+   "city_id",
+   "fcm_id",
+   "referrer",
+   "v",
+   "app",
+   "app_id",
+   "lang"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p115O2/C1137a.java",
+  "paths": [
+   "/v6/integrity/verify"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "nonce",
+   "token",
+   "error_message",
+   "platform",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "did",
+   "access_token"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p139R2/C1414a.java",
+  "paths": [
+   "/v6/driver/update_driver_option"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "option_id",
+   "option_value",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p147S2/C1535a.java",
+  "paths": [
+   "/v6/book/accept",
+   "/v6/book/book_complete_ride",
+   "/v6/book/book_start_ride",
+   "/v6/book/create",
+   "/v6/book/driver_arrived_dropoff1",
+   "/v6/book/driver_arrived_pickup",
+   "/v6/book/driver_cancel",
+   "/v6/book/list",
+   "/v6/book/lock",
+   "/v6/book/user_no_show",
+   "/v6/fleet/book_accept"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "bid",
+   "did",
+   "driver_lat",
+   "driver_lng",
+   "user_type",
+   "integrity",
+   "accessibility",
+   "log_list",
+   "driver_gps_list",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "city_id",
+   "book_charge_id",
+   "uid",
+   "pickup_lat",
+   "pickup_lon",
+   "pickup_address",
+   "dropoff1_address",
+   "dropoff1_lat",
+   "dropoff1_lon",
+   "ct",
+   "date_pickup",
+   "group_id",
+   "remark",
+   "opt",
+   "pay_mode",
+   "tel",
+   "lat",
+   "lng",
+   "t",
+   "distance"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p131Q2/C1301a.java",
+  "paths": [
+   "/v6/octopus/remove_driver_auth",
+   "/v6/octopus/request_card_payment",
+   "/v6/octopus/request_driver_linkage",
+   "/v6/octopus/update_driver_linkage"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "amount",
+   "bid",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "city_id",
+   "driver_auth_id",
+   "hashed_driver_id",
+   "mertAccRef"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p203Z2/C2051a.java",
+  "paths": [
+   "/v6/wechat/add_driver_auth"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "city_id",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p059H2/C0651a.java",
+  "paths": [
+   "/v6/driver/add_driver_complain",
+   "/v6/user/get_user_complain_review_lock",
+   "/v6/user/update_user_complain_review_release",
+   "/v6/user/update_user_complain_review_suspend"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "driver_complain_type_id",
+   "complain_desc",
+   "cid",
+   "bid",
+   "v",
+   "app",
+   "app_id",
+   "city_id",
+   "lang",
+   "access_token",
+   "id",
+   "admin_did",
+   "date_up",
+   "suspend_reason_type",
+   "suspend_reason",
+   "suspend_by",
+   "suspend_date_force_lock",
+   "release_reason_type",
+   "release_reason",
+   "release_by"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p179W2/C1810a.java",
+  "paths": [
+   "/v6/driver/uber_link_account"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "did",
+   "redirect_uri",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p123P2/C1215a.java",
+  "paths": [
+   "/v6/driver/login",
+   "/v6/member/create_login_token"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "lang",
+   "v",
+   "tel",
+   "city_id",
+   "imei",
+   "pwd",
+   "fcm_id",
+   "lat",
+   "lon",
+   "user_token",
+   "device_id",
+   "device_name",
+   "db_config_version",
+   "crc",
+   "environment",
+   "accessibility",
+   "version",
+   "app",
+   "app_id"
+  ],
+  "resp": [],
+  "encrypt": false
+ },
+ {
+  "file": "p171V2/C1712a.java",
+  "paths": [
+   "/v6/book/get_book_direction",
+   "/v6/book/update_book_direction"
+  ],
+  "http": [
+   "1"
+  ],
+  "params": [
+   "city_id",
+   "pickup_lat",
+   "pickup_lon",
+   "dropoff1_lat",
+   "dropoff1_lon",
+   "v",
+   "app",
+   "app_id",
+   "lang",
+   "access_token",
+   "points",
+   "distance",
+   "duration",
+   "source"
+  ],
+  "resp": [],
+  "encrypt": false
+ }
+]

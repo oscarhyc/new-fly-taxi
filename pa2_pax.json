@@ -1,0 +1,747 @@
+[
+ {
+  "file": "p014C3/AbstractC0100b.java",
+  "hdr": "@Override // p014C3.AbstractC0099a /* JADX INFO: renamed from: E */ protected void mo640E()",
+  "paths": [
+   "/v6/user/rider_refer_eligible",
+   "/v6/user/rider_refer_submit"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p014C3/AbstractC0100b.java",
+  "hdr": "@Override // p014C3.AbstractC0099a /* JADX INFO: renamed from: F */ protected void mo641F(String str, String str2)",
+  "paths": [
+   "/v6/user/rider_refer_eligible",
+   "/v6/user/rider_refer_submit"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p018D2/AbstractAsyncTaskC0116b.java",
+  "hdr": "@Override // p018D2.AbstractAsyncTaskC0115a /* JADX INFO: renamed from: i */ protected void mo717i(Location location, St",
+  "paths": [
+   "/v6/book/get_book_address_nearby",
+   "/v6/book/get_book_autocomplete",
+   "/v6/gps/get_user_nearby_drivers",
+   "/v6/gps/update_user"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p235s3/AbstractC4244a.java",
+  "hdr": "@Override // p004A3.AbstractC0052a /* JADX INFO: renamed from: L */ protected void mo451L(String str, String str2, Strin",
+  "paths": [
+   "/v6/user/get_hk_user_tel_status",
+   "/v6/user/update_firebase_user_tel",
+   "/v6/user/update_hk_user_tel"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p235s3/AbstractC4244a.java",
+  "hdr": "@Override // p004A3.AbstractC0052a /* JADX INFO: renamed from: M */ protected void mo452M()",
+  "paths": [
+   "/v6/user/get_hk_user_tel_status",
+   "/v6/user/update_firebase_user_tel",
+   "/v6/user/update_hk_user_tel"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p235s3/AbstractC4244a.java",
+  "hdr": "/* JADX INFO: Access modifiers changed from: protected */ @Override // p004A3.AbstractC0052a /* JADX INFO: renamed from:",
+  "paths": [
+   "/v6/user/get_hk_user_tel_status",
+   "/v6/user/update_firebase_user_tel",
+   "/v6/user/update_hk_user_tel"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p144c3/AbstractC1774b.java",
+  "hdr": "@Override // p144c3.AbstractC1773a /* JADX INFO: renamed from: y */ protected void mo8590y()",
+  "paths": [
+   "/v6/user/add_user_complain"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p019D3/AbstractC0121b.java",
+  "hdr": "@Override // p019D3.AbstractC0120a /* JADX INFO: renamed from: E */ public void mo730E(String str, String str2, String s",
+  "paths": [
+   "/v6/api/get_config_sqlite"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p019D3/AbstractC0121b.java",
+  "hdr": "@Override // p019D3.AbstractC0120a /* JADX INFO: renamed from: F */ public void mo731F(String str)",
+  "paths": [
+   "/v6/api/get_config_sqlite"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p019D3/AbstractC0121b.java",
+  "hdr": "@Override // p019D3.AbstractC0120a /* JADX INFO: renamed from: H */ protected void mo733H(AddressNameItem addressNameIte",
+  "paths": [
+   "/v6/user/reg",
+   "/v6/user/update_user_city_by_cid"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p167f3/AbstractC3748b.java",
+  "hdr": "@Override // p167f3.AbstractC3747a /* JADX INFO: renamed from: y */ protected void mo12333y()",
+  "paths": [
+   "/v6/pay/create_tran_netopia_verify"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p157d3/AbstractC3713b.java",
+  "hdr": "@Override // p157d3.AbstractC3712a /* JADX INFO: renamed from: G */ protected void mo12185G(CityItem cityItem, LanguageI",
+  "paths": [
+   "/v6/user/reg",
+   "/v6/user/update_user_city_by_cid"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p225q3/AbstractC4136b.java",
+  "hdr": "/* JADX INFO: renamed from: D */ protected void m14522D()",
+  "paths": [
+   "/v6/user/add_user_referral_driver",
+   "/v6/user/get_user_referral_driver"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "p225q3/AbstractC4136b.java",
+  "hdr": "@Override // p225q3.AbstractC4135a /* JADX INFO: renamed from: y */ protected void mo14520y(String str)",
+  "paths": [
+   "/v6/user/add_user_referral_driver",
+   "/v6/user/get_user_referral_driver"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/asyncTask/AsyncTaskC3576d.java",
+  "hdr": "/* JADX INFO: renamed from: g */ private void m11734g(UserOptionItem userOptionItem)",
+  "paths": [
+   "/v6/cust/update_user_option"
+  ],
+  "direct": [],
+  "listeners": [],
+  "listener_dtos": [],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/asyncTask/AddressToLocationAsyncTask.java",
+  "hdr": "/* JADX INFO: renamed from: l */ private void m11719l(String str)",
+  "paths": [
+   "/v6/book/get_book_address_nearby",
+   "/v6/book/get_book_autocomplete",
+   "/v6/gps/get_user_nearby_drivers",
+   "/v6/gps/update_user"
+  ],
+  "direct": [],
+  "listeners": [
+   "AutoCompleteListener"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [
+   "ResponseStatus"
+  ],
+  "codes": [
+   "105",
+   "200"
+  ],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/deprecate/balanceTransaction/AbstractC3583b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.deprecate.balanceTransaction.AbstractC3582a /* JADX INFO: renamed from: y */ pro",
+  "paths": [
+   "/v6/pay/get_tran",
+   "/v6/pay/get_user_wallet"
+  ],
+  "direct": [],
+  "listeners": [
+   "WalletListener"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/deprecate/balance/AbstractC3578a.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.deprecate.balance.AbstractC3580c /* JADX INFO: renamed from: y */ protected void",
+  "paths": [
+   "/v6/pay/get_tran",
+   "/v6/pay/get_user_wallet"
+  ],
+  "direct": [],
+  "listeners": [
+   "UserWalletListener"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/deprecate/meetup/AbstractC3589b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.deprecate.meetup.AbstractC3588a /* JADX INFO: renamed from: C */ protected void ",
+  "paths": [
+   "/v6/book/book_complete_ride",
+   "/v6/book/cancel",
+   "/v6/book/user_book",
+   "/v6/book/user_book_detail",
+   "/v6/book/user_cancel"
+  ],
+  "direct": [],
+  "listeners": [
+   "OrderDetailListener"
+  ],
+  "listener_dtos": [
+   "BillDetailItem",
+   "FleetFareItem",
+   "OrderItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/deprecate/meetup/AbstractC3589b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.deprecate.meetup.AbstractC3588a /* JADX INFO: renamed from: y */ protected void ",
+  "paths": [
+   "/v6/book/get_book_direction",
+   "/v6/book/update_book_direction"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3587a"
+  ],
+  "listener_dtos": [
+   "CallTaxiDirectionItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/deprecate/meetup/AbstractC3589b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.deprecate.meetup.AbstractC3588a /* JADX INFO: renamed from: z */ protected void ",
+  "paths": [
+   "/v6/book/get_meetup_data"
+  ],
+  "direct": [],
+  "listeners": [
+   "MeetUpListener"
+  ],
+  "listener_dtos": [
+   "MeetUpItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/orderDetail/AbstractC3644b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.orderDetail.AbstractC3643a /* JADX INFO: renamed from: A */ protected voi",
+  "paths": [
+   "/v6/book/book_complete_ride",
+   "/v6/book/cancel",
+   "/v6/book/user_book",
+   "/v6/book/user_book_detail",
+   "/v6/book/user_cancel"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3637a"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/orderDetail/AbstractC3644b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.orderDetail.AbstractC3643a /* JADX INFO: renamed from: B */ protected voi",
+  "paths": [
+   "/v6/book/book_complete_ride",
+   "/v6/book/cancel",
+   "/v6/book/user_book",
+   "/v6/book/user_book_detail",
+   "/v6/book/user_cancel"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3639c"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/orderDetail/AbstractC3644b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.orderDetail.AbstractC3643a /* JADX INFO: renamed from: E */ public void m",
+  "paths": [
+   "/v6/user/create_login_token"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3642f"
+  ],
+  "listener_dtos": [
+   "LoginTokenItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/orderDetail/AbstractC3644b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.orderDetail.AbstractC3643a /* JADX INFO: renamed from: H */ protected voi",
+  "paths": [
+   "/v6/fleet/book_create",
+   "/v6/fleet/fare"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3640d"
+  ],
+  "listener_dtos": [
+   "OrderItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/orderDetail/AbstractC3644b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.orderDetail.AbstractC3643a /* JADX INFO: renamed from: I */ protected voi",
+  "paths": [
+   "/v6/fleet/book_create",
+   "/v6/fleet/fare"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3641e"
+  ],
+  "listener_dtos": [
+   "FleetFareItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/orderDetail/AbstractC3644b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.orderDetail.AbstractC3643a /* JADX INFO: renamed from: J */ protected voi",
+  "paths": [
+   "/v6/book/get_book_direction",
+   "/v6/book/update_book_direction"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3638b"
+  ],
+  "listener_dtos": [
+   "CallTaxiDirectionItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/orderDetail/AbstractC3644b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.orderDetail.AbstractC3643a /* JADX INFO: renamed from: K */ protected voi",
+  "paths": [
+   "/v6/book/get_meetup_data"
+  ],
+  "direct": [],
+  "listeners": [
+   "MeetUpListener"
+  ],
+  "listener_dtos": [
+   "MeetUpItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/orderDetail/AbstractC3644b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.orderDetail.AbstractC3643a /* JADX INFO: renamed from: T */ protected voi",
+  "paths": [
+   "/v6/book/book_complete_ride",
+   "/v6/book/cancel",
+   "/v6/book/user_book",
+   "/v6/book/user_book_detail",
+   "/v6/book/user_cancel"
+  ],
+  "direct": [],
+  "listeners": [
+   "OrderDetailListener"
+  ],
+  "listener_dtos": [
+   "BillDetailItem",
+   "FleetFareItem",
+   "OrderItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/orderDetail/AbstractC3644b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.orderDetail.AbstractC3643a /* JADX INFO: renamed from: V */ protected voi",
+  "paths": [
+   "/v6/book/book_complete_ride",
+   "/v6/book/cancel",
+   "/v6/book/user_book",
+   "/v6/book/user_book_detail",
+   "/v6/book/user_cancel"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3639c"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/main/history/AbstractC3629b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.main.history.AbstractC3628a /* JADX INFO: renamed from: z */ protected vo",
+  "paths": [
+   "/v6/book/book_complete_ride",
+   "/v6/book/cancel",
+   "/v6/book/user_book",
+   "/v6/book/user_book_detail",
+   "/v6/book/user_cancel"
+  ],
+  "direct": [],
+  "listeners": [
+   "OrderHistoryListener"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/main/fleet/AbstractC3622c.java",
+  "hdr": "/* JADX INFO: Access modifiers changed from: protected */ @Override // com.hktaxi.hktaxi.fragment.p152hk.main.fleet.Abst",
+  "paths": [
+   "/v6/fleet/book_create",
+   "/v6/fleet/fare"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3613c"
+  ],
+  "listener_dtos": [
+   "OrderItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/main/fleet/AbstractC3622c.java",
+  "hdr": "/* JADX INFO: Access modifiers changed from: protected */ @Override // com.hktaxi.hktaxi.fragment.p152hk.main.fleet.Abst",
+  "paths": [
+   "/v6/fleet/book_create",
+   "/v6/fleet/fare"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3614d"
+  ],
+  "listener_dtos": [
+   "FleetFareItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/main/fleet/AbstractC3622c.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.main.fleet.AbstractC3620a /* JADX INFO: renamed from: K */ protected void",
+  "paths": [
+   "/v6/book/get_book_direction",
+   "/v6/book/update_book_direction"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3612b"
+  ],
+  "listener_dtos": [
+   "CallTaxiDirectionItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/main/fleet/AbstractC3622c.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.main.fleet.AbstractC3620a /* JADX INFO: renamed from: P */ protected void",
+  "paths": [
+   "/v6/book/get_book_address_nearby",
+   "/v6/book/get_book_autocomplete",
+   "/v6/gps/get_user_nearby_drivers",
+   "/v6/gps/update_user"
+  ],
+  "direct": [],
+  "listeners": [
+   "UserNearByDriverListener"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/main/fleet/AbstractC3622c.java",
+  "hdr": "/* JADX INFO: Access modifiers changed from: protected */ @Override // com.hktaxi.hktaxi.fragment.p152hk.main.fleet.Abst",
+  "paths": [
+   "/v6/user/add_favourite_address",
+   "/v6/user/remove_favourite_address",
+   "/v6/user/remove_historical_address"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3617g"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/main/fleet/AbstractC3622c.java",
+  "hdr": "/* JADX INFO: Access modifiers changed from: protected */ @Override // com.hktaxi.hktaxi.fragment.p152hk.main.fleet.Abst",
+  "paths": [
+   "/v6/user/add_favourite_address",
+   "/v6/user/remove_favourite_address",
+   "/v6/user/remove_historical_address"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3618h"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/main/fleet/AbstractC3622c.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.fragment.p152hk.main.fleet.AbstractC3620a /* JADX INFO: renamed from: e0 */ protected voi",
+  "paths": [
+   "/v6/book/get_book_direction",
+   "/v6/book/update_book_direction"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3619i"
+  ],
+  "listener_dtos": [
+   "CallTaxiDirectionItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/fragment/p152hk/main/fleet/AbstractC3622c.java",
+  "hdr": "/* JADX INFO: Access modifiers changed from: protected */ @Override // com.hktaxi.hktaxi.fragment.p152hk.main.fleet.Abst",
+  "paths": [
+   "/v6/user/add_favourite_address",
+   "/v6/user/remove_favourite_address",
+   "/v6/user/remove_historical_address"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3611a"
+  ],
+  "listener_dtos": [
+   "ConfigKeyValueItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/activity/main/AbstractActivityC3560b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.activity.main.AbstractActivityC3559a /* JADX INFO: renamed from: H */ public void mo11666",
+  "paths": [
+   "/v6/user/create_login_token"
+  ],
+  "direct": [],
+  "listeners": [
+   "C3558a"
+  ],
+  "listener_dtos": [
+   "LoginTokenItem",
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/activity/main/AbstractActivityC3560b.java",
+  "hdr": "@Override // com.hktaxi.hktaxi.activity.main.AbstractActivityC3559a /* JADX INFO: renamed from: I */ public void mo11667",
+  "paths": [
+   "/v6/book/get_book_address_nearby",
+   "/v6/book/get_book_autocomplete",
+   "/v6/gps/get_user_nearby_drivers",
+   "/v6/gps/update_user"
+  ],
+  "direct": [],
+  "listeners": [
+   "NearByListener"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ },
+ {
+  "file": "com/hktaxi/hktaxi/activity/main/AbstractActivityC3560b.java",
+  "hdr": "if (C4311b.m15301h().m15304c().getUserLocationItem() != null)",
+  "paths": [
+   "/v6/book/get_book_address_nearby",
+   "/v6/book/get_book_autocomplete",
+   "/v6/gps/get_user_nearby_drivers",
+   "/v6/gps/update_user"
+  ],
+  "direct": [],
+  "listeners": [
+   "NearByListener"
+  ],
+  "listener_dtos": [
+   "ResponseStatus"
+  ],
+  "file_dtos": [],
+  "codes": [],
+  "status": []
+ }
+]
