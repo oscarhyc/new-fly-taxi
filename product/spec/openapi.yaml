@@ -1,0 +1,192 @@
+openapi: 3.0.3
+info:
+  title: new-fly-taxi — driver API
+  version: 1.0.0
+  description: >
+    Our own driver-side contract. Field names deliberately mirror the wire schema
+    observed in the public app so client DTOs are portable; endpoints, auth model,
+    branding and all code are ours. The order state machine is documented in
+    spec/state-machine.md.
+servers:
+  - url: http://127.0.0.1:8787
+    description: local reference server (node product/server/src/server.mjs)
+
+components:
+  securitySchemes:
+    bearerAuth: { type: http, scheme: bearer }
+  schemas:
+    Envelope:
+      type: object
+      properties:
+        status_code: { type: string, example: "200" }
+        message: { type: string, example: "成功" }
+        data: {}
+    Driver:
+      type: object
+      properties:
+        id: { type: string }
+        name: { type: string }
+        tel: { type: string }
+        car_number: { type: string, example: WN4881 }
+        car_type: { type: string, example: red_taxi }
+        car_group: { type: string, example: taxi }
+        status: { type: integer }
+        plan: { type: object }
+        doc_verified: { type: boolean }
+    Order:
+      type: object
+      properties:
+        id: { type: string }
+        status: { type: string, example: "11" }
+        status_label: { type: string, example: New }
+        dcr: { type: string }
+        dpu: { type: string }
+        pickup_address: { type: string }
+        pickup_lat: { type: number }
+        pickup_lon: { type: number }
+        dropoff1_address: { type: string }
+        dropoff1_lat: { type: number }
+        dropoff1_lon: { type: number }
+        ct: { type: string, example: "1" }
+        distance: { type: integer }
+        driver_name: { type: string }
+        driver_car_number: { type: string }
+        fare: { $ref: '#/components/schemas/Fare' }
+    Fare:
+      type: object
+      properties:
+        amount_fare: { type: number }
+        amount_operation: { type: number }
+        amount_company_price: { type: number }
+        amount_driver: { type: number }
+        currency_id: { type: string }
+        car_type: { type: string }
+        distance: { type: integer }
+        summary:
+          type: array
+          items:
+            type: object
+            properties:
+              title: { type: string }
+              charge: { type: string }
+              amount_fare: { type: number }
+    Config:
+      type: object
+      properties:
+        dispatch_radius_m: { type: integer, example: 1500 }
+        accept_countdown_s: { type: integer, example: 20 }
+        gps_idle_interval_s: { type: integer, example: 600 }
+        gps_on_order_interval_s: { type: integer, example: 20 }
+        cancel_fee_hkd: { type: number, example: 6 }
+        arrive_pickup_max_radius_m: { type: integer, example: 1000 }
+        arrive_dropoff_max_radius_m: { type: integer, example: 2000 }
+
+paths:
+  /api/v1/auth/login:
+    post:
+      summary: driver login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [tel, pwd]
+              properties:
+                tel: { type: string }
+                pwd: { type: string }
+                device_id: { type: string }
+                app: { type: string, example: "32" }
+                v: { type: string, example: "356" }
+      responses:
+        '200': { description: ok, content: { application/json: { schema: { $ref: '#/components/schemas/Envelope' } } } }
+        '400': { description: missing parameters (101) }
+        '401': { description: bad credentials (2402) }
+
+  /api/v1/config:
+    get:
+      summary: client tunables
+      security: [{ bearerAuth: [] }]
+      responses:
+        '200': { description: ok }
+
+  /api/v1/driver/online:
+    post:
+      summary: go online / offline
+      security: [{ bearerAuth: [] }]
+      requestBody:
+        content:
+          application/json:
+            schema: { type: object, properties: { online: { type: boolean } } }
+      responses: { '200': { description: ok } }
+
+  /api/v1/driver/gps:
+    post:
+      summary: GPS heartbeat (idle 600s, on order 20s)
+      security: [{ bearerAuth: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [lat, lng]
+              properties:
+                lat: { type: number }
+                lng: { type: number }
+                speed: { type: number }
+                bid: { type: string }
+      responses: { '200': { description: ok } }
+
+  /api/v1/orders/available:
+    post:
+      summary: dispatch queue near the driver
+      security: [{ bearerAuth: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [lat, lng]
+              properties: { lat: { type: number }, lng: { type: number } }
+      responses:
+        '200': { description: array of new orders }
+
+  /api/v1/orders/accept:
+    post:
+      summary: accept + lock a booking
+      security: [{ bearerAuth: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { type: object, required: [bid], properties: { bid: { type: string } } }
+      responses:
+        '200': { description: status becomes 14 }
+        '409': { description: already taken (2404) }
+        '422': { description: too far from pickup (2405) }
+
+  /api/v1/orders/arrived_pickup:
+    post: { summary: 'driver at pickup -> 21', security: [{ bearerAuth: [] }], responses: { '200': { description: ok } } }
+  /api/v1/orders/start_ride:
+    post: { summary: 'trip started -> 31', security: [{ bearerAuth: [] }], responses: { '200': { description: ok } } }
+  /api/v1/orders/arrived_dropoff:
+    post: { summary: 'at drop-off -> 41', security: [{ bearerAuth: [] }], responses: { '200': { description: ok } } }
+  /api/v1/orders/complete:
+    post:
+      summary: 'ride complete -> 51 with fare'
+      security: [{ bearerAuth: [] }]
+      requestBody:
+        content:
+          application/json:
+            schema: { type: object, properties: { bid: { type: string }, tunnel: { type: boolean } } }
+      responses: { '200': { description: ok } }
+  /api/v1/orders/cancel:
+    post: { summary: 'driver cancels -> 26', security: [{ bearerAuth: [] }], responses: { '200': { description: ok } } }
+  /api/v1/orders/{bid}:
+    get:
+      summary: order detail
+      security: [{ bearerAuth: [] }]
+      parameters: [{ name: bid, in: path, required: true, schema: { type: string } }]
+      responses: { '200': { description: ok } }
