@@ -1,0 +1,10 @@
+# source: res/layout/history_option_part.xml
+<LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 layout_width=1 layout_height=4294967294>
+    <com.flytaxi.layout.GhostButton id=@id/call_customer_button padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 leftImage=@drawable/ic_phone_white titleSize=@dimen/small_font_size titleText=@string/history_call_customer_title>
+    <com.flytaxi.layout.GhostButton id=@id/navigation_button padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 ghostBackgroundImage=@drawable/white_ghost_button_background leftImage=@drawable/driver_image_ic_location_w titleColor=@color/white titleSize=@dimen/small_font_size titleText=@string/history_location_title>
+  <LinearLayout orientation=1 layout_width=1 layout_height=4294967294>
+    <com.flytaxi.layout.GhostButton id=@id/call_shipper_button padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 ghostBackgroundImage=@drawable/white_ghost_button_background leftImage=@drawable/driver_image_ic_call_driver_w titleColor=@color/white titleSize=@dimen/small_font_size>
+    <com.flytaxi.layout.GhostButton id=@id/feed_back_button padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 ghostBackgroundImage=@drawable/red_radius_alpha_background leftImage=@drawable/complaint_red titleColor=@color/red titleSize=@dimen/small_font_size titleText=@string/history_feed_back_title>
+  <ImageView id=@id/calculator_button layout_width=1 layout_height=4294967294 src=@drawable/driver_image_ic_cal_c_y>
+  <com.flytaxi.layout.GhostButton id=@id/navigation_second_button visibility=2 layout_width=4294967294 layout_height=4294967294>

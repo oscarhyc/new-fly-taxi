@@ -1,0 +1,2 @@
+# source: res/layout/material_clockface_textview.xml
+<TextView textSize=@dimen/material_clock_number_text_size textColor=2130968857 gravity=0x00000011 visibility=2 layout_width=@dimen/mtrl_min_touch_target_size layout_height=@dimen/mtrl_min_touch_target_size>

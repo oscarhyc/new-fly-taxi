@@ -1,0 +1,9 @@
+# source: res/layout/city_selection_fragment_layout.xml
+<RelativeLayout layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 id=@id/general_layout layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout layout_width=4294967295 layout_height=16843499>
+      <ImageView id=@id/back_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_back>
+      <com.flytaxi.layout.FontTextView textSize=@dimen/large_font_size textColor=@color/colorPrimary gravity=0x00000011 layout_width=4294967295 layout_height=16843499 text=@string/city_selection_title>
+      <ImageView id=@id/confirm_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_tick>
+    <androidx.recyclerview.widget.RecyclerView id=@id/country_list_recycle_layout layout_width=4294967295 layout_height=1>
+    <com.flytaxi.layout.FontTextView textColor=@color/white gravity=0x00000011 paddingTop=@dimen/general_large_size paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 text=@string/city_selection_description>

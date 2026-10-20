@@ -1,0 +1,5 @@
+# source: res/layout/header_view.xml
+<RelativeLayout paddingTop=@dimen/calendarTitlePaddingTop paddingBottom=@dimen/calendarTitlePaddingBottom clickable=True layout_width=4294967295 layout_height=@dimen/actionbar_size>
+  <ImageView id=@id/left_button background=2130969585 padding=@dimen/padding layout_width=4294967294 layout_height=4294967295 src=@0x7f0801e6>
+  <TextView gravity=0x00000011 id=@id/date_title tag=dateTitle layout_width=4294967295 layout_height=4294967294>
+  <ImageView id=@id/right_button background=2130969585 padding=@dimen/padding layout_width=4294967294 layout_height=4294967295 src=@0x7f0801e7>

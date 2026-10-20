@@ -1,0 +1,31 @@
+# source: res/layout/car_model_preview_item_v2_row.xml
+<LinearLayout orientation=0 paddingLeft=@dimen/general_small_size paddingRight=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=0 id=@id/top_layout background=@drawable/car_key_radius_unselected_top_background layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout gravity=0x00000010 orientation=0 paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+        <ImageView id=@id/first_radio_image layout_width=4294967294 layout_height=4294967294 src=@drawable/property_2false>
+        <TextView textSize=@dimen/large_font_size textColor=@color/black id=@id/first_radio_title layout_width=4294967295 layout_height=4294967294>
+    <RelativeLayout id=@id/bottom_layout background=@drawable/car_key_radius_unselected_bottom_background layout_width=4294967295 layout_height=4294967294>
+      <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/car_key_dark_gray>
+      <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=0 id=@id/panel_layout layout_width=4294967295 layout_height=4294967294>
+          <ImageView id=@id/car_model_image layout_width=@dimen/fleet_big_car_size layout_height=@dimen/fleet_big_car_size src=@drawable/fleet_car_model_grey_background>
+          <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+            <TextView textSize=@dimen/small_font_size textColor=@color/light_gray_02 id=@id/car_model_title_text layout_width=4294967295 layout_height=4294967294>
+            <TextView textSize=@dimen/large_font_size textStyle=0x00000001 textColor=@color/white id=@id/car_model_description_text layout_width=4294967295 layout_height=4294967294>
+            <TextView textSize=@dimen/small_font_size textColor=@color/light_gray_02 id=@id/car_plate_title_text layout_width=4294967295 layout_height=4294967294>
+            <TextView textSize=@dimen/fleet_plate_number_font_size textStyle=0x00000001 textColor=@color/white id=@id/car_plate_description_text layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=1 id=@id/option_layout layout_width=4294967295 layout_height=4294967294>
+          <View id=@id/option_divider background=@color/dark_black_04 layout_width=4294967295 layout_height=@dimen/divider_size>
+          <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+              <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+                <LinearLayout id=@id/first_service_button background=@drawable/black_radius_background paddingLeft=@dimen/general_small_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_small_size paddingBottom=@dimen/general_small_size visibility=2 layout_width=4294967294 layout_height=4294967294>
+                  <TextView textColor=@color/white id=@id/first_service_text layout_width=4294967294 layout_height=4294967294>
+                <LinearLayout id=@id/second_service_button background=@drawable/black_radius_background paddingLeft=@dimen/general_small_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_small_size paddingBottom=@dimen/general_small_size visibility=2 layout_width=4294967294 layout_height=4294967294>
+                  <TextView textColor=@color/white id=@id/second_service_text layout_width=4294967294 layout_height=4294967294>
+                <LinearLayout id=@id/third_service_button background=@drawable/black_radius_background paddingLeft=@dimen/general_small_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_small_size paddingBottom=@dimen/general_small_size visibility=2 layout_width=4294967294 layout_height=4294967294>
+                  <TextView textColor=@color/white id=@id/third_service_text layout_width=4294967294 layout_height=4294967294>
+              <com.google.android.flexbox.FlexboxLayout id=@id/action_layout layout_width=4294967295 layout_height=4294967294 alignItems=2 dividerDrawableHorizontal=@drawable/linear_layout_spacing dividerDrawableVertical=@drawable/linear_layout_spacing flexWrap=1 showDividerHorizontal=0x00000002 showDividerVertical=0x00000002>
+                <com.flytaxi.layout.GhostV2Button id=@id/delete_button layout_width=@dimen/ghost_button_min_width layout_height=@dimen/general_button_height minWidth=@dimen/ghost_button_min_width ghostBackgroundImage=@drawable/dark_grey_radius_v2_background leftImage=@0x7f0800dd titleColor=@color/alert_red titleSize=@dimen/medium_font_size titleText=@string/delete_text>
+                <com.flytaxi.layout.GhostV2Button id=@id/update_button layout_width=@dimen/ghost_button_min_width layout_height=@dimen/general_button_height minWidth=@dimen/ghost_button_min_width ghostBackgroundImage=@drawable/dark_grey_radius_v2_background leftImage=@0x7f080170 titleColor=@color/white titleSize=@dimen/medium_font_size titleText=@string/update_text>

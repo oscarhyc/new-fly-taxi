@@ -1,0 +1,8 @@
+# source: res/layout/material_timepicker_dialog.xml
+<androidx.constraintlayout.widget.ConstraintLayout paddingBottom=513 layout_width=4294967294 layout_height=4294967294 accessibilityPaneTitle=@string/material_timepicker_select_time>
+  <TextView id=@id/header_title layout_width=4294967294 layout_height=4294967294 text=@string/material_timepicker_select_time importantForAccessibility=2 style=2130969410>
+  <com.google.android.material.timepicker.TimePickerView id=@id/material_timepicker_view visibility=2 layout_width=4294967294 layout_height=4294967294>
+  <ViewStub id=@id/material_textinput_timepicker layout=@layout/material_textinput_timepicker inflatedId=@id/material_textinput_timepicker layout_width=4294967294 layout_height=4294967294>
+  <com.google.android.material.button.MaterialButton id=@id/material_timepicker_mode_button layout_width=4294967294 layout_height=4294967294 style=2130969167>
+  <Button id=@id/material_timepicker_cancel_button layout_width=4294967294 layout_height=4294967294 minWidth=18433 text=@string/mtrl_timepicker_cancel style=2130968691>
+  <Button id=@id/material_timepicker_ok_button layout_width=4294967294 layout_height=4294967294 minWidth=16385 text=@string/mtrl_timepicker_confirm style=2130968691>

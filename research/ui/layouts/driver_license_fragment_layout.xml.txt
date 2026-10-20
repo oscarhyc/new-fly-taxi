@@ -1,0 +1,11 @@
+# source: res/layout/driver_license_fragment_layout.xml
+<RelativeLayout background=@color/off_black focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967295>
+    <androidx.recyclerview.widget.RecyclerView id=@id/driver_license_recycler_view layout_width=4294967295 layout_height=1 divider=@0x00000000 filterTouchesWhenObscured=True importantForAccessibility=4>
+  <ImageView id=@id/whats_app_support_button layout_width=4294967294 layout_height=4294967294 layout_margin=@dimen/general_small_size src=@0x7f0803b9>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/progress_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

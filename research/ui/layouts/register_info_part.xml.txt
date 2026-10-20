@@ -1,0 +1,18 @@
+# source: res/layout/register_info_part.xml
+<ScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 paddingLeft=@dimen/general_extra_large_size paddingTop=@dimen/general_medium_size paddingRight=@dimen/general_extra_large_size layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=0 layout_width=1 layout_height=4294967294>
+          <ImageView id=@id/city_image layout_width=4294967294 layout_height=4294967294>
+          <TextView textSize=@dimen/extra_small_font_size textColor=@color/white id=@id/city_name layout_width=1 layout_height=4294967294>
+        <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/register_tutorials_text padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 text=@string/register_tutorials_text>
+      <Spinner id=@id/car_type_spinner background=@drawable/gray_radius_alpha_background layout_width=4294967295 layout_height=@dimen/general_button_height>
+      <com.flytaxi.layout.IconEditText id=@id/register_phone_number nextFocusDown=@id/register_name layout_width=4294967295 layout_height=4294967294 imeOptions=0x00000005 filterTouchesWhenObscured=True importantForAccessibility=4 editIconImage=@drawable/driver_image_ic_phone editTextSize=@dimen/extra_small_font_size hintText=@string/register_phone_number_text textStyle=NUMBER>
+      <com.flytaxi.layout.IconEditText id=@id/old_password visibility=2 nextFocusDown=@id/new_password layout_width=4294967295 layout_height=4294967294 imeOptions=0x00000005 importantForAccessibility=4 editIconImage=@drawable/driver_image_ic_password_g editTextSize=@dimen/extra_small_font_size maxLength=50 textStyle=PASSWORD>
+      <com.flytaxi.layout.IconEditText id=@id/new_password nextFocusDown=@id/confirm_new_password layout_width=4294967295 layout_height=4294967294 imeOptions=0x00000005 importantForAccessibility=4 editIconImage=@drawable/driver_image_ic_password_g editTextSize=@dimen/extra_small_font_size maxLength=50 textStyle=PASSWORD>
+      <com.flytaxi.layout.IconEditText id=@id/confirm_new_password nextFocusDown=@id/register_referrer layout_width=4294967295 layout_height=4294967294 imeOptions=0x00000005 importantForAccessibility=4 editIconImage=@drawable/driver_image_ic_password_g editTextSize=@dimen/extra_small_font_size maxLength=50 textStyle=PASSWORD>
+      <com.flytaxi.layout.IconEditText id=@id/register_referrer layout_width=4294967295 layout_height=4294967294 imeOptions=0x00000006 importantForAccessibility=4 editIconImage=@drawable/driver_image_ic_driver_g editTextSize=@dimen/extra_small_font_size hintText=@string/register_referrer_text maxLength=20>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white paddingTop=@dimen/general_small_size paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 text=@string/register_existing_driver_text>
+      <include paddingLeft=@dimen/general_small_size paddingRight=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 layout=@layout/whats_app_part>
+    <LinearLayout orientation=0 id=@id/account_empty_area layout_width=@dimen/general_small_size layout_height=4294967294>

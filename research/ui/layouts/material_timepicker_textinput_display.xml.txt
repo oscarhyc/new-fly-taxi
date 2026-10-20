@@ -1,0 +1,5 @@
+# source: res/layout/material_timepicker_textinput_display.xml
+<LinearLayout paddingTop=2049 layout_width=4294967294 layout_height=4294967294 layoutDirection=0>
+  <include id=@id/material_hour_text_input layout=@layout/material_chip_input_combo>
+  <include layout=@layout/material_clock_display_divider>
+  <include id=@id/material_minute_text_input layout=@layout/material_chip_input_combo>

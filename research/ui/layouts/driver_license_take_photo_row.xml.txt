@@ -1,0 +1,7 @@
+# source: res/layout/driver_license_take_photo_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <TextView textSize=@dimen/medium_font_size textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/driver_doc_type_hkg02_image_description>
+  <LinearLayout orientation=0 background=@drawable/gray_radius_v2_background layout_width=4294967295 layout_height=4294967294>
+    <ImageView id=@id/license_doc_image layout_width=4294967295 layout_height=4294967294 layout_margin=@dimen/general_large_size>
+  <TextView textSize=@dimen/medium_font_size textColor=@color/alert_red id=@id/reject_error_text visibility=2 layout_width=4294967295 layout_height=4294967294>
+  <com.flytaxi.layout.GhostV2Button id=@id/take_photo_button layout_width=4294967295 layout_height=@dimen/general_button_height layout_margin=@dimen/general_small_size ghostBackgroundImage=@drawable/gold_radius_v2_background leftImage=@0x7f080284 titleColor=@color/black titleSize=@dimen/large_font_size titleText=@string/login_retry_title>

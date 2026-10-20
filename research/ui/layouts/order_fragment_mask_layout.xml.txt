@@ -1,0 +1,7 @@
+# source: res/layout/order_fragment_mask_layout.xml
+<LinearLayout orientation=1 id=@id/mask_layout background=@color/progress_gray_color layout_width=4294967295 layout_height=4294967295>
+  <ScrollView layout_width=4294967295 layout_height=1>
+    <LinearLayout gravity=0x00000011 orientation=1 layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000011 id=@id/mask_title layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/extra_small_font_size textColor=@color/white gravity=0x00000011 id=@id/mask_description layout_width=4294967295 layout_height=4294967294>
+  <include id=@id/mask_what_app_view layout_width=4294967294 layout_height=4294967294 layout=@layout/whats_app_part>

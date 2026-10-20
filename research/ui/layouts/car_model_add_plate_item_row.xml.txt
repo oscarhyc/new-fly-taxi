@@ -1,0 +1,7 @@
+# source: res/layout/car_model_add_plate_item_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <TextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/empty_car_model_text layout_width=4294967295 layout_height=4294967294 text=@string/car_model_empty_model_message>
+  <LinearLayout gravity=0x00000011 orientation=0 id=@id/add_button background=@drawable/orange_03_radius_alpha_background layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/add_plate_button_height>
+    <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/circle_plus_y_v2>
+    <TextView textSize=@dimen/large_font_size textColor=@color/orange_03 layout_width=4294967294 layout_height=4294967294 text=@string/car_model_add_model_message>
+  <LinearLayout orientation=0 paddingLeft=@dimen/general_large_size paddingRight=@dimen/general_large_size layout_width=4294967295 layout_height=4294967295>

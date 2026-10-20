@@ -1,0 +1,18 @@
+# source: res/layout/order_action_part.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=0 id=@id/action_part_top_layout layout_width=4294967295 layout_height=@dimen/general_small_size>
+  <com.google.android.flexbox.FlexboxLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294 alignItems=2 dividerDrawableHorizontal=@drawable/linear_layout_big_spacing dividerDrawableVertical=@drawable/linear_layout_big_spacing flexWrap=1 justifyContent=3 showDivider=0x00000002>
+    <com.flytaxi.layout.FontTextView textSize=@dimen/small_font_size textColor=@color/black gravity=0x00000011 id=@id/operation_button background=@drawable/gold_radius_v2_background paddingLeft=@dimen/general_medium_size paddingRight=@dimen/general_medium_size layout_width=4294967294 layout_height=@dimen/general_button_height text=@string/order_operation_title>
+    <LinearLayout orientation=0 id=@id/phone_number_layout layout_width=4294967294 layout_height=4294967294>
+      <LinearLayout gravity=0x00000011 orientation=0 background=@drawable/phone_radius_background paddingLeft=@dimen/general_medium_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_medium_size paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=@dimen/general_button_height>
+        <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/history_phone_call>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/black id=@id/customer_phone_text layout_width=4294967294 layout_height=4294967294 importantForAccessibility=4>
+    <com.flytaxi.layout.FontTextView textSize=@dimen/small_font_size textColor=@color/black gravity=0x00000011 id=@id/navigator_button background=@drawable/cream_orange_radius_v2_background paddingLeft=@dimen/general_medium_size paddingRight=@dimen/general_medium_size layout_width=4294967294 layout_height=@dimen/general_button_height text=@string/history_location_title>
+    <ImageView id=@id/calculator_button layout_width=4294967294 layout_height=4294967294 src=@drawable/history_trip_calculator filterTouchesWhenObscured=True importantForAccessibility=4>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white ellipsize=3 id=@id/take_driver_name padding=@dimen/general_small_size layout_width=1 layout_height=4294967294 importantForAccessibility=4>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white ellipsize=3 id=@id/take_driver_tel padding=@dimen/general_small_size layout_width=1 layout_height=4294967294 importantForAccessibility=4>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white ellipsize=3 id=@id/give_driver_name padding=@dimen/general_small_size layout_width=1 layout_height=4294967294 importantForAccessibility=4>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white ellipsize=3 id=@id/give_driver_tel padding=@dimen/general_small_size layout_width=1 layout_height=4294967294 importantForAccessibility=4>

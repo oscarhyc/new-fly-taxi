@@ -1,0 +1,18 @@
+# source: res/layout/customer_service_order_row.xml
+<LinearLayout orientation=1 background=@color/order_mask_black_color padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+    <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/pickup_date_text layout_width=4294967295 layout_height=4294967294>
+    <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/order_id_text layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/useimage_ic_map_location_y>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white ellipsize=3 id=@id/pickup_address_text layout_width=1 layout_height=4294967294>
+    <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/useimage_ic_map_end_y>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white ellipsize=3 id=@id/dropoff_address_text layout_width=1 layout_height=4294967294>
+    <View background=@color/gray layout_width=4294967295 layout_height=@dimen/divider_size>
+    <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/cs_tab_cs_option_title>
+    <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/car_type_title layout_width=4294967295 layout_height=4294967294>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000011 id=@id/order_amount_title layout_width=4294967295 layout_height=4294967294>
+    <androidx.recyclerview.widget.RecyclerView id=@id/bill_recyclerview layout_width=4294967295 layout_height=4294967294>
+    <View background=@color/gray layout_width=4294967295 layout_height=@dimen/divider_size>
+    <TextView textSize=@dimen/small_font_size textColor=@color/white gravity=0x00000005 id=@id/small_order_amount_title layout_width=4294967295 layout_height=4294967294>

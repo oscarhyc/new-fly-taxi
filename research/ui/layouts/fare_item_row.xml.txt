@@ -1,0 +1,4 @@
+# source: res/layout/fare_item_row.xml
+<LinearLayout orientation=0 paddingTop=@dimen/general_small_size paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/title_text layout_width=1 layout_height=4294967294>
+  <TextView textSize=@dimen/small_font_size textColor=@color/white gravity=0x00000005 id=@id/description_text layout_width=1 layout_height=4294967294>

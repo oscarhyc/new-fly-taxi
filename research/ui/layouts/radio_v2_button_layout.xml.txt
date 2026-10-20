@@ -1,0 +1,6 @@
+# source: res/layout/radio_v2_button_layout.xml
+<LinearLayout gravity=0x00000010 orientation=1 id=@id/radio_layout layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/ghost_v2_button_min_height>
+  <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+    <ImageView id=@id/radio_image layout_width=4294967294 layout_height=4294967294>
+    <ImageView id=@id/left_image layout_width=4294967294 layout_height=4294967294>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/black id=@id/title_text layout_width=4294967294 layout_height=4294967294>

@@ -1,0 +1,20 @@
+# source: res/layout/uber_popup_layout.xml
+<RelativeLayout background=@color/off_black layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 id=@id/top_layout layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 id=@id/main_layout background=@color/white layout_width=4294967295 layout_height=4294967295>
+    <ProgressBar id=@id/count_down_progress_bar layout_width=4294967295 layout_height=@dimen/general_medium_size indeterminate=False progressDrawable=@drawable/uber_circular_countdown filterTouchesWhenObscured=True importantForAccessibility=4 style=16842872>
+    <ImageView id=@id/close_button padding=@dimen/general_small_size visibility=1 layout_width=4294967294 layout_height=4294967294 src=@drawable/linking_close_image>
+    <ScrollView scrollbars=0x00000200 layout_width=4294967295 layout_height=1>
+      <LinearLayout orientation=1 padding=@dimen/general_large_size layout_width=4294967295 layout_height=4294967294>
+        <TextView textColor=@color/black id=@id/linking_title layout_width=4294967295 layout_height=4294967294 textAllCaps=False>
+        <TextView textColor=@color/black id=@id/linking_content layout_width=4294967295 layout_height=4294967294 textAllCaps=False>
+        <LinearLayout orientation=1 id=@id/debug_content_layout background=@color/error_pale_red padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/black layout_width=4294967295 layout_height=4294967294 text=Debug Prefill Info>
+          <EditText textColorHint=@color/grey_02 id=@id/et_first_name layout_width=4294967295 layout_height=4294967294 hint=First Name>
+          <EditText textColorHint=@color/grey_02 id=@id/et_last_name layout_width=4294967295 layout_height=4294967294 hint=Last Name>
+          <EditText textColorHint=@color/grey_02 id=@id/et_phone_number layout_width=4294967295 layout_height=4294967294 hint=Phone Number>
+          <EditText textColorHint=@color/grey_02 id=@id/et_email layout_width=4294967295 layout_height=4294967294 hint=Email>
+        <com.flytaxi.layout.GhostV2Button id=@id/confirm_button layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/general_button_height titleColor=@color/black titleSize=@dimen/large_font_size titleText=@string/confirm_text>
+        <LinearLayout orientation=0 id=@id/debug_empty_area layout_width=4294967295 layout_height=@dimen/empty_order_height>
+  <LinearLayout gravity=0x00000011 id=@id/loading_layout background=@color/white visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

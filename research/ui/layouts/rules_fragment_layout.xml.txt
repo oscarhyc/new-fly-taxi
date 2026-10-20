@@ -1,0 +1,5 @@
+# source: res/layout/rules_fragment_layout.xml
+<LinearLayout orientation=1 background=@color/black layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout orientation=1 id=@id/main_layout background=@color/black layout_width=4294967295 layout_height=4294967295>
+    <WebView id=@id/rules_web_view layout_width=4294967295 layout_height=4294967295>

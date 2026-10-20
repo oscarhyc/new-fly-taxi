@@ -1,0 +1,9 @@
+# source: res/layout/week_view.xml
+<LinearLayout gravity=0x00000011 orientation=0 paddingTop=@dimen/weekTitlePaddingBottom paddingBottom=@dimen/weekTitlePaddingTop layout_width=4294967295 layout_height=4294967294 weightSum=1088421888>
+  <TextView id=@id/day_1 tag=dayOfWeek1 style=@style/CalendarView_DayOfTheWeek>
+  <TextView id=@id/day_2 tag=dayOfWeek2 style=@style/CalendarView_DayOfTheWeek>
+  <TextView id=@id/day_3 tag=dayOfWeek3 style=@style/CalendarView_DayOfTheWeek>
+  <TextView id=@id/day_4 tag=dayOfWeek4 style=@style/CalendarView_DayOfTheWeek>
+  <TextView id=@id/day_5 tag=dayOfWeek5 style=@style/CalendarView_DayOfTheWeek>
+  <TextView id=@id/day_6 tag=dayOfWeek6 style=@style/CalendarView_DayOfTheWeek>
+  <TextView id=@id/day_7 tag=dayOfWeek7 style=@style/CalendarView_DayOfTheWeek>

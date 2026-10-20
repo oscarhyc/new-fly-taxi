@@ -1,0 +1,10 @@
+# source: res/layout/order_topic_part.xml
+<LinearLayout orientation=1 background=@drawable/history_black_row_top_background paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <com.google.android.flexbox.FlexboxLayout gravity=0x00000010 layout_width=4294967295 layout_height=4294967294 alignItems=2 flexWrap=1 justifyContent=3>
+    <LinearLayout orientation=1 layout_width=4294967294 layout_height=4294967294>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/gray id=@id/advance_time_text layout_width=4294967294 layout_height=4294967294 text=@string/advance_order_time_title filterTouchesWhenObscured=True importantForAccessibility=4>
+      <TextView textSize=@dimen/small_font_size textColor=@color/gray id=@id/pickup_date_text layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+      <TextView textSize=@dimen/order_font_size textColor=@color/white id=@id/order_id_text layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width=4294967294 layout_height=4294967294>
+      <TextView textSize=@dimen/small_font_size id=@id/order_status_text paddingLeft=@dimen/general_large_size paddingTop=@dimen/general_extra_small_size paddingRight=@dimen/general_large_size paddingBottom=@dimen/general_extra_small_size layout_width=4294967294 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+      <com.flytaxi.layout.FontTextView textColor=@color/white gravity=0x00000011 id=@id/status_point_text visibility=2 layout_width=@dimen/point_circle_size layout_height=4294967294 layout_margin=@dimen/general_small_size minHeight=@dimen/point_circle_size filterTouchesWhenObscured=True importantForAccessibility=4>

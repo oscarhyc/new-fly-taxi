@@ -1,0 +1,7 @@
+# source: res/layout/outdated_os_fragment_layout.xml
+<RelativeLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 id=@id/general_layout layout_width=4294967295 layout_height=4294967295>
+    <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+    <LinearLayout gravity=0x00000011 orientation=1 layout_width=4294967295 layout_height=1>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000011 id=@id/description_text padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 text=@string/not_support_os_message>
+    <com.flytaxi.layout.GhostV2Button id=@id/confirm_button layout_width=4294967295 layout_height=@dimen/general_button_height layout_margin=@dimen/general_medium_size ghostBackgroundImage=@drawable/gold_radius_v2_background titleColor=@color/black titleSize=@dimen/large_font_size titleText=@string/confirm_text>

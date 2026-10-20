@@ -1,0 +1,6 @@
+# source: res/layout/mr_playback_control.xml
+<RelativeLayout orientation=0 paddingLeft=6145 paddingRight=3073 layout_width=4294967295 layout_height=4294967294 paddingStart=6145 paddingEnd=3073>
+  <ImageButton id=@id/mr_control_playback_ctrl background=2130969586 visibility=2 layout_width=4294967294 layout_height=4294967294 contentDescription=@string/mr_controller_play>
+  <LinearLayout orientation=1 id=@id/mr_control_title_container layout_width=4294967294 layout_height=4294967294 importantForAccessibility=2>
+    <TextView textAppearance=@style/TextAppearance_MediaRouter_PrimaryText id=@id/mr_control_title clickable=False layout_width=4294967294 layout_height=4294967294 singleLine=True>
+    <TextView textAppearance=@style/TextAppearance_MediaRouter_SecondaryText id=@id/mr_control_subtitle clickable=False layout_width=4294967294 layout_height=4294967294 singleLine=True>

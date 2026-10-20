@@ -1,0 +1,4 @@
+# source: res/layout/browser_actions_context_menu_row.xml
+<LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294 minHeight=12289 paddingStart=3841 paddingEnd=3841>
+  <TextView textSize=3842 textColor=@color/browser_actions_text_color id=@id/browser_actions_menu_item_text layout_width=1 layout_height=4294967294>
+  <ImageView id=@id/browser_actions_menu_item_icon paddingTop=2049 paddingBottom=2049 layout_width=5121 layout_height=4294967295 scaleType=7 contentDescription=@0x00000000>

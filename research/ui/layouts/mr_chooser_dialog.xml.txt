@@ -1,0 +1,15 @@
+# source: res/layout/mr_chooser_dialog.xml
+<LinearLayout orientation=1 padding=6145 layout_width=4294967295 layout_height=4294967294>
+  <TextView textAppearance=@style/TextAppearance_MediaRouter_Title ellipsize=3 gravity=0x00000010 id=@id/mr_chooser_title layout_width=4294967295 layout_height=4294967294 text=@string/mr_chooser_title singleLine=True>
+  <TextView textAppearance=@style/TextAppearance_MediaRouter_SecondaryText id=@id/mr_chooser_searching layout_width=4294967294 layout_height=4294967294 text=@string/mr_chooser_looking_for_devices>
+  <RelativeLayout id=@id/mr_chooser_wifi_warning_container visibility=2 layout_width=4294967294 layout_height=4294967294>
+    <LinearLayout orientation=0 id=@id/mr_chooser_wifi_warning layout_width=4294967294 layout_height=4294967294>
+      <ImageView layout_width=@dimen/mr_controller_wifi_icon_size layout_height=@dimen/mr_controller_wifi_icon_size layout_margin=4097 src=2130969440 contentDescription=@string/ic_media_route_learn_more_accessibility>
+      <LinearLayout orientation=1 layout_width=4294967294 layout_height=4294967294>
+        <TextView textAppearance=@style/TextAppearance_MediaRouter_SecondaryText id=@id/mr_chooser_wifi_warning_description layout_width=4294967294 layout_height=4294967294 text=@string/mr_chooser_wifi_warning_description_phone>
+        <TextView textAppearance=@style/TextAppearance_MediaRouter_SecondaryText id=@id/mr_chooser_wifi_learn_more visibility=1 layout_width=4294967294 layout_height=4294967294 text=@string/mr_chooser_wifi_learn_more>
+    <LinearLayout id=@id/mr_chooser_ok_button_container layout_width=4294967295 layout_height=4294967294>
+      <Space layout_width=1 layout_height=4294967294>
+      <Button id=@id/mr_chooser_ok_button visibility=2 layout_width=4294967294 layout_height=4294967294 minWidth=1 text=@0x0104000a style=16843563>
+  <ProgressBar id=@id/mr_chooser_search_progress_bar layout_width=4294967295 layout_height=4294967294 indeterminate=True style=16842872>
+  <ListView id=@id/mr_chooser_list visibility=2 layout_width=4294967295 layout_height=4294967294 divider=@0x0106000d dividerHeight=1>

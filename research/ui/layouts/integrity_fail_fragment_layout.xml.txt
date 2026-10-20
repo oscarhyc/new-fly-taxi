@@ -1,0 +1,12 @@
+# source: res/layout/integrity_fail_fragment_layout.xml
+<RelativeLayout gravity=0x00000011 orientation=1 layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967295>
+    <LinearLayout gravity=0x00000011 orientation=1 layout_width=4294967295 layout_height=1>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000011 id=@id/description_text padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 text=@string/integrity_fail_message>
+    <include id=@id/what_app_view layout_width=4294967294 layout_height=4294967294 layout_margin=@dimen/general_small_size layout=@layout/whats_app_part>
+    <LinearLayout orientation=0 paddingLeft=@dimen/general_small_size paddingRight=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton gravity=0x00000011 id=@id/confirm_button layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/gold_radius_v2_background titleColor=@color/black titleSize=@dimen/medium_font_size>

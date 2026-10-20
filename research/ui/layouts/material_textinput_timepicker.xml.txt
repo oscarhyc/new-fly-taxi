@@ -1,0 +1,4 @@
+# source: res/layout/material_textinput_timepicker.xml
+<LinearLayout orientation=0 layout_width=4294967294 layout_height=4294967294 baselineAligned=False>
+  <include layout=@layout/material_timepicker_textinput_display>
+  <include id=@id/material_clock_period_toggle layout_width=@dimen/material_clock_period_toggle_width layout_height=@dimen/material_clock_period_toggle_height layout=@layout/material_clock_period_toggle>

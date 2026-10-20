@@ -1,0 +1,18 @@
+# source: res/layout/phone_verify_fragment_layout.xml
+<RelativeLayout focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967295>
+    <ScrollView id=@id/main_scroll_view layout_width=4294967295 layout_height=1>
+      <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=1 background=@drawable/black_radius_background padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 layout_margin=@dimen/general_small_size>
+          <TextView textSize=@dimen/medium_font_size textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/phone_verify_phone_number_title>
+          <TextView textSize=@dimen/large_font_size textColor=@color/white id=@id/driver_phone_number_title layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/teach_description_text layout_width=4294967295 layout_height=4294967294>
+        <com.flytaxi.layout.GhostV2Button id=@id/phone_verify_button layout_width=4294967295 layout_height=@dimen/general_button_height layout_margin=@dimen/general_small_size ghostBackgroundImage=@drawable/gold_radius_v2_background leftImage=@0x7f080347 titleColor=@color/black titleSize=@dimen/large_font_size titleText=@string/phone_verify_verify_now_text>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/alert_red id=@id/error_description_text layout_width=4294967295 layout_height=4294967294>
+  <ImageView id=@id/whats_app_support_button layout_width=4294967294 layout_height=4294967294 layout_margin=@dimen/general_small_size src=@0x7f0803b9>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/progress_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

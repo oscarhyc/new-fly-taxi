@@ -1,0 +1,14 @@
+# source: res/layout/fleet_car_preview_item_row.xml
+<LinearLayout orientation=0 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 id=@id/main_layout background=@drawable/gray_radius_v2_background layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <ImageView id=@id/first_radio_image layout_width=4294967294 layout_height=4294967294>
+      <TextView textSize=@dimen/large_font_size textColor=@color/black id=@id/first_radio_title layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 id=@id/panel_layout background=@drawable/black_radius_background layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/fleet_co_height_size>
+        <ImageView id=@id/side_view_image layout_width=1 layout_height=4294967295 layout_margin=@dimen/general_medium_size scaleType=3>
+        <LinearLayout orientation=1 layout_width=1 layout_height=4294967294 layout_margin=@dimen/general_medium_size>
+          <TextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/fleet_co_name_text layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/fleet_plate_number_font_size textColor=@color/white id=@id/car_plate_text layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/vendor_name_text layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/car_model_name_text layout_width=4294967295 layout_height=4294967294>

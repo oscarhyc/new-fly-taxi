@@ -1,0 +1,32 @@
+# source: res/layout/driver_option_fragment_layout.xml
+<RelativeLayout focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967295>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/grey_04 id=@id/description_text padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <ScrollView layout_width=4294967295 layout_height=1>
+      <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=1 id=@id/first_radio_option_layout background=@drawable/gray_radius_v2_background layout_width=4294967295 layout_height=4294967294 layout_margin=@dimen/general_small_size>
+          <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <ImageView id=@id/first_radio_image layout_width=4294967294 layout_height=4294967294>
+            <TextView textSize=@dimen/large_font_size textColor=@color/black id=@id/first_radio_title layout_width=4294967295 layout_height=4294967294>
+          <LinearLayout orientation=1 id=@id/first_radio_description_layout background=@drawable/black_radius_background layout_width=4294967295 layout_height=4294967294>
+            <LinearLayout orientation=0 background=@color/black padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_spacing showDividers=0x00000002>
+              <LinearLayout gravity=0x00000010 orientation=0 layout_width=1 layout_height=4294967294>
+                <ImageView layout_width=4294967294 layout_height=4294967294 src=@0x7f080286>
+                <TextView textSize=@dimen/medium_font_size textColor=@color/grey_04 layout_width=4294967294 layout_height=4294967294 text=@string/driver_option_radio_take_order>
+              <LinearLayout gravity=0x00000010 orientation=0 layout_width=1 layout_height=4294967294>
+                <ImageView layout_width=4294967294 layout_height=4294967294 src=@0x7f080286>
+                <TextView textSize=@dimen/medium_font_size textColor=@color/grey_04 layout_width=4294967294 layout_height=4294967294 text=@string/driver_option_radio_give_order>
+        <LinearLayout orientation=1 id=@id/second_radio_option_layout background=@drawable/gray_radius_v2_background layout_width=4294967295 layout_height=4294967294 layout_margin=@dimen/general_small_size>
+          <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <ImageView id=@id/second_radio_image layout_width=4294967294 layout_height=4294967294>
+            <TextView textSize=@dimen/large_font_size textColor=@color/black id=@id/second_radio_title layout_width=4294967295 layout_height=4294967294>
+          <LinearLayout orientation=1 id=@id/second_radio_description_layout background=@drawable/black_radius_background layout_width=4294967295 layout_height=4294967294>
+            <LinearLayout orientation=0 background=@color/black padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_spacing showDividers=0x00000002>
+              <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+                <ImageView layout_width=4294967294 layout_height=4294967294 src=@0x7f080286>
+                <TextView textSize=@dimen/medium_font_size textColor=@color/grey_04 layout_width=4294967294 layout_height=4294967294 text=@string/driver_option_radio_take_order>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/grey_04 id=@id/radio_description_text background=@color/grey_01 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>

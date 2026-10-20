@@ -1,0 +1,7 @@
+# source: res/layout/mr_cast_group_volume_item.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=@dimen/mr_dynamic_volume_group_list_item_height>
+  <TextView textAppearance=2130969432 gravity=0x00800003 id=@id/mr_group_volume_route_name paddingLeft=4097 paddingTop=4097 paddingRight=4097 layout_width=4294967295 layout_height=4294967295 textAlignment=5>
+  <RelativeLayout id=@id/mr_cast_volume_layout layout_width=4294967295 layout_height=@dimen/mr_dynamic_dialog_row_height>
+    <ImageButton id=@id/mr_cast_mute_button background=2130969586 layout_width=6145 layout_height=6145>
+    <androidx.mediarouter.app.MediaRouteVolumeSlider id=@id/mr_cast_volume_slider layout_width=4294967295 layout_height=4294967294 maxHeight=12289 progressDrawable=@drawable/mr_cast_group_seekbar_track minHeight=12289 thumb=@drawable/mr_cast_thumb contentDescription=@string/mr_controller_volume_slider splitTrack=False>
+    <View id=@id/mr_cast_divider background=2130969431 layout_width=4294967295 layout_height=257>

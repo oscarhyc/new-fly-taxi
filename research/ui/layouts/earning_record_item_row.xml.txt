@@ -1,0 +1,10 @@
+# source: res/layout/earning_record_item_row.xml
+<LinearLayout orientation=1 id=@id/record_layout paddingLeft=@dimen/general_small_size paddingRight=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout gravity=0x00000010 orientation=0 paddingTop=@dimen/general_small_size paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout gravity=0x00000010 orientation=0 layout_width=1 layout_height=4294967294>
+      <LinearLayout orientation=1 layout_width=1 layout_height=4294967294>
+        <TextView textColor=@color/white id=@id/date_text layout_width=4294967294 layout_height=4294967294>
+        <TextView textColor=@color/white id=@id/time_text layout_width=4294967294 layout_height=4294967294>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white gravity=0x00000005 id=@id/amount_text layout_width=1 layout_height=4294967294>
+    <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/ic_arrow_line>
+  <View background=@color/gray layout_width=4294967295 layout_height=@dimen/divider_size>

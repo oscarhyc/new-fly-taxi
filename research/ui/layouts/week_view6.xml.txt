@@ -1,0 +1,16 @@
+# source: res/layout/week_view6.xml
+<LinearLayout orientation=0 tag=weekRow6 layout_width=4294967295 layout_height=4294967294 baselineAligned=False weightSum=1088421888>
+  <RelativeLayout tag=dayOfMonthContainer36 layout_width=4294967295 layout_height=4294967295>
+    <io.blackbox_vision.materialcalendarview.view.DayView tag=dayOfMonthText36 style=@style/CalendarView_DayOfTheMonth>
+  <RelativeLayout tag=dayOfMonthContainer37 layout_width=4294967295 layout_height=4294967295>
+    <io.blackbox_vision.materialcalendarview.view.DayView tag=dayOfMonthText37 style=@style/CalendarView_DayOfTheMonth>
+  <RelativeLayout tag=dayOfMonthContainer38 layout_width=4294967295 layout_height=4294967295>
+    <io.blackbox_vision.materialcalendarview.view.DayView tag=dayOfMonthText38 style=@style/CalendarView_DayOfTheMonth>
+  <RelativeLayout tag=dayOfMonthContainer39 layout_width=4294967295 layout_height=4294967295>
+    <io.blackbox_vision.materialcalendarview.view.DayView tag=dayOfMonthText39 style=@style/CalendarView_DayOfTheMonth>
+  <RelativeLayout tag=dayOfMonthContainer40 layout_width=4294967295 layout_height=4294967295>
+    <io.blackbox_vision.materialcalendarview.view.DayView tag=dayOfMonthText40 style=@style/CalendarView_DayOfTheMonth>
+  <RelativeLayout tag=dayOfMonthContainer41 layout_width=4294967295 layout_height=4294967295>
+    <io.blackbox_vision.materialcalendarview.view.DayView tag=dayOfMonthText41 style=@style/CalendarView_DayOfTheMonth>
+  <RelativeLayout tag=dayOfMonthContainer42 layout_width=4294967295 layout_height=4294967295>
+    <io.blackbox_vision.materialcalendarview.view.DayView tag=dayOfMonthText42 style=@style/CalendarView_DayOfTheMonth>

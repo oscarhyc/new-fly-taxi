@@ -1,0 +1,5 @@
+# source: res/layout/order_fragment_layout.xml
+<RelativeLayout layout_width=4294967295 layout_height=4294967295 filterTouchesWhenObscured=True importantForAccessibility=4>
+  <include filterTouchesWhenObscured=True importantForAccessibility=4 layout=@layout/order_fragment_outdate_layout>
+  <include filterTouchesWhenObscured=True importantForAccessibility=4 layout=@layout/order_fragment_main_layout>
+  <include filterTouchesWhenObscured=True importantForAccessibility=4 layout=@layout/order_fragment_mask_layout>

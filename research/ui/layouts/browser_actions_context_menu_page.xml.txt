@@ -1,0 +1,5 @@
+# source: res/layout/browser_actions_context_menu_page.xml
+<androidx.browser.browseractions.BrowserActionsFallbackMenuView orientation=1 id=@id/browser_actions_menu_view background=@color/browser_actions_bg_grey layout_width=4294967294 layout_height=4294967294 minWidth=71681>
+  <TextView textSize=3330 textStyle=0x00000001 textColor=@color/browser_actions_title_color ellipsize=3 gravity=0x00000011 id=@id/browser_actions_header_text layout_width=4294967295 layout_height=4294967294 maxLines=1 paddingStart=5121 paddingEnd=5121>
+  <View background=@color/browser_actions_divider_color layout_width=4294967295 layout_height=257>
+  <ListView id=@id/browser_actions_menu_items paddingTop=2049 paddingBottom=2049 layout_width=4294967295 layout_height=4294967294 divider=@0x00000000 dividerHeight=1>

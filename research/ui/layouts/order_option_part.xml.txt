@@ -1,0 +1,9 @@
+# source: res/layout/order_option_part.xml
+<LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+  <com.google.android.flexbox.FlexboxLayout layout_width=4294967295 layout_height=4294967294 alignItems=2 flexWrap=0>
+    <LinearLayout orientation=1 id=@id/actual_layout layout_width=1 layout_height=4294967294>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/grey_03 id=@id/pay_mode_text layout_width=4294967294 layout_height=4294967294>
+      <TextView textSize=@dimen/actual_price_font_size textColor=@color/white id=@id/amount_text layout_width=4294967294 layout_height=4294967294>
+    <LinearLayout orientation=1 id=@id/car_option_layout background=@drawable/dark_black_radius_background padding=@dimen/general_medium_size layout_width=1 layout_height=4294967294>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/remark_text layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+      <TextView textSize=@dimen/large_font_size textColor=@color/white id=@id/car_option_message_text layout_width=4294967295 layout_height=4294967294>

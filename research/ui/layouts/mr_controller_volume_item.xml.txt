@@ -1,0 +1,7 @@
+# source: res/layout/mr_controller_volume_item.xml
+<LinearLayout layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 id=@id/volume_item_container paddingLeft=6145 paddingRight=15361 paddingBottom=2049 layout_width=4294967295 layout_height=@dimen/mr_controller_volume_group_list_item_height paddingStart=6145 paddingEnd=15361>
+    <TextView textAppearance=@style/TextAppearance_MediaRouter_SecondaryText gravity=0x00800003 id=@id/mr_name layout_width=4294967294 layout_height=4294967294 singleLine=True textAlignment=5>
+    <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <ImageView id=@id/mr_volume_item_icon layout_width=@dimen/mr_controller_volume_group_list_item_icon_size layout_height=@dimen/mr_controller_volume_group_list_item_icon_size src=2130969424 scaleType=3>
+      <androidx.mediarouter.app.MediaRouteVolumeSlider id=@id/mr_volume_slider layout_width=4294967295 layout_height=10241 maxHeight=10241 minHeight=10241 contentDescription=@string/mr_controller_volume_slider>

@@ -1,0 +1,11 @@
+# source: res/layout/bank_information_input_layout.xml
+<ScrollView layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <TextView textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/bank_info_payee_name>
+    <com.flytaxi.layout.IconEditText id=@id/bank_info_payee_name_edittext layout_width=4294967295 layout_height=4294967294 editBoxColor=@color/black hintColor=@color/black_text iconBackgroundImage=@drawable/gold_white_background textStyle=TEXT underline=False>
+    <TextView textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/bank_info_payee_id>
+    <com.flytaxi.layout.IconEditText id=@id/bank_info_payee_id_edittext layout_width=4294967295 layout_height=4294967294 editBoxColor=@color/black hintColor=@color/black_text iconBackgroundImage=@drawable/gold_white_background textStyle=TEXT underline=False>
+    <TextView textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/bank_info_payee_address1>
+    <com.flytaxi.layout.IconEditText id=@id/bank_info_payee_address1_edittext layout_width=4294967295 layout_height=4294967294 editBoxColor=@color/black hintColor=@color/black_text iconBackgroundImage=@drawable/gold_white_background textStyle=TEXT underline=False>
+    <com.flytaxi.layout.IconEditText id=@id/bank_info_payee_address2_edittext layout_width=4294967295 layout_height=4294967294 editBoxColor=@color/black hintColor=@color/black_text iconBackgroundImage=@drawable/gold_white_background textStyle=TEXT underline=False>
+    <LinearLayout orientation=0 paddingLeft=@dimen/general_large_size paddingRight=@dimen/general_large_size layout_width=4294967295 layout_height=4294967295>

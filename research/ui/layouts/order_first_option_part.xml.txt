@@ -1,0 +1,6 @@
+# source: res/layout/order_first_option_part.xml
+<LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 id=@id/amount_layout layout_width=4294967294 layout_height=4294967294>
+    <TextView textSize=@dimen/small_font_size textColor=@color/gray id=@id/amount_title layout_width=4294967294 layout_height=4294967294>
+    <TextView textSize=@dimen/actual_price_font_size textColor=@color/white id=@id/amount_text layout_width=4294967294 layout_height=4294967294>
+  <com.flytaxi.layout.OptionTextView textColor=@color/white ellipsize=0 id=@id/option_text paddingTop=@dimen/general_small_size layout_width=1 layout_height=4294967294 maxLines=10 filterTouchesWhenObscured=True importantForAccessibility=4>

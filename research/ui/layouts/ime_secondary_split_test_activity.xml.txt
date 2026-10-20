@@ -1,0 +1,4 @@
+# source: res/layout/ime_secondary_split_test_activity.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967295>
+  <EditText gravity=0x00000011 id=@id/edit_text_id layout_width=4294967294 layout_height=4294967294 minHeight=51200 text=EditText inputType=0x00000001>
+  <Button id=@id/hide_ime_id layout_width=4294967295 layout_height=4294967294 text=Hide Ime textAllCaps=False>

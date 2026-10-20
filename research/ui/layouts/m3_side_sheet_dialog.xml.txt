@@ -1,0 +1,5 @@
+# source: res/layout/m3_side_sheet_dialog.xml
+<FrameLayout id=@id/container fitsSystemWindows=True layout_width=4294967295 layout_height=4294967295>
+  <androidx.coordinatorlayout.widget.CoordinatorLayout id=@id/coordinator fitsSystemWindows=True layout_width=4294967295 layout_height=4294967295>
+    <View id=@id/touch_outside focusable=False layout_width=4294967295 layout_height=4294967295 soundEffectsEnabled=False importantForAccessibility=2>
+    <FrameLayout id=@id/m3_side_sheet style=2130969616>

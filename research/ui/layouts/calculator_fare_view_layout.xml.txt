@@ -1,0 +1,23 @@
+# source: res/layout/calculator_fare_view_layout.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <com.google.android.flexbox.FlexboxLayout background=@drawable/black_radius_v2_background layout_width=4294967295 layout_height=4294967294 alignItems=4 flexWrap=1>
+    <LinearLayout gravity=0x00000010 orientation=1 id=@id/left_amount_layout layout_width=1 layout_height=4294967294>
+      <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/small_font_size textColor=@color/grey_09 layout_width=@dimen/calculator_amount_width layout_height=4294967294 text=@string/calculator_metered_fare_title>
+        <TextView textSize=@dimen/small_font_size textColor=@color/grey_09 id=@id/metered_fare_label layout_width=4294967294 layout_height=4294967294 text=->
+      <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/small_font_size textColor=@color/grey_09 layout_width=@dimen/calculator_amount_width layout_height=4294967294 text=@string/calculator_extra_fare_title>
+        <TextView textSize=@dimen/small_font_size textColor=@color/grey_09 id=@id/extra_fare_label layout_width=4294967294 layout_height=4294967294 text=->
+    <View id=@id/amount_divider_view background=@color/grey_09 layout_width=@dimen/divider_size layout_height=1>
+    <LinearLayout orientation=1 id=@id/right_amount_layout layout_width=1 layout_height=4294967294>
+      <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/small_font_size textColor=@color/red id=@id/amount_title layout_width=4294967295 layout_height=4294967294 text=@string/calculator_actual_amount_title>
+        <TextView textSize=@dimen/small_font_size textColor=@color/red id=@id/calculator_fail_company_price_label paddingTop=@dimen/general_small_size paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 text=@string/calculator_fail_company_price_title>
+        <TextView textSize=@dimen/calculator_amount_big_font_size textStyle=0x00000001 textColor=@color/red id=@id/amount_text layout_width=4294967295 layout_height=4294967294 text=->
+  <TextView textColor=@color/colorPrimary id=@id/receipt_text paddingTop=@dimen/general_medium_size paddingBottom=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294 text=@string/calculator_need_receipt_computer_price_message>
+  <LinearLayout gravity=0x00000010 orientation=0 id=@id/order_option_layout background=@drawable/yellow_radius_background layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 paddingLeft=@dimen/general_medium_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_medium_size paddingBottom=@dimen/general_small_size layout_width=1 layout_height=4294967294>
+      <TextView textSize=@dimen/small_font_size textStyle=0x00000001 textColor=@color/dark_grey_02 layout_width=4294967295 layout_height=4294967294 text=@string/calculator_option_message_title>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/dark_grey_02 id=@id/fare_tips_text layout_width=4294967295 layout_height=4294967294>
+    <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/ic_black_arrow_next>
+  <include layout_width=4294967295 layout_height=4294967294 layout=@layout/calculator_number_pad_layout>

@@ -1,0 +1,2 @@
+# source: res/layout/empty_item_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=@dimen/empty_order_height filterTouchesWhenObscured=True importantForAccessibility=4>

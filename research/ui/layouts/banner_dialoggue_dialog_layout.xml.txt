@@ -1,0 +1,9 @@
+# source: res/layout/banner_dialoggue_dialog_layout.xml
+<LinearLayout gravity=0x00000011 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 background=@drawable/alert_dialog_background padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 layout_width=4294967295 layout_height=1>
+      <com.flytaxi.layout.FontTextView textSize=@dimen/alert_title_font_size textStyle=0x00000001 textColor=@color/dialog_color id=@id/title visibility=2 layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.FontTextView textColor=@color/dialog_color id=@id/description visibility=2 scrollbars=0x00000200 layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout gravity=0x00000005 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <Button textSize=@dimen/alert_button_font_size textColor=@color/colorPrimary ellipsize=3 id=@id/negative_text background=@color/transparent paddingLeft=@dimen/general_small_size paddingRight=@dimen/general_small_size layout_width=4294967294 layout_height=@dimen/general_button_height>
+      <Button textSize=@dimen/alert_button_font_size textColor=@color/colorPrimary ellipsize=3 id=@id/positive_text background=@color/transparent paddingLeft=@dimen/general_small_size paddingRight=@dimen/general_small_size layout_width=4294967294 layout_height=@dimen/general_button_height>

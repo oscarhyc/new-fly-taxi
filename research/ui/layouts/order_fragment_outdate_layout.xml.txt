@@ -1,0 +1,6 @@
+# source: res/layout/order_fragment_outdate_layout.xml
+<RelativeLayout layout_width=4294967295 layout_height=4294967295 filterTouchesWhenObscured=True importantForAccessibility=4>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+    <com.flytaxi.layout.onOffSwitch.OnOffSwitch id=@id/status_switch_box layout_width=4294967294 layout_height=4294967294>
+    <RelativeLayout id=@id/waiting_order_layout background=@color/black visibility=2 layout_width=4294967294 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white gravity=0x00000011 id=@id/waiting_order_description padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 text=@string/order_b_page_wait_order filterTouchesWhenObscured=True importantForAccessibility=4>

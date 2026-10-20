@@ -1,0 +1,49 @@
+# source: res/layout/order_fragment_main_layout.xml
+<LinearLayout orientation=1 id=@id/order_fragment_main_layout layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967295 filterTouchesWhenObscured=True importantForAccessibility=4>
+    <RelativeLayout layout_width=4294967295 layout_height=1>
+      <RelativeLayout id=@id/map_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+        <FrameLayout id=@id/google_map_fragment layout_width=4294967295 layout_height=4294967295 filterTouchesWhenObscured=True importantForAccessibility=4>
+        <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+          <TextView textColor=@color/gray background=@color/background padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 text=@string/main_page_share_location_description>
+          <TextView textColor=@color/gray background=@color/background padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 text=@string/main_page_call_filtering_description>
+          <RelativeLayout gravity=0x00000010 layout_width=4294967295 layout_height=@dimen/map_first_button_height>
+            <RelativeLayout id=@id/navigation_layout visibility=2 layout_width=4294967294 layout_height=4294967294>
+              <LinearLayout orientation=0 id=@id/navigation_prefer_layout visibility=2 layout_width=4294967294 layout_height=4294967294>
+                <ImageView padding=@dimen/general_small_size visibility=1 layout_width=4294967294 layout_height=4294967294 src=@drawable/navigation_pin>
+                <ImageView id=@id/google_navigation_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/google_map_pin>
+                <ImageView id=@id/amap_navigation_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/amap_map_pin>
+                <ImageView id=@id/waze_navigation_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/waze_map_pin>
+              <ImageView id=@id/navigation_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294>
+          <LinearLayout orientation=1 id=@id/order_layout background=@color/white padding=@dimen/general_small_size visibility=2 layout_width=4294967294 layout_height=4294967294 layout_margin=@dimen/general_small_size filterTouchesWhenObscured=True importantForAccessibility=4>
+            <TextView textColor=@color/light_gray id=@id/order_id_text layout_width=4294967294 layout_height=4294967294>
+            <TextView textColor=@color/black_text id=@id/order_message_text layout_width=4294967294 layout_height=4294967294>
+        <LinearLayout orientation=1 id=@id/seek_bar_layout paddingBottom=@dimen/general_extra_large_size visibility=2 layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/general_button_height filterTouchesWhenObscured=True importantForAccessibility=4>
+          <com.flytaxi.layout.swipeBar.SwipeBar id=@id/swipe_bar layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4 button_background=@drawable/swipe_bar_gold_button button_image_size=@dimen/swipe_bar_im_size inner_text_background=@drawable/swipe_bar_background inner_text_bottom_padding=@dimen/swipe_bar_im_padding inner_text_color=@color/swipe_title inner_text_size=@dimen/extra_large_font_size inner_text_top_padding=@dimen/swipe_bar_im_padding>
+      <RelativeLayout id=@id/grab_order_layout layout_width=4294967295 layout_height=4294967295>
+        <LinearLayout gravity=0x00000051 id=@id/bottom_logo_layout visibility=2 layout_width=4294967295 layout_height=4294967295 filterTouchesWhenObscured=True importantForAccessibility=4>
+          <ImageView layout_width=4294967295 layout_height=4294967294 src=@0x7f0800e6 filterTouchesWhenObscured=True importantForAccessibility=4>
+        <androidx.recyclerview.widget.RecyclerView id=@id/grab_order_recycler_view layout_width=4294967295 layout_height=4294967295 divider=@0x00000000 filterTouchesWhenObscured=True importantForAccessibility=4>
+    <RelativeLayout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/warning_message_layout visibility=2 layout_width=4294967295 layout_height=4294967294>
+        <androidx.recyclerview.widget.RecyclerView id=@id/warning_recycle_view layout_width=4294967295 layout_height=4294967294 divider=@0x00000000 filterTouchesWhenObscured=True importantForAccessibility=4>
+    <LinearLayout orientation=1 id=@id/grab_hint_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout gravity=0x00000010 orientation=0 id=@id/experience_seek_layout padding=@dimen/general_extra_small_size visibility=2 layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+        <com.flytaxi.layout.ExperienceSeekBar id=@id/experience_seek_bar layout_width=1 layout_height=@dimen/seek_bar_height filterTouchesWhenObscured=True importantForAccessibility=4>
+      <LinearLayout orientation=0 id=@id/meter_price_hint_layout background=@color/colorPrimary visibility=2 layout_width=4294967295 layout_height=4294967294>
+        <TextView textColor=@color/off_black padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 text=@string/order_meter_price_hint_text>
+      <LinearLayout orientation=0 id=@id/screen_saver_hint_layout background=@color/error_pale_red visibility=2 layout_width=4294967295 layout_height=4294967294>
+        <TextView textColor=@color/off_black id=@id/screen_saver_hint_message padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/banner_layout background=@color/order_gold visibility=2 layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+        <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/extra_small_font_size textColor=@color/white gravity=0x00000011 id=@id/banner_title padding=@dimen/general_small_size layout_width=1 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+          <ImageView id=@id/banner_close_button padding=@dimen/general_medium_size layout_width=4294967294 layout_height=4294967294 src=@drawable/ic_close_white>
+        <TextView textSize=@dimen/extra_small_font_size textColor=@color/red gravity=0x00000011 id=@id/banner_countdown_title padding=@dimen/general_small_size visibility=2 layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+      <LinearLayout orientation=1 id=@id/reject_order_layout background=@color/dray_gray visibility=2 layout_width=4294967295 layout_height=@dimen/reject_order_layout_max_height filterTouchesWhenObscured=True importantForAccessibility=4>
+        <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <TextView textColor=@color/white id=@id/log_message padding=@dimen/general_extra_small_size layout_width=1 layout_height=4294967294>
+          <TextView textColor=@color/white id=@id/reject_order_refresh_text paddingLeft=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294>
+        <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_small_spacing showDividers=0x00000002>
+          <TextView textColor=@color/order_gold id=@id/debug_left_message_text padding=@dimen/general_extra_small_size layout_width=1 layout_height=4294967294>
+          <TextView textColor=@color/red id=@id/debug_right_message_text padding=@dimen/general_extra_small_size layout_width=1 layout_height=4294967294>
+        <androidx.recyclerview.widget.RecyclerView id=@id/reject_order_recycler_view layout_width=4294967295 layout_height=1 divider=@0x00000000 filterTouchesWhenObscured=True importantForAccessibility=4>

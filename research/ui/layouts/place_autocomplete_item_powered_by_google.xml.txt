@@ -1,0 +1,5 @@
+# source: res/layout/place_autocomplete_item_powered_by_google.xml
+<RelativeLayout layout_width=4294967295 layout_height=4294967294>
+  <View id=@id/place_autocomplete_separator background=@color/place_autocomplete_separator visibility=2 layout_width=4294967295 layout_height=257>
+  <include layout_width=@dimen/place_autocomplete_progress_size layout_height=@dimen/place_autocomplete_progress_size layout=@layout/place_autocomplete_progress>
+  <ImageView id=@id/place_autocomplete_powered_by_google layout_width=4294967294 layout_height=@dimen/place_autocomplete_powered_by_google_height src=@0x7f08034c scaleType=5>

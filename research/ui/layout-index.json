@@ -1,0 +1,2246 @@
+{
+ "accept_order_fragment_layout.xml": {
+  "source": "res/layout/accept_order_fragment_layout.xml",
+  "elements": 7,
+  "view_classes": [
+   "LinearLayout",
+   "ProgressBar",
+   "ViewFlipper",
+   "include"
+  ]
+ },
+ "accept_order_main_layout.xml": {
+  "source": "res/layout/accept_order_main_layout.xml",
+  "elements": 21,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.GhostButton",
+   "com.flytaxi.layout.swipeBar.SwipeBar",
+   "include"
+  ]
+ },
+ "accept_order_tips_dialog_layout.xml": {
+  "source": "res/layout/accept_order_tips_dialog_layout.xml",
+  "elements": 7,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "accessibility_info_item_row.xml": {
+  "source": "res/layout/accessibility_info_item_row.xml",
+  "elements": 7,
+  "view_classes": [
+   "Button",
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "accessibility_service_fragment_layout.xml": {
+  "source": "res/layout/accessibility_service_fragment_layout.xml",
+  "elements": 7,
+  "view_classes": [
+   "FrameLayout",
+   "LinearLayout",
+   "RelativeLayout",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "accessibility_setting_item_row.xml": {
+  "source": "res/layout/accessibility_setting_item_row.xml",
+  "elements": 2,
+  "view_classes": [
+   "Button",
+   "LinearLayout"
+  ]
+ },
+ "accessibility_skip_item_row.xml": {
+  "source": "res/layout/accessibility_skip_item_row.xml",
+  "elements": 2,
+  "view_classes": [
+   "Button",
+   "LinearLayout"
+  ]
+ },
+ "accessibility_title_item_row.xml": {
+  "source": "res/layout/accessibility_title_item_row.xml",
+  "elements": 2,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "alert_dialog_layout.xml": {
+  "source": "res/layout/alert_dialog_layout.xml",
+  "elements": 8,
+  "view_classes": [
+   "Button",
+   "LinearLayout",
+   "ScrollView",
+   "TextView"
+  ]
+ },
+ "alipay_apply_request_fragment_layout.xml": {
+  "source": "res/layout/alipay_apply_request_fragment_layout.xml",
+  "elements": 29,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "View",
+   "com.flytaxi.layout.GhostV2Button",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "alipay_dialog_layout.xml": {
+  "source": "res/layout/alipay_dialog_layout.xml",
+  "elements": 8,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "alipay_fragment_layout.xml": {
+  "source": "res/layout/alipay_fragment_layout.xml",
+  "elements": 37,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "View",
+   "com.flytaxi.layout.GhostV2Button",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "announcement_fragment_layout.xml": {
+  "source": "res/layout/announcement_fragment_layout.xml",
+  "elements": 12,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "WebView",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "app_policy_fragment_layout.xml": {
+  "source": "res/layout/app_policy_fragment_layout.xml",
+  "elements": 6,
+  "view_classes": [
+   "LinearLayout",
+   "ScrollView",
+   "TextView",
+   "include"
+  ]
+ },
+ "bank_information_fragment_layout.xml": {
+  "source": "res/layout/bank_information_fragment_layout.xml",
+  "elements": 11,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView",
+   "include"
+  ]
+ },
+ "bank_information_input_layout.xml": {
+  "source": "res/layout/bank_information_input_layout.xml",
+  "elements": 10,
+  "view_classes": [
+   "LinearLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.IconEditText"
+  ]
+ },
+ "bank_information_item_row.xml": {
+  "source": "res/layout/bank_information_item_row.xml",
+  "elements": 5,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "banner_dialoggue_dialog_layout.xml": {
+  "source": "res/layout/banner_dialoggue_dialog_layout.xml",
+  "elements": 8,
+  "view_classes": [
+   "Button",
+   "LinearLayout",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "bottom_sheet_view.xml": {
+  "source": "res/layout/bottom_sheet_view.xml",
+  "elements": 35,
+  "view_classes": [
+   "LinearLayout",
+   "NumberPicker",
+   "RelativeLayout",
+   "TextView",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "browser_actions_context_menu_page.xml": {
+  "source": "res/layout/browser_actions_context_menu_page.xml",
+  "elements": 4,
+  "view_classes": [
+   "ListView",
+   "TextView",
+   "View",
+   "androidx.browser.browseractions.BrowserActionsFallbackMenuView"
+  ]
+ },
+ "browser_actions_context_menu_row.xml": {
+  "source": "res/layout/browser_actions_context_menu_row.xml",
+  "elements": 3,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "calculator_fare_view_layout.xml": {
+  "source": "res/layout/calculator_fare_view_layout.xml",
+  "elements": 22,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "View",
+   "com.google.android.flexbox.FlexboxLayout",
+   "include"
+  ]
+ },
+ "calculator_fragment_layout.xml": {
+  "source": "res/layout/calculator_fragment_layout.xml",
+  "elements": 16,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "include"
+  ]
+ },
+ "calculator_number_pad_layout.xml": {
+  "source": "res/layout/calculator_number_pad_layout.xml",
+  "elements": 21,
+  "view_classes": [
+   "Button",
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "calculator_option_layout.xml": {
+  "source": "res/layout/calculator_option_layout.xml",
+  "elements": 31,
+  "view_classes": [
+   "LinearLayout",
+   "RadioButton",
+   "RadioGroup",
+   "TextView",
+   "View",
+   "com.flytaxi.layout.FontTextView",
+   "com.google.android.flexbox.FlexboxLayout"
+  ]
+ },
+ "calculator_row_layout.xml": {
+  "source": "res/layout/calculator_row_layout.xml",
+  "elements": 7,
+  "view_classes": [
+   "LinearLayout",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "calendar_picker_dialog_layout.xml": {
+  "source": "res/layout/calendar_picker_dialog_layout.xml",
+  "elements": 8,
+  "view_classes": [
+   "Button",
+   "LinearLayout",
+   "com.flytaxi.layout.FontTextView",
+   "io.blackbox_vision.materialcalendarview.view.CalendarView"
+  ]
+ },
+ "car_model_add_item_v2_row.xml": {
+  "source": "res/layout/car_model_add_item_v2_row.xml",
+  "elements": 14,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView"
+  ]
+ },
+ "car_model_add_plate_item_row.xml": {
+  "source": "res/layout/car_model_add_plate_item_row.xml",
+  "elements": 6,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "car_model_bottom_sheet_layout.xml": {
+  "source": "res/layout/car_model_bottom_sheet_layout.xml",
+  "elements": 17,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.EditTextMaterialView",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "car_model_preview_item_v2_row.xml": {
+  "source": "res/layout/car_model_preview_item_v2_row.xml",
+  "elements": 30,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "View",
+   "com.flytaxi.layout.GhostV2Button",
+   "com.google.android.flexbox.FlexboxLayout"
+  ]
+ },
+ "car_model_size_item_row.xml": {
+  "source": "res/layout/car_model_size_item_row.xml",
+  "elements": 6,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "car_model_web_fleet_item_row.xml": {
+  "source": "res/layout/car_model_web_fleet_item_row.xml",
+  "elements": 11,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView"
+  ]
+ },
+ "car_model_web_page_item_row.xml": {
+  "source": "res/layout/car_model_web_page_item_row.xml",
+  "elements": 4,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "car_model_web_taxi_item_row.xml": {
+  "source": "res/layout/car_model_web_taxi_item_row.xml",
+  "elements": 13,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "com.google.android.flexbox.FlexboxLayout"
+  ]
+ },
+ "city_selection_fragment_layout.xml": {
+  "source": "res/layout/city_selection_fragment_layout.xml",
+  "elements": 8,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "complain_fragment_layout.xml": {
+  "source": "res/layout/complain_fragment_layout.xml",
+  "elements": 20,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.IconEditText",
+   "com.flytaxi.layout.LockableScrollView"
+  ]
+ },
+ "complain_item_row.xml": {
+  "source": "res/layout/complain_item_row.xml",
+  "elements": 5,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "country_item_row.xml": {
+  "source": "res/layout/country_item_row.xml",
+  "elements": 5,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "View",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "cs_tab_service_fragment_layout.xml": {
+  "source": "res/layout/cs_tab_service_fragment_layout.xml",
+  "elements": 8,
+  "view_classes": [
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView"
+  ]
+ },
+ "customer_service_detail_fragment_layout.xml": {
+  "source": "res/layout/customer_service_detail_fragment_layout.xml",
+  "elements": 18,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "Spinner",
+   "TextView",
+   "com.flytaxi.layout.IconEditText"
+  ]
+ },
+ "customer_service_handle_row.xml": {
+  "source": "res/layout/customer_service_handle_row.xml",
+  "elements": 15,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "customer_service_item_row.xml": {
+  "source": "res/layout/customer_service_item_row.xml",
+  "elements": 7,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "include"
+  ]
+ },
+ "customer_service_order_row.xml": {
+  "source": "res/layout/customer_service_order_row.xml",
+  "elements": 17,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "View",
+   "androidx.recyclerview.widget.RecyclerView"
+  ]
+ },
+ "customer_service_user_row.xml": {
+  "source": "res/layout/customer_service_user_row.xml",
+  "elements": 7,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "driver_car_model_fragment_layout.xml": {
+  "source": "res/layout/driver_car_model_fragment_layout.xml",
+  "elements": 7,
+  "view_classes": [
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "androidx.recyclerview.widget.RecyclerView",
+   "include"
+  ]
+ },
+ "driver_earning_record_fragment_layout.xml": {
+  "source": "res/layout/driver_earning_record_fragment_layout.xml",
+  "elements": 12,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "Spinner",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView"
+  ]
+ },
+ "driver_license_calendar_row.xml": {
+  "source": "res/layout/driver_license_calendar_row.xml",
+  "elements": 17,
+  "view_classes": [
+   "LinearLayout",
+   "NumberPicker",
+   "RelativeLayout",
+   "TextView",
+   "com.flytaxi.layout.EditTextMaterialView"
+  ]
+ },
+ "driver_license_fragment_layout.xml": {
+  "source": "res/layout/driver_license_fragment_layout.xml",
+  "elements": 10,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "driver_license_name_row.xml": {
+  "source": "res/layout/driver_license_name_row.xml",
+  "elements": 5,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.EditTextMaterialView"
+  ]
+ },
+ "driver_license_preview_row.xml": {
+  "source": "res/layout/driver_license_preview_row.xml",
+  "elements": 5,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "driver_license_take_photo_row.xml": {
+  "source": "res/layout/driver_license_take_photo_row.xml",
+  "elements": 6,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "driver_option_fragment_layout.xml": {
+  "source": "res/layout/driver_option_fragment_layout.xml",
+  "elements": 31,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "drop_order_contact_row.xml": {
+  "source": "res/layout/drop_order_contact_row.xml",
+  "elements": 15,
+  "view_classes": [
+   "EditText",
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton",
+   "include"
+  ]
+ },
+ "drop_order_fixed_price_row.xml": {
+  "source": "res/layout/drop_order_fixed_price_row.xml",
+  "elements": 17,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton",
+   "include"
+  ]
+ },
+ "drop_order_fragment_layout.xml": {
+  "source": "res/layout/drop_order_fragment_layout.xml",
+  "elements": 13,
+  "view_classes": [
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "drop_order_group_row.xml": {
+  "source": "res/layout/drop_order_group_row.xml",
+  "elements": 7,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "drop_order_order_row.xml": {
+  "source": "res/layout/drop_order_order_row.xml",
+  "elements": 26,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "drop_order_time_row.xml": {
+  "source": "res/layout/drop_order_time_row.xml",
+  "elements": 18,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.BigTextSizeNumberPicker",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "earning_record_item_row.xml": {
+  "source": "res/layout/earning_record_item_row.xml",
+  "elements": 9,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "View"
+  ]
+ },
+ "edit_text_material_layout.xml": {
+  "source": "res/layout/edit_text_material_layout.xml",
+  "elements": 8,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "com.google.android.material.textfield.TextInputEditText",
+   "com.google.android.material.textfield.TextInputLayout"
+  ]
+ },
+ "empty_item_row.xml": {
+  "source": "res/layout/empty_item_row.xml",
+  "elements": 1,
+  "view_classes": [
+   "LinearLayout"
+  ]
+ },
+ "fare_item_row.xml": {
+  "source": "res/layout/fare_item_row.xml",
+  "elements": 3,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "fleet_car_info_v2_item_row.xml": {
+  "source": "res/layout/fleet_car_info_v2_item_row.xml",
+  "elements": 23,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "View"
+  ]
+ },
+ "fleet_car_preview_item_row.xml": {
+  "source": "res/layout/fleet_car_preview_item_row.xml",
+  "elements": 13,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "fleet_car_service_fragment_layout.xml": {
+  "source": "res/layout/fleet_car_service_fragment_layout.xml",
+  "elements": 10,
+  "view_classes": [
+   "FrameLayout",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "fleet_car_service_item_row.xml": {
+  "source": "res/layout/fleet_car_service_item_row.xml",
+  "elements": 9,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "fleet_car_title_item_row.xml": {
+  "source": "res/layout/fleet_car_title_item_row.xml",
+  "elements": 6,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "floating_bubble_view.xml": {
+  "source": "res/layout/floating_bubble_view.xml",
+  "elements": 1,
+  "view_classes": [
+   "ImageView"
+  ]
+ },
+ "floating_remove_bubble_view.xml": {
+  "source": "res/layout/floating_remove_bubble_view.xml",
+  "elements": 1,
+  "view_classes": [
+   "ImageView"
+  ]
+ },
+ "font_size_fragment_layout.xml": {
+  "source": "res/layout/font_size_fragment_layout.xml",
+  "elements": 29,
+  "view_classes": [
+   "FrameLayout",
+   "LinearLayout",
+   "RelativeLayout",
+   "ScrollView",
+   "SeekBar",
+   "TextView",
+   "View",
+   "com.flytaxi.layout.FontTextView",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "general_layout.xml": {
+  "source": "res/layout/general_layout.xml",
+  "elements": 2,
+  "view_classes": [
+   "FrameLayout",
+   "RelativeLayout"
+  ]
+ },
+ "ghout_button_layout.xml": {
+  "source": "res/layout/ghout_button_layout.xml",
+  "elements": 6,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "ghout_v2_button_layout.xml": {
+  "source": "res/layout/ghout_v2_button_layout.xml",
+  "elements": 6,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "group_list_item_row.xml": {
+  "source": "res/layout/group_list_item_row.xml",
+  "elements": 2,
+  "view_classes": [
+   "LinearLayout",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "header_bar_layout.xml": {
+  "source": "res/layout/header_bar_layout.xml",
+  "elements": 6,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "View",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "header_view.xml": {
+  "source": "res/layout/header_view.xml",
+  "elements": 4,
+  "view_classes": [
+   "ImageView",
+   "RelativeLayout",
+   "TextView"
+  ]
+ },
+ "history_fragment_layout.xml": {
+  "source": "res/layout/history_fragment_layout.xml",
+  "elements": 17,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView",
+   "androidx.swiperefreshlayout.widget.SwipeRefreshLayout",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "history_item_row.xml": {
+  "source": "res/layout/history_item_row.xml",
+  "elements": 10,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "include"
+  ]
+ },
+ "history_option_part.xml": {
+  "source": "res/layout/history_option_part.xml",
+  "elements": 9,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "hk_city_accept_order_main_layout.xml": {
+  "source": "res/layout/hk_city_accept_order_main_layout.xml",
+  "elements": 21,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.GhostButton",
+   "com.flytaxi.layout.swipeBar.SwipeBar",
+   "include"
+  ]
+ },
+ "hk_order_advance_time_part.xml": {
+  "source": "res/layout/hk_order_advance_time_part.xml",
+  "elements": 2,
+  "view_classes": [
+   "LinearLayout",
+   "com.flytaxi.layout.OptionTextView"
+  ]
+ },
+ "hk_order_first_option_part.xml": {
+  "source": "res/layout/hk_order_first_option_part.xml",
+  "elements": 2,
+  "view_classes": [
+   "LinearLayout",
+   "com.flytaxi.layout.OptionTextView"
+  ]
+ },
+ "hk_order_item_main_row.xml": {
+  "source": "res/layout/hk_order_item_main_row.xml",
+  "elements": 18,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "com.airbnb.lottie.LottieAnimationView",
+   "include"
+  ]
+ },
+ "hk_order_location_part.xml": {
+  "source": "res/layout/hk_order_location_part.xml",
+  "elements": 10,
+  "view_classes": [
+   "LinearLayout",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "icon_edittext_layout.xml": {
+  "source": "res/layout/icon_edittext_layout.xml",
+  "elements": 7,
+  "view_classes": [
+   "EditText",
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "image_picker_dialog_layout.xml": {
+  "source": "res/layout/image_picker_dialog_layout.xml",
+  "elements": 4,
+  "view_classes": [
+   "LinearLayout",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "image_picker_grid_row.xml": {
+  "source": "res/layout/image_picker_grid_row.xml",
+  "elements": 2,
+  "view_classes": [
+   "com.flytaxi.layout.imagePicker.SquareFrameLayout",
+   "com.flytaxi.layout.imagePicker.SquareImageView"
+  ]
+ },
+ "ime_base_split_test_activity.xml": {
+  "source": "res/layout/ime_base_split_test_activity.xml",
+  "elements": 1,
+  "view_classes": [
+   "LinearLayout"
+  ]
+ },
+ "ime_secondary_split_test_activity.xml": {
+  "source": "res/layout/ime_secondary_split_test_activity.xml",
+  "elements": 3,
+  "view_classes": [
+   "Button",
+   "EditText",
+   "LinearLayout"
+  ]
+ },
+ "integrity_fail_fragment_layout.xml": {
+  "source": "res/layout/integrity_fail_fragment_layout.xml",
+  "elements": 11,
+  "view_classes": [
+   "FrameLayout",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "license_list_item_row.xml": {
+  "source": "res/layout/license_list_item_row.xml",
+  "elements": 6,
+  "view_classes": [
+   "LinearLayout",
+   "include"
+  ]
+ },
+ "login_driver_status_layout.xml": {
+  "source": "res/layout/login_driver_status_layout.xml",
+  "elements": 16,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "login_fragment_layout.xml": {
+  "source": "res/layout/login_fragment_layout.xml",
+  "elements": 16,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "login_location_status_layout.xml": {
+  "source": "res/layout/login_location_status_layout.xml",
+  "elements": 16,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "login_network_status_layout.xml": {
+  "source": "res/layout/login_network_status_layout.xml",
+  "elements": 16,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "login_password_layout.xml": {
+  "source": "res/layout/login_password_layout.xml",
+  "elements": 5,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.EditTextMaterialView"
+  ]
+ },
+ "login_progress_layout.xml": {
+  "source": "res/layout/login_progress_layout.xml",
+  "elements": 4,
+  "view_classes": [
+   "LinearLayout",
+   "include"
+  ]
+ },
+ "m3_alert_dialog.xml": {
+  "source": "res/layout/m3_alert_dialog.xml",
+  "elements": 13,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "android.widget.Space",
+   "androidx.appcompat.widget.AlertDialogLayout",
+   "androidx.core.widget.NestedScrollView",
+   "include"
+  ]
+ },
+ "m3_alert_dialog_actions.xml": {
+  "source": "res/layout/m3_alert_dialog_actions.xml",
+  "elements": 6,
+  "view_classes": [
+   "Button",
+   "ScrollView",
+   "android.widget.Space",
+   "androidx.appcompat.widget.ButtonBarLayout"
+  ]
+ },
+ "m3_alert_dialog_title.xml": {
+  "source": "res/layout/m3_alert_dialog_title.xml",
+  "elements": 5,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "android.widget.Space",
+   "androidx.appcompat.widget.DialogTitle"
+  ]
+ },
+ "m3_auto_complete_simple_item.xml": {
+  "source": "res/layout/m3_auto_complete_simple_item.xml",
+  "elements": 1,
+  "view_classes": [
+   "TextView"
+  ]
+ },
+ "m3_side_sheet_dialog.xml": {
+  "source": "res/layout/m3_side_sheet_dialog.xml",
+  "elements": 4,
+  "view_classes": [
+   "FrameLayout",
+   "View",
+   "androidx.coordinatorlayout.widget.CoordinatorLayout"
+  ]
+ },
+ "main_layout.xml": {
+  "source": "res/layout/main_layout.xml",
+  "elements": 28,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView",
+   "androidx.appcompat.widget.Toolbar",
+   "androidx.drawerlayout.widget.DrawerLayout",
+   "androidx.viewpager.widget.ViewPager",
+   "com.flytaxi.layout.FullScreenVideoView",
+   "com.flytaxi.layout.MaterialTabLayout",
+   "include"
+  ]
+ },
+ "main_slide_menu_item_row.xml": {
+  "source": "res/layout/main_slide_menu_item_row.xml",
+  "elements": 2,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "map_navigation_dialog_layout.xml": {
+  "source": "res/layout/map_navigation_dialog_layout.xml",
+  "elements": 11,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "material_calendar_view.xml": {
+  "source": "res/layout/material_calendar_view.xml",
+  "elements": 10,
+  "view_classes": [
+   "LinearLayout",
+   "include",
+   "io.blackbox_vision.materialcalendarview.view.HeaderView"
+  ]
+ },
+ "material_chip_input_combo.xml": {
+  "source": "res/layout/material_chip_input_combo.xml",
+  "elements": 1,
+  "view_classes": [
+   "com.google.android.material.timepicker.ChipTextInputComboView"
+  ]
+ },
+ "material_clock_display.xml": {
+  "source": "res/layout/material_clock_display.xml",
+  "elements": 4,
+  "view_classes": [
+   "LinearLayout",
+   "include"
+  ]
+ },
+ "material_clock_display_divider.xml": {
+  "source": "res/layout/material_clock_display_divider.xml",
+  "elements": 1,
+  "view_classes": [
+   "TextView"
+  ]
+ },
+ "material_clock_period_toggle.xml": {
+  "source": "res/layout/material_clock_period_toggle.xml",
+  "elements": 3,
+  "view_classes": [
+   "com.google.android.material.button.MaterialButton",
+   "com.google.android.material.button.MaterialButtonToggleGroup"
+  ]
+ },
+ "material_clockface_textview.xml": {
+  "source": "res/layout/material_clockface_textview.xml",
+  "elements": 1,
+  "view_classes": [
+   "TextView"
+  ]
+ },
+ "material_clockface_view.xml": {
+  "source": "res/layout/material_clockface_view.xml",
+  "elements": 2,
+  "view_classes": [
+   "com.google.android.material.timepicker.ClockHandView",
+   "merge"
+  ]
+ },
+ "material_radial_view_group.xml": {
+  "source": "res/layout/material_radial_view_group.xml",
+  "elements": 2,
+  "view_classes": [
+   "View",
+   "merge"
+  ]
+ },
+ "material_textinput_timepicker.xml": {
+  "source": "res/layout/material_textinput_timepicker.xml",
+  "elements": 3,
+  "view_classes": [
+   "LinearLayout",
+   "include"
+  ]
+ },
+ "material_time_chip.xml": {
+  "source": "res/layout/material_time_chip.xml",
+  "elements": 1,
+  "view_classes": [
+   "com.google.android.material.chip.Chip"
+  ]
+ },
+ "material_time_input.xml": {
+  "source": "res/layout/material_time_input.xml",
+  "elements": 3,
+  "view_classes": [
+   "TextView",
+   "com.google.android.material.textfield.TextInputEditText",
+   "com.google.android.material.textfield.TextInputLayout"
+  ]
+ },
+ "material_timepicker.xml": {
+  "source": "res/layout/material_timepicker.xml",
+  "elements": 5,
+  "view_classes": [
+   "androidx.constraintlayout.helper.widget.Flow",
+   "com.google.android.material.timepicker.ClockFaceView",
+   "include",
+   "merge"
+  ]
+ },
+ "material_timepicker_dialog.xml": {
+  "source": "res/layout/material_timepicker_dialog.xml",
+  "elements": 7,
+  "view_classes": [
+   "Button",
+   "TextView",
+   "ViewStub",
+   "androidx.constraintlayout.widget.ConstraintLayout",
+   "com.google.android.material.button.MaterialButton",
+   "com.google.android.material.timepicker.TimePickerView"
+  ]
+ },
+ "material_timepicker_textinput_display.xml": {
+  "source": "res/layout/material_timepicker_textinput_display.xml",
+  "elements": 4,
+  "view_classes": [
+   "LinearLayout",
+   "include"
+  ]
+ },
+ "mr_cast_dialog.xml": {
+  "source": "res/layout/mr_cast_dialog.xml",
+  "elements": 3,
+  "view_classes": [
+   "LinearLayout",
+   "androidx.recyclerview.widget.RecyclerView",
+   "include"
+  ]
+ },
+ "mr_cast_group_item.xml": {
+  "source": "res/layout/mr_cast_group_item.xml",
+  "elements": 5,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "TextView"
+  ]
+ },
+ "mr_cast_group_volume_item.xml": {
+  "source": "res/layout/mr_cast_group_volume_item.xml",
+  "elements": 6,
+  "view_classes": [
+   "ImageButton",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "View",
+   "androidx.mediarouter.app.MediaRouteVolumeSlider"
+  ]
+ },
+ "mr_cast_header_item.xml": {
+  "source": "res/layout/mr_cast_header_item.xml",
+  "elements": 1,
+  "view_classes": [
+   "TextView"
+  ]
+ },
+ "mr_cast_media_metadata.xml": {
+  "source": "res/layout/mr_cast_media_metadata.xml",
+  "elements": 11,
+  "view_classes": [
+   "Button",
+   "FrameLayout",
+   "ImageButton",
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "View"
+  ]
+ },
+ "mr_cast_route_item.xml": {
+  "source": "res/layout/mr_cast_route_item.xml",
+  "elements": 11,
+  "view_classes": [
+   "CheckBox",
+   "FrameLayout",
+   "ImageButton",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView",
+   "View",
+   "androidx.mediarouter.app.MediaRouteVolumeSlider"
+  ]
+ },
+ "mr_chooser_dialog.xml": {
+  "source": "res/layout/mr_chooser_dialog.xml",
+  "elements": 14,
+  "view_classes": [
+   "Button",
+   "ImageView",
+   "LinearLayout",
+   "ListView",
+   "ProgressBar",
+   "RelativeLayout",
+   "Space",
+   "TextView"
+  ]
+ },
+ "mr_chooser_list_item.xml": {
+  "source": "res/layout/mr_chooser_list_item.xml",
+  "elements": 6,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "TextView"
+  ]
+ },
+ "mr_controller_material_dialog_b.xml": {
+  "source": "res/layout/mr_controller_material_dialog_b.xml",
+  "elements": 15,
+  "view_classes": [
+   "FrameLayout",
+   "ImageButton",
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "View",
+   "androidx.mediarouter.app.OverlayListView",
+   "include"
+  ]
+ },
+ "mr_controller_volume_item.xml": {
+  "source": "res/layout/mr_controller_volume_item.xml",
+  "elements": 6,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "androidx.mediarouter.app.MediaRouteVolumeSlider"
+  ]
+ },
+ "mr_picker_dialog.xml": {
+  "source": "res/layout/mr_picker_dialog.xml",
+  "elements": 4,
+  "view_classes": [
+   "ImageButton",
+   "LinearLayout",
+   "androidx.recyclerview.widget.RecyclerView"
+  ]
+ },
+ "mr_picker_header_item.xml": {
+  "source": "res/layout/mr_picker_header_item.xml",
+  "elements": 1,
+  "view_classes": [
+   "TextView"
+  ]
+ },
+ "mr_picker_route_item.xml": {
+  "source": "res/layout/mr_picker_route_item.xml",
+  "elements": 5,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "TextView"
+  ]
+ },
+ "mr_playback_control.xml": {
+  "source": "res/layout/mr_playback_control.xml",
+  "elements": 5,
+  "view_classes": [
+   "ImageButton",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView"
+  ]
+ },
+ "mr_volume_control.xml": {
+  "source": "res/layout/mr_volume_control.xml",
+  "elements": 4,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "androidx.mediarouter.app.MediaRouteExpandCollapseButton",
+   "androidx.mediarouter.app.MediaRouteVolumeSlider"
+  ]
+ },
+ "navigator_dialog_layout.xml": {
+  "source": "res/layout/navigator_dialog_layout.xml",
+  "elements": 9,
+  "view_classes": [
+   "LinearLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "octopus_calculator_layout.xml": {
+  "source": "res/layout/octopus_calculator_layout.xml",
+  "elements": 33,
+  "view_classes": [
+   "Button",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView"
+  ]
+ },
+ "octopus_linkage_fragment_layout.xml": {
+  "source": "res/layout/octopus_linkage_fragment_layout.xml",
+  "elements": 17,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.GhostButton",
+   "com.flytaxi.layout.LockableScrollView"
+  ]
+ },
+ "octopus_payment_dialog_layout.xml": {
+  "source": "res/layout/octopus_payment_dialog_layout.xml",
+  "elements": 30,
+  "view_classes": [
+   "Button",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView"
+  ]
+ },
+ "operation_dialog_layout.xml": {
+  "source": "res/layout/operation_dialog_layout.xml",
+  "elements": 12,
+  "view_classes": [
+   "LinearLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "option_order_option_row.xml": {
+  "source": "res/layout/option_order_option_row.xml",
+  "elements": 33,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton",
+   "com.flytaxi.layout.PriceNumberPickerView"
+  ]
+ },
+ "order_action_part.xml": {
+  "source": "res/layout/order_action_part.xml",
+  "elements": 17,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.FontTextView",
+   "com.google.android.flexbox.FlexboxLayout"
+  ]
+ },
+ "order_advance_time_part.xml": {
+  "source": "res/layout/order_advance_time_part.xml",
+  "elements": 2,
+  "view_classes": [
+   "LinearLayout",
+   "com.flytaxi.layout.OptionTextView"
+  ]
+ },
+ "order_amount_part.xml": {
+  "source": "res/layout/order_amount_part.xml",
+  "elements": 3,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "View"
+  ]
+ },
+ "order_detail_option_layout.xml": {
+  "source": "res/layout/order_detail_option_layout.xml",
+  "elements": 3,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "order_detail_payment_layout.xml": {
+  "source": "res/layout/order_detail_payment_layout.xml",
+  "elements": 6,
+  "view_classes": [
+   "LinearLayout",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "order_first_option_part.xml": {
+  "source": "res/layout/order_first_option_part.xml",
+  "elements": 5,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.OptionTextView"
+  ]
+ },
+ "order_fragment_layout.xml": {
+  "source": "res/layout/order_fragment_layout.xml",
+  "elements": 4,
+  "view_classes": [
+   "RelativeLayout",
+   "include"
+  ]
+ },
+ "order_fragment_main_layout.xml": {
+  "source": "res/layout/order_fragment_main_layout.xml",
+  "elements": 48,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.ExperienceSeekBar",
+   "com.flytaxi.layout.swipeBar.SwipeBar"
+  ]
+ },
+ "order_fragment_mask_layout.xml": {
+  "source": "res/layout/order_fragment_mask_layout.xml",
+  "elements": 6,
+  "view_classes": [
+   "LinearLayout",
+   "ScrollView",
+   "TextView",
+   "include"
+  ]
+ },
+ "order_fragment_outdate_layout.xml": {
+  "source": "res/layout/order_fragment_outdate_layout.xml",
+  "elements": 5,
+  "view_classes": [
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "com.flytaxi.layout.onOffSwitch.OnOffSwitch"
+  ]
+ },
+ "order_item_main_row.xml": {
+  "source": "res/layout/order_item_main_row.xml",
+  "elements": 7,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "include"
+  ]
+ },
+ "order_item_row.xml": {
+  "source": "res/layout/order_item_row.xml",
+  "elements": 6,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "com.flytaxi.layout.FontTextView",
+   "include"
+  ]
+ },
+ "order_location_part.xml": {
+  "source": "res/layout/order_location_part.xml",
+  "elements": 14,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "order_log_part.xml": {
+  "source": "res/layout/order_log_part.xml",
+  "elements": 2,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "order_option_part.xml": {
+  "source": "res/layout/order_option_part.xml",
+  "elements": 8,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.google.android.flexbox.FlexboxLayout"
+  ]
+ },
+ "order_phone_part.xml": {
+  "source": "res/layout/order_phone_part.xml",
+  "elements": 3,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "order_receiver_part.xml": {
+  "source": "res/layout/order_receiver_part.xml",
+  "elements": 3,
+  "view_classes": [
+   "LinearLayout",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "order_second_option_part.xml": {
+  "source": "res/layout/order_second_option_part.xml",
+  "elements": 8,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "com.flytaxi.layout.FontTextView"
+  ]
+ },
+ "order_service_part.xml": {
+  "source": "res/layout/order_service_part.xml",
+  "elements": 13,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "com.google.android.flexbox.FlexboxLayout"
+  ]
+ },
+ "order_topic_part.xml": {
+  "source": "res/layout/order_topic_part.xml",
+  "elements": 9,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "androidx.constraintlayout.widget.ConstraintLayout",
+   "com.flytaxi.layout.FontTextView",
+   "com.google.android.flexbox.FlexboxLayout"
+  ]
+ },
+ "outdated_os_fragment_layout.xml": {
+  "source": "res/layout/outdated_os_fragment_layout.xml",
+  "elements": 6,
+  "view_classes": [
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button",
+   "include"
+  ]
+ },
+ "payme_fragment_layout.xml": {
+  "source": "res/layout/payme_fragment_layout.xml",
+  "elements": 25,
+  "view_classes": [
+   "CheckBox",
+   "EditText",
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "WebView",
+   "com.flytaxi.layout.IconEditText",
+   "com.flytaxi.layout.LockableScrollView"
+  ]
+ },
+ "payment_fragment_layout.xml": {
+  "source": "res/layout/payment_fragment_layout.xml",
+  "elements": 17,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView",
+   "com.flytaxi.layout.GhostButton",
+   "com.flytaxi.layout.LockableScrollView"
+  ]
+ },
+ "payment_item_row.xml": {
+  "source": "res/layout/payment_item_row.xml",
+  "elements": 5,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "permission_layout.xml": {
+  "source": "res/layout/permission_layout.xml",
+  "elements": 10,
+  "view_classes": [
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "permission_setting_fragment_layout.xml": {
+  "source": "res/layout/permission_setting_fragment_layout.xml",
+  "elements": 40,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "View",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "phone_verify_confirm_dialog_layout.xml": {
+  "source": "res/layout/phone_verify_confirm_dialog_layout.xml",
+  "elements": 8,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "phone_verify_fragment_layout.xml": {
+  "source": "res/layout/phone_verify_fragment_layout.xml",
+  "elements": 17,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "place_autocomplete_item_powered_by_google.xml": {
+  "source": "res/layout/place_autocomplete_item_powered_by_google.xml",
+  "elements": 4,
+  "view_classes": [
+   "ImageView",
+   "RelativeLayout",
+   "View",
+   "include"
+  ]
+ },
+ "place_autocomplete_item_prediction.xml": {
+  "source": "res/layout/place_autocomplete_item_prediction.xml",
+  "elements": 5,
+  "view_classes": [
+   "RelativeLayout",
+   "TextView",
+   "View",
+   "include"
+  ]
+ },
+ "place_autocomplete_progress.xml": {
+  "source": "res/layout/place_autocomplete_progress.xml",
+  "elements": 1,
+  "view_classes": [
+   "ProgressBar"
+  ]
+ },
+ "prepare_take_dialog_layout.xml": {
+  "source": "res/layout/prepare_take_dialog_layout.xml",
+  "elements": 8,
+  "view_classes": [
+   "LinearLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "price_confirm_dialog_layout.xml": {
+  "source": "res/layout/price_confirm_dialog_layout.xml",
+  "elements": 7,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "price_picker_view.xml": {
+  "source": "res/layout/price_picker_view.xml",
+  "elements": 5,
+  "view_classes": [
+   "EditText",
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "progress_dialog_fragment_layout.xml": {
+  "source": "res/layout/progress_dialog_fragment_layout.xml",
+  "elements": 2,
+  "view_classes": [
+   "LinearLayout",
+   "ProgressBar"
+  ]
+ },
+ "radio_v2_button_layout.xml": {
+  "source": "res/layout/radio_v2_button_layout.xml",
+  "elements": 5,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "record_transaction_fragment_layout.xml": {
+  "source": "res/layout/record_transaction_fragment_layout.xml",
+  "elements": 9,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView"
+  ]
+ },
+ "record_transaction_item_row.xml": {
+  "source": "res/layout/record_transaction_item_row.xml",
+  "elements": 9,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "View"
+  ]
+ },
+ "recycler_tab_item_row.xml": {
+  "source": "res/layout/recycler_tab_item_row.xml",
+  "elements": 2,
+  "view_classes": [
+   "LinearLayout",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "register_fragment_layout.xml": {
+  "source": "res/layout/register_fragment_layout.xml",
+  "elements": 11,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView",
+   "include"
+  ]
+ },
+ "register_info_part.xml": {
+  "source": "res/layout/register_info_part.xml",
+  "elements": 17,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ScrollView",
+   "Spinner",
+   "TextView",
+   "com.flytaxi.layout.IconEditText",
+   "include"
+  ]
+ },
+ "reject_order_item_row.xml": {
+  "source": "res/layout/reject_order_item_row.xml",
+  "elements": 4,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "release_spinner_layout.xml": {
+  "source": "res/layout/release_spinner_layout.xml",
+  "elements": 4,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "ride_detail_fragment_layout.xml": {
+  "source": "res/layout/ride_detail_fragment_layout.xml",
+  "elements": 16,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "androidx.recyclerview.widget.RecyclerView",
+   "include"
+  ]
+ },
+ "root_device_fragment_layout.xml": {
+  "source": "res/layout/root_device_fragment_layout.xml",
+  "elements": 10,
+  "view_classes": [
+   "FrameLayout",
+   "LinearLayout",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "rules_fragment_layout.xml": {
+  "source": "res/layout/rules_fragment_layout.xml",
+  "elements": 4,
+  "view_classes": [
+   "LinearLayout",
+   "WebView",
+   "include"
+  ]
+ },
+ "setting_fragment_layout.xml": {
+  "source": "res/layout/setting_fragment_layout.xml",
+  "elements": 61,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.FontTextView",
+   "com.flytaxi.layout.GhostButton",
+   "com.flytaxi.layout.LockableScrollView"
+  ]
+ },
+ "sign_up_driver_info_layout.xml": {
+  "source": "res/layout/sign_up_driver_info_layout.xml",
+  "elements": 10,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.EditTextMaterialView"
+  ]
+ },
+ "sign_up_fragment_layout.xml": {
+  "source": "res/layout/sign_up_fragment_layout.xml",
+  "elements": 19,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "slide_menu_layout.xml": {
+  "source": "res/layout/slide_menu_layout.xml",
+  "elements": 20,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "androidx.core.widget.NestedScrollView",
+   "androidx.recyclerview.widget.RecyclerView"
+  ]
+ },
+ "speech_dialog_layout.xml": {
+  "source": "res/layout/speech_dialog_layout.xml",
+  "elements": 8,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "spinner_drop_down_layout.xml": {
+  "source": "res/layout/spinner_drop_down_layout.xml",
+  "elements": 3,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "spinner_layout.xml": {
+  "source": "res/layout/spinner_layout.xml",
+  "elements": 4,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "splash_screen_fragment_layout.xml": {
+  "source": "res/layout/splash_screen_fragment_layout.xml",
+  "elements": 24,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button",
+   "com.flytaxi.layout.LockableScrollView"
+  ]
+ },
+ "subscription_plan_dialog_layout.xml": {
+  "source": "res/layout/subscription_plan_dialog_layout.xml",
+  "elements": 8,
+  "view_classes": [
+   "LinearLayout",
+   "TextView",
+   "com.flytaxi.layout.GhostButton"
+  ]
+ },
+ "sunset_account_fragment_layout.xml": {
+  "source": "res/layout/sunset_account_fragment_layout.xml",
+  "elements": 13,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "suspend_spinner_layout.xml": {
+  "source": "res/layout/suspend_spinner_layout.xml",
+  "elements": 4,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "take_photo_fragment_layout.xml": {
+  "source": "res/layout/take_photo_fragment_layout.xml",
+  "elements": 25,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "androidx.camera.view.PreviewView",
+   "com.flytaxi.layout.GhostV2Button",
+   "include"
+  ]
+ },
+ "time_distance_fragment_layout.xml": {
+  "source": "res/layout/time_distance_fragment_layout.xml",
+  "elements": 44,
+  "view_classes": [
+   "LinearLayout",
+   "ScrollView",
+   "SeekBar",
+   "TextView",
+   "com.flytaxi.layout.IconEditText"
+  ]
+ },
+ "time_table_fragment_layout.xml": {
+  "source": "res/layout/time_table_fragment_layout.xml",
+  "elements": 24,
+  "view_classes": [
+   "CheckBox",
+   "LinearLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.BigTextSizeNumberPicker",
+   "com.flytaxi.layout.FontTextView",
+   "com.flytaxi.layout.GhostButton",
+   "include"
+  ]
+ },
+ "uber_popup_layout.xml": {
+  "source": "res/layout/uber_popup_layout.xml",
+  "elements": 19,
+  "view_classes": [
+   "EditText",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "com.flytaxi.layout.GhostV2Button"
+  ]
+ },
+ "wallet_fragment_layout.xml": {
+  "source": "res/layout/wallet_fragment_layout.xml",
+  "elements": 24,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "TextView"
+  ]
+ },
+ "warning_fragment_layout.xml": {
+  "source": "res/layout/warning_fragment_layout.xml",
+  "elements": 13,
+  "view_classes": [
+   "FrameLayout",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "com.flytaxi.layout.FontTextView",
+   "com.flytaxi.layout.GhostButton",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "warning_item_row.xml": {
+  "source": "res/layout/warning_item_row.xml",
+  "elements": 2,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "warning_message_layout.xml": {
+  "source": "res/layout/warning_message_layout.xml",
+  "elements": 3,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "webview_fragment_layout.xml": {
+  "source": "res/layout/webview_fragment_layout.xml",
+  "elements": 9,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "RelativeLayout",
+   "TextView",
+   "WebView",
+   "com.flytaxi.layout.LockableScrollView"
+  ]
+ },
+ "wechat_fragment_layout.xml": {
+  "source": "res/layout/wechat_fragment_layout.xml",
+  "elements": 33,
+  "view_classes": [
+   "FrameLayout",
+   "ImageView",
+   "LinearLayout",
+   "ProgressBar",
+   "RelativeLayout",
+   "ScrollView",
+   "TextView",
+   "View",
+   "com.flytaxi.layout.GhostV2Button",
+   "com.flytaxi.layout.LockableScrollView",
+   "include"
+  ]
+ },
+ "week_view.xml": {
+  "source": "res/layout/week_view.xml",
+  "elements": 8,
+  "view_classes": [
+   "LinearLayout",
+   "TextView"
+  ]
+ },
+ "week_view1.xml": {
+  "source": "res/layout/week_view1.xml",
+  "elements": 15,
+  "view_classes": [
+   "LinearLayout",
+   "RelativeLayout",
+   "io.blackbox_vision.materialcalendarview.view.DayView"
+  ]
+ },
+ "week_view2.xml": {
+  "source": "res/layout/week_view2.xml",
+  "elements": 15,
+  "view_classes": [
+   "LinearLayout",
+   "RelativeLayout",
+   "io.blackbox_vision.materialcalendarview.view.DayView"
+  ]
+ },
+ "week_view3.xml": {
+  "source": "res/layout/week_view3.xml",
+  "elements": 15,
+  "view_classes": [
+   "LinearLayout",
+   "RelativeLayout",
+   "io.blackbox_vision.materialcalendarview.view.DayView"
+  ]
+ },
+ "week_view4.xml": {
+  "source": "res/layout/week_view4.xml",
+  "elements": 15,
+  "view_classes": [
+   "LinearLayout",
+   "RelativeLayout",
+   "io.blackbox_vision.materialcalendarview.view.DayView"
+  ]
+ },
+ "week_view5.xml": {
+  "source": "res/layout/week_view5.xml",
+  "elements": 15,
+  "view_classes": [
+   "LinearLayout",
+   "RelativeLayout",
+   "io.blackbox_vision.materialcalendarview.view.DayView"
+  ]
+ },
+ "week_view6.xml": {
+  "source": "res/layout/week_view6.xml",
+  "elements": 15,
+  "view_classes": [
+   "LinearLayout",
+   "RelativeLayout",
+   "io.blackbox_vision.materialcalendarview.view.DayView"
+  ]
+ },
+ "whats_app_part.xml": {
+  "source": "res/layout/whats_app_part.xml",
+  "elements": 6,
+  "view_classes": [
+   "ImageView",
+   "LinearLayout",
+   "TextView"
+  ]
+ }
+}

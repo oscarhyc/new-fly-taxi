@@ -1,0 +1,26 @@
+# source: res/layout/take_photo_fragment_layout.xml
+<LinearLayout orientation=1 background=@color/black layout_width=4294967295 layout_height=4294967295>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout id=@id/take_photo_layout layout_width=4294967295 layout_height=1>
+      <ImageView id=@id/back_preview_image_view layout_width=4294967295 layout_height=4294967295>
+      <androidx.camera.view.PreviewView id=@id/back_camera_view background=@color/black layout_width=4294967295 layout_height=4294967295 adjustViewBounds=True keepScreenOn=True>
+      <RelativeLayout id=@id/photo_frame_blur_layout layout_width=4294967295 layout_height=4294967295>
+        <LinearLayout orientation=0 id=@id/take_photo_frame_layout layout_width=4294967295 layout_height=4294967294>
+          <ImageView layout_width=4294967295 layout_height=@dimen/take_photo_frame_height src=@0x7f08036e scaleType=1>
+        <LinearLayout orientation=0 background=@drawable/take_photo_frame_background layout_width=4294967295 layout_height=4294967295>
+        <LinearLayout orientation=0 background=@drawable/take_photo_frame_background layout_width=4294967295 layout_height=4294967295>
+        <LinearLayout gravity=0x00000011 orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000011 id=@id/back_camera_frame_tips_title paddingTop=@dimen/general_small_size paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/white gravity=0x00000011 id=@id/description_text padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+          <LinearLayout gravity=0x00000011 orientation=0 id=@id/frame_success_layout layout_width=4294967295 layout_height=4294967294>
+            <ImageView layout_width=4294967294 layout_height=4294967294 src=@0x7f0801b5>
+            <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000011 layout_width=4294967294 layout_height=4294967294 text=@string/take_photo_frame_success_message>
+    <RelativeLayout orientation=1 background=@color/dark_grey_01 layout_width=4294967295 layout_height=1>
+      <RelativeLayout gravity=0x00000011 id=@id/take_photo_button layout_width=4294967294 layout_height=4294967294>
+        <ImageView layout_width=4294967294 layout_height=4294967294 src=@0x7f080283>
+        <TextView textSize=@dimen/large_font_size textColor=@color/black layout_width=4294967294 layout_height=4294967294 text=@string/take_photo_shutter_title>
+      <LinearLayout orientation=0 id=@id/confirm_layout layout_width=4294967295 layout_height=4294967294 layout_margin=@dimen/general_medium_size divider=@drawable/linear_layout_spacing showDividers=0x00000002>
+        <com.flytaxi.layout.GhostV2Button id=@id/retake_button layout_width=1 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/gold_small_radius_alpha_background titleColor=@color/colorPrimary titleSize=@dimen/large_font_size titleText=@string/take_photo_retake_title>
+        <com.flytaxi.layout.GhostV2Button id=@id/confirm_button layout_width=1 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/gold_radius_v2_background titleColor=@color/black titleSize=@dimen/large_font_size titleText=@string/confirm_text>

@@ -1,0 +1,3 @@
+# source: res/layout/image_picker_grid_row.xml
+<com.flytaxi.layout.imagePicker.SquareFrameLayout id=@id/root background=@color/gray layout_width=4294967295 layout_height=4294967294 matchHeightToWidth=True>
+  <com.flytaxi.layout.imagePicker.SquareImageView id=@id/iv_thumbnail layout_width=4294967295 layout_height=4294967295>

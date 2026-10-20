@@ -1,0 +1,21 @@
+# source: res/layout/complain_fragment_layout.xml
+<RelativeLayout orientation=1 layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <LinearLayout orientation=1 id=@id/general_layout layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout layout_width=4294967295 layout_height=16843499>
+      <ImageView id=@id/back_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_back>
+      <TextView textSize=@dimen/large_font_size textColor=@color/colorPrimary gravity=0x00000011 id=@id/title_text layout_width=4294967295 layout_height=16843499>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/red id=@id/send_button padding=@dimen/general_small_size visibility=2 layout_width=4294967294 layout_height=4294967294 text=@string/send_text>
+    <androidx.recyclerview.widget.RecyclerView id=@id/complain_type_recycle_layout scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295 divider=@0x00000000>
+    <ScrollView id=@id/complain_content_layout visibility=2 scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/complain_type_title>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/complain_type_title layout_width=4294967295 layout_height=4294967294>
+        <com.flytaxi.layout.IconEditText id=@id/first_option_box visibility=2 layout_width=4294967295 layout_height=4294967294 hintColor=@color/gray iconBackgroundImage=@drawable/gray_transparent_black_background textStyle=TEXT underline=False>
+        <com.flytaxi.layout.IconEditText id=@id/second_option_box visibility=2 layout_width=4294967295 layout_height=4294967294 hintColor=@color/gray iconBackgroundImage=@drawable/gray_transparent_black_background textStyle=TEXT underline=False>
+        <com.flytaxi.layout.IconEditText id=@id/third_option_box visibility=2 layout_width=4294967295 layout_height=4294967294 hintColor=@color/gray iconBackgroundImage=@drawable/gray_transparent_black_background textStyle=TEXT underline=False>
+        <com.flytaxi.layout.IconEditText id=@id/edit_content_box layout_width=4294967295 layout_height=4294967294 hintColor=@color/gray hintText=@string/complain_input_description iconBackgroundImage=@drawable/gray_transparent_black_background textStyle=EXTRA_BIG_MULTI_LINE underline=False>
+    <LinearLayout gravity=0x00000011 id=@id/loading_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+      <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

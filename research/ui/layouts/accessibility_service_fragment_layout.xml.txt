@@ -1,0 +1,8 @@
+# source: res/layout/accessibility_service_fragment_layout.xml
+<RelativeLayout focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967295>
+    <androidx.recyclerview.widget.RecyclerView id=@id/accessibility_recycler_view layout_width=4294967295 layout_height=1 divider=@0x00000000 filterTouchesWhenObscured=True importantForAccessibility=4>

@@ -1,0 +1,27 @@
+# source: res/layout/drop_order_order_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <ImageView id=@id/voice_button layout_width=1 layout_height=4294967294 src=@drawable/driver_image_ic_mic_y>
+        <LinearLayout orientation=1 layout_width=1 layout_height=4294967294>
+          <com.flytaxi.layout.GhostButton id=@id/pickup_address_button padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/general_button_height ghostBackgroundImage=@drawable/gray_radius_black_background leftImage=@drawable/image_ic_start_location position=1 titleColor=@color/white titleSize=@dimen/medium_font_size titleText=@string/drop_off_pickup_address_text>
+          <com.flytaxi.layout.GhostButton id=@id/dropoff_address_button padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/general_button_height ghostBackgroundImage=@drawable/gray_radius_black_background leftImage=@drawable/image_ic_start_location position=1 titleColor=@color/white titleSize=@dimen/medium_font_size titleText=@string/drop_off_first_address_text>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <com.flytaxi.layout.GhostButton id=@id/car_type_button layout_width=1 layout_height=4294967294 layout_margin=@dimen/general_extra_small_size titleSize=@dimen/small_font_size>
+        <com.flytaxi.layout.GhostButton id=@id/tunnel_button layout_width=1 layout_height=4294967294 titleColor=@color/white titleSize=@dimen/small_font_size>
+        <com.flytaxi.layout.GhostButton id=@id/clear_button padding=@dimen/general_extra_small_size layout_width=1 layout_height=4294967294 ghostBackgroundImage=@drawable/gray_radius_alpha_background titleColor=@color/white titleSize=@dimen/small_font_size titleText=@string/clear_all_text topImage=@drawable/driver_image_2_ic_del_g>
+      <LinearLayout gravity=0x00000010 orientation=0 padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294>
+        <com.flytaxi.layout.GhostButton id=@id/option_button layout_width=1 layout_height=4294967294 minHeight=@dimen/general_button_height ghostBackgroundImage=@drawable/gray_radius_black_background leftImage=@drawable/driver_image_ic_more titleColor=@color/white titleSize=@dimen/small_font_size titleText=@string/drop_off_option_text>
+        <LinearLayout layout_width=@dimen/general_small_size layout_height=4294967294>
+        <com.flytaxi.layout.GhostButton id=@id/time_button layout_width=1 layout_height=4294967294 minHeight=@dimen/general_button_height ghostBackgroundImage=@drawable/gray_radius_black_background leftImage=@drawable/driver_image_2_ic_time titleColor=@color/white titleSize=@dimen/small_font_size titleText=@string/drop_off_time_text>
+      <LinearLayout gravity=0x00000010 orientation=1 id=@id/contact_list_button padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/driver_image_ic_phone>
+          <TextView textSize=@dimen/small_font_size textColor=@color/gray gravity=0x00000010 id=@id/contact_number_text layout_width=1 layout_height=@dimen/general_button_height text=@string/phone_number_hint>
+        <LinearLayout background=@color/white layout_width=4294967295 layout_height=@dimen/divider_size>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=0 padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton gravity=0x00000011 id=@id/private_submit_button visibility=2 layout_width=1 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/green_radius_alpha_background leftImage=@drawable/driver_image_ic_street_g titleColor=@color/green titleSize=@dimen/extra_small_font_size titleText=@string/drop_off_submit_private_text>
+      <com.flytaxi.layout.GhostButton gravity=0x00000011 id=@id/public_submit_button layout_width=1 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/white_radius_green_background leftImage=@drawable/driver_image_ic_sea_w titleColor=@color/gray_green titleSize=@dimen/extra_small_font_size titleText=@string/drop_off_submit_public_text>
+  <LinearLayout layout_width=4294967295 layout_height=@dimen/drop_order_bottom_height>

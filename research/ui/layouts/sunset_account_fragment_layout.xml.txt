@@ -1,0 +1,14 @@
+# source: res/layout/sunset_account_fragment_layout.xml
+<RelativeLayout background=@color/off_black layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 id=@id/top_layout layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 id=@id/main_layout background=@color/white layout_width=4294967295 layout_height=4294967295>
+    <ImageView id=@id/close_button padding=@dimen/general_small_size visibility=1 layout_width=4294967294 layout_height=4294967294 src=@drawable/linking_close_image>
+    <ScrollView scrollbars=0x00000200 layout_width=4294967295 layout_height=1>
+      <LinearLayout orientation=1 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout gravity=0x00000001 layout_width=4294967295 layout_height=4294967294>
+          <LinearLayout orientation=0 layout_width=4294967294 layout_height=4294967294>
+            <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/flytaxi_launcher_icon>
+            <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/arrow_left_and_right>
+            <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/uber_launcher_icon>
+        <TextView textColor=@color/black id=@id/description_text layout_width=4294967295 layout_height=4294967294 textAllCaps=False>
+    <com.flytaxi.layout.GhostV2Button id=@id/confirm_button background=@drawable/uber_button_radius_background layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/general_button_height titleColor=@color/white titleSize=@dimen/small_font_size>

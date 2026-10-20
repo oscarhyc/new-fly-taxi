@@ -1,0 +1,16 @@
+# source: res/layout/customer_service_handle_row.xml
+<LinearLayout orientation=1 background=@color/order_mask_black_color padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <TextView textSize=@dimen/small_font_size textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/cs_tab_cs_handle_title>
+  <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/cs_handle_suspend_type layout_width=4294967295 layout_height=4294967294>
+  <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/cs_handle_reason layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout gravity=0x00000010 orientation=0 id=@id/driver_info_layout layout_width=4294967295 layout_height=4294967294>
+    <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/driver_contact_title layout_width=1 layout_height=4294967294>
+    <ImageView id=@id/whatsapp_driver_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_wtapps>
+    <ImageView id=@id/call_driver_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/ic_phone_white>
+  <LinearLayout gravity=0x00000010 orientation=0 id=@id/customer_info_layout layout_width=4294967295 layout_height=4294967294>
+    <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/customer_contact_title layout_width=1 layout_height=4294967294>
+    <ImageView id=@id/whatsapp_customer_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_wtapps>
+    <ImageView id=@id/call_customer_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/ic_phone_white>
+  <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+    <com.flytaxi.layout.GhostButton id=@id/suspend_button layout_width=1 layout_height=4294967294 ghostBackgroundImage=@color/red titleColor=@color/white titleSize=@dimen/small_font_size titleText=@string/cs_tab_suspend_title>
+    <com.flytaxi.layout.GhostButton id=@id/release_button layout_width=1 layout_height=4294967294 ghostBackgroundImage=@color/order_blue titleColor=@color/white titleSize=@dimen/small_font_size titleText=@string/cs_tab_release_title>

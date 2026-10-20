@@ -1,0 +1,16 @@
+# source: res/layout/drop_order_contact_row.xml
+<LinearLayout orientation=1 scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary gravity=0x00000011 layout_width=4294967295 layout_height=4294967294 text=@string/dropoff_phone_number_title>
+    <LinearLayout background=@color/white layout_width=4294967295 layout_height=@dimen/divider_size>
+  <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294 layout_margin=@dimen/general_small_size>
+    <EditText textSize=@dimen/medium_font_size textColor=@color/colorPrimary textColorHint=@color/gray gravity=0x00000011 id=@id/contact_number_text background=@drawable/gray_radius_black_background padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 hint=@string/dropoff_phone_number_hint maxLines=1 maxLength=8 inputType=0x00000002>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294 layout_margin=@dimen/general_small_size>
+    <include id=@id/first_calculator_row layout_width=4294967295 layout_height=4294967294 layout=@layout/calculator_row_layout>
+    <include id=@id/second_calculator_row layout_width=4294967295 layout_height=4294967294 layout=@layout/calculator_row_layout>
+    <include id=@id/third_calculator_row layout_width=4294967295 layout_height=4294967294 layout=@layout/calculator_row_layout>
+    <include id=@id/fourth_calculator_row layout_width=4294967295 layout_height=4294967294 layout=@layout/calculator_row_layout>
+  <LinearLayout gravity=0x00000010 orientation=0 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <com.flytaxi.layout.GhostButton ellipsize=3 gravity=0x00000011 id=@id/negative_text layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/gold_radius_alpha_background titleColor=@color/colorPrimary titleSize=@dimen/medium_font_size titleText=@string/back_step_text>
+    <LinearLayout layout_width=@dimen/general_small_size layout_height=4294967294>
+    <com.flytaxi.layout.GhostButton ellipsize=3 gravity=0x00000011 id=@id/positive_text layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/white_radius_gold_background titleColor=@color/black titleSize=@dimen/medium_font_size titleText=@string/confirm_text>

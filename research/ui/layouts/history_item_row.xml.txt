@@ -1,0 +1,11 @@
+# source: res/layout/history_item_row.xml
+<LinearLayout orientation=0 id=@id/order_layout paddingLeft=@dimen/general_extra_small_size paddingTop=@dimen/general_extra_small_size paddingRight=@dimen/general_extra_small_size paddingBottom=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+  <LinearLayout orientation=1 id=@id/panel_layout layout_width=1 layout_height=4294967294>
+    <include id=@id/order_topic_view layout=@layout/order_topic_part>
+    <RelativeLayout background=@drawable/history_black_row_bottom_background layout_width=4294967295 layout_height=4294967294>
+      <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/history_translucent_black_logo>
+      <LinearLayout orientation=1 paddingLeft=@dimen/general_small_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_small_size paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+        <include id=@id/location_view layout=@layout/order_location_part>
+        <include id=@id/price_remark_view layout=@layout/order_option_part>
+        <include id=@id/action_view layout=@layout/order_action_part>
+        <include id=@id/service_view layout=@layout/order_service_part>

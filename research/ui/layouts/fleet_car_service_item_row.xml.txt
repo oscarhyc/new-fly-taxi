@@ -1,0 +1,10 @@
+# source: res/layout/fleet_car_service_item_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout gravity=0x00000010 orientation=0 id=@id/main_layout padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <ImageView id=@id/left_image layout_width=@dimen/fleet_car_size layout_height=@dimen/fleet_car_size src=@drawable/fleet_car_grey_background>
+    <LinearLayout gravity=0x00000010 orientation=0 id=@id/service_layout layout_width=1 layout_height=4294967294>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/title_text layout_width=4294967294 layout_height=4294967294>
+      <LinearLayout gravity=0x00000010 orientation=0 id=@id/service_seat_layout padding=@dimen/general_medium_size layout_width=4294967294 layout_height=4294967294>
+        <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/fleet_car_seat>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/light_gray_02 id=@id/service_seat_text layout_width=4294967294 layout_height=4294967294>
+    <ImageView id=@id/select_all_image layout_width=4294967294 layout_height=4294967294 src=@drawable/fleet_service_untick_box>

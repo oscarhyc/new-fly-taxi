@@ -1,0 +1,6 @@
+# source: res/layout/bank_information_item_row.xml
+<LinearLayout orientation=1 id=@id/info_layout padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/bank_name_title layout_width=4294967295 layout_height=4294967294>
+    <TextView textColor=@color/white id=@id/bank_id_title layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=0 background=@color/white layout_width=4294967295 layout_height=@dimen/divider_size>

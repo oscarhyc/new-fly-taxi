@@ -1,0 +1,14 @@
+# source: res/layout/drop_order_fragment_layout.xml
+<RelativeLayout layout_width=4294967295 layout_height=4294967295>
+  <androidx.recyclerview.widget.RecyclerView id=@id/drop_order_recycler_view layout_width=4294967295 layout_height=4294967295 divider=@0x00000000>
+  <LinearLayout orientation=1 id=@id/confirm_meter_price_layout paddingLeft=@dimen/general_medium_size paddingRight=@dimen/general_medium_size visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000011 layout_width=4294967295 layout_height=1 text=@string/dropoff_confirm_meter_price_description>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_spacing showDividers=0x00000002>
+      <com.flytaxi.layout.GhostButton id=@id/confirm_meter_price_cancel_button layout_width=1 layout_height=4294967294 titleColor=@color/white titleSize=@dimen/medium_font_size titleText=@string/cancel_text>
+      <com.flytaxi.layout.GhostButton id=@id/confirm_meter_price_confirm_button layout_width=1 layout_height=4294967294 ghostBackgroundImage=@drawable/white_radius_gold_background titleColor=@color/black titleSize=@dimen/medium_font_size titleText=@string/confirm_text>
+  <LinearLayout orientation=1 id=@id/error_massage_layout paddingLeft=@dimen/general_medium_size paddingRight=@dimen/general_medium_size visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000011 id=@id/error_description layout_width=4294967295 layout_height=1>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_spacing showDividers=0x00000002>
+      <com.flytaxi.layout.GhostButton id=@id/error_message_confirm_button layout_width=4294967295 layout_height=4294967294 ghostBackgroundImage=@drawable/white_radius_gold_background titleColor=@color/black titleSize=@dimen/medium_font_size titleText=@string/confirm_text>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/progress_layout background=@color/progress_gray_color visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

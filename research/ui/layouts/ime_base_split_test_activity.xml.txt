@@ -1,0 +1,2 @@
+# source: res/layout/ime_base_split_test_activity.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967295>

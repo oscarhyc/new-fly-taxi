@@ -1,0 +1,2 @@
+# source: res/layout/material_clock_display_divider.xml
+<TextView gravity=0x00000011 layout_width=@dimen/material_clock_display_padding layout_height=@dimen/material_clock_display_height importantForAccessibility=2 style=2130969394>

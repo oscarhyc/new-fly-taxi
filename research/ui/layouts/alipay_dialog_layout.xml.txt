@@ -1,0 +1,9 @@
+# source: res/layout/alipay_dialog_layout.xml
+<LinearLayout gravity=0x00000011 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 background=@drawable/alert_dialog_background padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 layout_width=4294967295 layout_height=1>
+      <TextView textSize=7169 textStyle=0x00000001 textColor=@color/black layout_width=4294967295 layout_height=4294967294 text=@string/payment_alipay_dialog_reject_personal>
+      <TextView textSize=6145 textColor=@color/dialog_color layout_width=4294967295 layout_height=4294967294 text=@string/payment_alipay_dialog_personal_alipay_rejected>
+      <TextView textSize=4098 textColor=@color/hyper_blue id=@id/apply_request_link_text layout_width=4294967295 layout_height=4294967294 text=@string/payment_alipay_dialog_alipay_app_apply_bizcode>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.GhostV2Button id=@id/confirm_button layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/gold_radius_v2_background titleColor=@color/black titleSize=@dimen/large_font_size titleText=@string/payment_alipay_dialog_apply_request>

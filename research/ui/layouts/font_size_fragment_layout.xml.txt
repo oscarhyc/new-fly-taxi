@@ -1,0 +1,30 @@
+# source: res/layout/font_size_fragment_layout.xml
+<RelativeLayout background=@color/off_black layout_width=4294967295 layout_height=4294967295>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967295>
+    <ScrollView layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+        <com.flytaxi.layout.FontTextView textColor=@color/white gravity=0x00000011 id=@id/preview_text layout_width=4294967295 layout_height=4294967294>
+        <RelativeLayout layout_width=4294967295 layout_height=4294967294>
+          <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=@dimen/general_button_height>
+            <View background=@color/grey_04 layout_width=@dimen/general_medium_size layout_height=@dimen/gray_font_bar_height>
+            <View layout_width=1 layout_height=4294967294>
+            <View background=@color/grey_04 layout_width=@dimen/general_medium_size layout_height=@dimen/gray_font_bar_height>
+            <View layout_width=1 layout_height=4294967294>
+            <View background=@color/grey_04 layout_width=@dimen/general_medium_size layout_height=@dimen/gray_font_bar_height>
+            <View layout_width=1 layout_height=4294967294>
+            <View background=@color/grey_04 layout_width=@dimen/general_medium_size layout_height=@dimen/gray_font_bar_height>
+          <SeekBar id=@id/font_seek_bar layout_width=4294967295 layout_height=@dimen/general_button_height max=100 progressDrawable=@drawable/seek_bar_custom_background thumb=@drawable/seek_bar_custom_thumb thumbOffset=1 splitTrack=False>
+        <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/large_font_size textColor=@color/grey_04 gravity=0x00000011 id=@id/font_small_text layout_width=1 layout_height=4294967294 text=@string/font_size_small_message>
+          <View layout_width=1 layout_height=4294967294>
+          <TextView textSize=@dimen/large_font_size textColor=@color/grey_04 gravity=0x00000011 id=@id/font_medium_text layout_width=1 layout_height=4294967294 text=@string/font_size_medium_message>
+          <View layout_width=1 layout_height=4294967294>
+          <TextView textSize=@dimen/large_font_size textColor=@color/grey_04 gravity=0x00000011 id=@id/font_large_text layout_width=1 layout_height=4294967294 text=@string/font_size_large_message>
+          <View layout_width=1 layout_height=4294967294>
+          <TextView textSize=@dimen/large_font_size textColor=@color/grey_04 gravity=0x00000011 id=@id/font_extra_large_text layout_width=1 layout_height=4294967294 text=@string/font_size_extra_large_message>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/grey_04 id=@id/font_description_text background=@color/grey_01 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=1 layout_width=4294967295 layout_height=@dimen/frame_bottom_height>

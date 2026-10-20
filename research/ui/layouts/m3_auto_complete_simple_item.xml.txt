@@ -1,0 +1,2 @@
+# source: res/layout/m3_auto_complete_simple_item.xml
+<TextView textAppearance=2130969713 ellipsize=3 paddingLeft=4097 paddingTop=3329 paddingRight=4097 paddingBottom=3329 layout_width=4294967295 layout_height=4294967294 maxLines=1>

@@ -1,0 +1,4 @@
+# source: res/layout/warning_message_layout.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <TextView textColor=@color/white gravity=0x00000011 id=@id/gps_error_message_bar background=@color/red padding=@dimen/general_small_size visibility=2 layout_width=4294967295 layout_height=4294967294 text=@string/gps_disable_error_message>
+  <TextView textColor=@color/white id=@id/warning_message_bar background=@color/red padding=@dimen/general_small_size visibility=2 layout_width=4294967295 layout_height=4294967294>

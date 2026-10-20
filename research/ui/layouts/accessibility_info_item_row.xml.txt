@@ -1,0 +1,8 @@
+# source: res/layout/accessibility_info_item_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout gravity=0x00000010 orientation=0 id=@id/main_layout padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <ImageView id=@id/icon_image layout_width=@dimen/login_progress_icon_size layout_height=@dimen/login_progress_icon_size>
+    <LinearLayout orientation=1 layout_width=1 layout_height=4294967294>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/app_name_text layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/menu_font_size textColor=@color/white id=@id/app_package_name_text layout_width=4294967295 layout_height=4294967294>
+    <Button textSize=@dimen/medium_font_size textColor=@color/black id=@id/remove_button background=@drawable/gold_radius_v2_background layout_width=4294967294 layout_height=4294967294 text=@string/remove_text>

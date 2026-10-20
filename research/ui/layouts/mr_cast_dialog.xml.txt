@@ -1,0 +1,4 @@
+# source: res/layout/mr_cast_dialog.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967295>
+  <include layout=@layout/mr_cast_media_metadata>
+  <androidx.recyclerview.widget.RecyclerView id=@id/mr_cast_list layout_width=4294967295 layout_height=4294967295>

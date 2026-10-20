@@ -1,0 +1,7 @@
+# source: res/layout/mr_chooser_list_item.xml
+<LinearLayout gravity=0x00000010 orientation=0 paddingLeft=@dimen/mediarouter_chooser_list_item_padding_start paddingTop=@dimen/mediarouter_chooser_list_item_padding_top paddingRight=@dimen/mediarouter_chooser_list_item_padding_end paddingBottom=@dimen/mediarouter_chooser_list_item_padding_bottom layout_width=4294967295 layout_height=4294967294 minHeight=8193 paddingStart=@dimen/mediarouter_chooser_list_item_padding_start paddingEnd=@dimen/mediarouter_chooser_list_item_padding_end>
+  <ImageView id=@id/mr_chooser_route_icon layout_width=6145 layout_height=6145>
+  <ProgressBar id=@id/mr_chooser_route_progress_bar visibility=2 layout_width=6145 layout_height=6145 indeterminate=True style=16842871>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+    <TextView textAppearance=@style/TextAppearance_MediaRouter_PrimaryText ellipsize=4 gravity=0x00800003 id=@id/mr_chooser_route_name layout_width=4294967295 layout_height=8193 singleLine=True textAlignment=5>
+    <TextView textAppearance=@style/TextAppearance_MediaRouter_SecondaryText ellipsize=4 gravity=0x00800003 id=@id/mr_chooser_route_desc layout_width=4294967295 layout_height=6145 singleLine=True textAlignment=5>

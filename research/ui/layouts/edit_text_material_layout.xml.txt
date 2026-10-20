@@ -1,0 +1,9 @@
+# source: res/layout/edit_text_material_layout.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=0 id=@id/background_layout padding=@dimen/general_small_size layout_width=4294967295 layout_height=@dimen/edit_material_height>
+    <LinearLayout gravity=0x00000050 layout_width=4294967294 layout_height=4294967295>
+      <ImageView id=@id/input_left_image layout_width=4294967294 layout_height=4294967294>
+    <com.google.android.material.textfield.TextInputLayout textColorHint=@color/black id=@id/text_input_layout layout_width=1 layout_height=4294967295 hintTextAppearance=@style/TextInputLabel hintTextColor=@color/black>
+      <com.google.android.material.textfield.TextInputEditText textSize=@dimen/large_font_size textColor=@color/black id=@id/input_edit_text background=@color/transparent paddingTop=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967295 maxLines=1 singleLine=True textCursorDrawable=@drawable/edit_text_cursor>
+    <TextView textSize=@dimen/large_font_size textColor=@color/black id=@id/input_right_button layout_width=4294967294 layout_height=4294967294 fontFamily=sans-serif-light>
+  <TextView textSize=@dimen/medium_font_size id=@id/bottom_text visibility=2 layout_width=4294967295 layout_height=4294967294>

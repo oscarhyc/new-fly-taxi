@@ -1,0 +1,5 @@
+# source: res/layout/mr_picker_dialog.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout gravity=0x00800003 orientation=0 paddingLeft=4097 layout_width=4294967295 layout_height=@dimen/mr_dynamic_dialog_row_height paddingStart=4097>
+    <ImageButton id=@id/mr_picker_close_button background=2130969586 layout_width=6145 layout_height=6145 src=2130969428 contentDescription=@string/mr_controller_close_description>
+  <androidx.recyclerview.widget.RecyclerView id=@id/mr_picker_list layout_width=4294967295 layout_height=4294967295>

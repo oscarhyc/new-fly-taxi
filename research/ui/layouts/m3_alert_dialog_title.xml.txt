@@ -1,0 +1,6 @@
+# source: res/layout/m3_alert_dialog_title.xml
+<LinearLayout orientation=1 id=@id/topPanel layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout id=@id/title_template style=2130969368>
+    <ImageView id=@0x01020006 style=2130969367>
+    <androidx.appcompat.widget.DialogTitle id=@id/alertTitle style=2130969369>
+  <android.widget.Space id=@id/titleDividerNoCustom visibility=2 layout_width=4294967295 layout_height=@dimen/m3_alert_dialog_title_bottom_margin>

@@ -1,0 +1,7 @@
+# source: res/layout/order_item_row.xml
+<RelativeLayout paddingLeft=@dimen/general_extra_small_size paddingTop=@dimen/general_extra_small_size paddingRight=@dimen/general_extra_small_size paddingBottom=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+  <LinearLayout orientation=0 id=@id/panel_layout layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+    <include filterTouchesWhenObscured=True importantForAccessibility=4 layout=@layout/hk_order_item_main_row>
+  <LinearLayout orientation=1 layout_width=4294967294 layout_height=4294967294>
+    <ImageView id=@id/error_timer_icon visibility=2 layout_width=4294967294 layout_height=4294967294 src=@drawable/driver_image_ic_password_g>
+    <com.flytaxi.layout.FontTextView textColor=@color/white gravity=0x00000011 id=@id/error_timer_description visibility=2 layout_width=4294967294 layout_height=4294967294>

@@ -1,0 +1,4 @@
+# source: res/layout/order_detail_option_layout.xml
+<LinearLayout orientation=0 layout_width=4294967294 layout_height=4294967294>
+  <TextView textSize=@dimen/large_font_size textColor=@color/white id=@id/title_text paddingLeft=@dimen/general_medium_size paddingTop=@dimen/general_extra_small_size paddingRight=@dimen/general_medium_size paddingBottom=@dimen/general_extra_small_size layout_width=4294967294 layout_height=4294967294>
+  <LinearLayout orientation=0 id=@id/divider_line background=@color/gray layout_width=@dimen/divider_size layout_height=4294967295>

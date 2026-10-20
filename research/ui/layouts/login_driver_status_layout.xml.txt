@@ -1,0 +1,17 @@
+# source: res/layout/login_driver_status_layout.xml
+<LinearLayout orientation=0 id=@id/login_driver_status_layout layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 background=@color/grey_01 layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout gravity=0x00000010 orientation=0 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+      <ImageView layout_width=4294967294 layout_height=4294967294 src=@0x7f0802c3>
+      <TextView textSize=@dimen/large_font_size textColor=@color/white layout_width=1 layout_height=4294967294 text=@string/login_progress_driver_title>
+      <LinearLayout gravity=0x00000010 orientation=0 id=@id/login_driver_checking_layout layout_width=4294967294 layout_height=4294967294>
+        <ProgressBar layout_width=@dimen/login_loading_size layout_height=4294967294 style=16842871>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary layout_width=4294967294 layout_height=4294967294 text=@string/login_status_checking>
+      <LinearLayout gravity=0x00000010 orientation=0 id=@id/login_driver_success_layout layout_width=4294967294 layout_height=4294967294>
+        <ImageView layout_width=4294967294 layout_height=4294967294 src=@0x7f080286>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/alert_green layout_width=4294967294 layout_height=4294967294 text=@string/login_status_success>
+      <LinearLayout gravity=0x00000010 orientation=0 id=@id/login_driver_fail_layout layout_width=4294967294 layout_height=4294967294>
+        <ImageView layout_width=4294967294 layout_height=4294967294 src=@0x7f0801bc>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/alert_red layout_width=4294967294 layout_height=4294967294 text=@string/login_status_fail>
+    <com.flytaxi.layout.GhostV2Button id=@id/login_driver_retry_button layout_width=4294967295 layout_height=@dimen/general_button_height layout_margin=@dimen/general_small_size ghostBackgroundImage=@drawable/gold_radius_v2_background titleColor=@color/black titleSize=@dimen/large_font_size titleText=@string/login_retry_title>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000001 id=@id/login_driver_fail_description layout_width=4294967295 layout_height=4294967294>

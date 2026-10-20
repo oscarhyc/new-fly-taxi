@@ -1,0 +1,5 @@
+# source: res/layout/car_model_web_page_item_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout gravity=0x00000010 orientation=1 id=@id/main_layout paddingTop=@dimen/general_extra_small_size paddingBottom=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/ghost_v2_button_min_height>
+    <LinearLayout gravity=0x00000011 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/black gravity=0x00000011 id=@id/title_text padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294 text=@string/car_model_other_type_text>

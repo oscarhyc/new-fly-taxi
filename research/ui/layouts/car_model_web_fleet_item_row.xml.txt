@@ -1,0 +1,12 @@
+# source: res/layout/car_model_web_fleet_item_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <RelativeLayout id=@id/main_layout background=@drawable/yellow_radius_background layout_width=4294967295 layout_height=4294967294>
+    <ImageView paddingBottom=@dimen/general_medium_size layout_width=4294967294 layout_height=4294967294 src=@drawable/flytaxi_white_translucent_small_logo>
+    <LinearLayout orientation=1 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/small_font_size textStyle=0x00000001 textColor=@color/black id=@id/member_page_text layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=0 background=@drawable/crystal_aqua_radius_background layout_width=4294967294 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/electric_blue id=@id/add_car_text paddingLeft=@dimen/general_medium_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_medium_size paddingBottom=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294>
+        <TextView textSize=@dimen/small_font_size textColor=@color/black layout_width=4294967294 layout_height=4294967294 text=@string/and_text>
+        <LinearLayout orientation=0 background=@drawable/rose_veil_radius_background layout_width=4294967294 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/crimson_flame id=@id/add_licence_text paddingLeft=@dimen/general_medium_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_medium_size paddingBottom=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294>

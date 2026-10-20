@@ -1,0 +1,4 @@
+# source: res/layout/order_amount_part.xml
+<LinearLayout orientation=1 padding=@dimen/general_small_size visibility=2 layout_width=4294967295 layout_height=4294967294>
+  <TextView textSize=@dimen/amount_font_size textColor=@color/white gravity=0x00000011 id=@id/amount_text layout_width=4294967295 layout_height=4294967294>
+  <View background=@color/gray layout_width=4294967295 layout_height=@dimen/divider_size>

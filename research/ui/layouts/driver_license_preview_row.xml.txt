@@ -1,0 +1,6 @@
+# source: res/layout/driver_license_preview_row.xml
+<LinearLayout orientation=1 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=0 background=@drawable/dark_grey_radius_v2_background padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <ImageView id=@id/preview_image layout_width=4294967295 layout_height=@dimen/license_preview_image_height scaleType=3>
+  <TextView textSize=@dimen/medium_font_size textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/driver_doc_type_retry_image_title>
+  <com.flytaxi.layout.GhostV2Button id=@id/retake_button layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/dark_grey_radius_v2_background leftImage=@0x7f080285 titleColor=@color/colorPrimary titleSize=@dimen/large_font_size titleText=@string/driver_doc_type_retry_image_button>

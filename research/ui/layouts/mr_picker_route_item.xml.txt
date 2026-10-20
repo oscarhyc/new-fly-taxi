@@ -1,0 +1,6 @@
+# source: res/layout/mr_picker_route_item.xml
+<LinearLayout gravity=0x00000010 orientation=0 background=2130969585 paddingLeft=4097 paddingRight=4097 layout_width=4294967295 layout_height=@dimen/mr_dynamic_dialog_row_height>
+  <FrameLayout layout_width=6145 layout_height=6145>
+    <ImageView id=@id/mr_picker_route_icon layout_width=4294967295 layout_height=4294967295 scaleType=3>
+    <ProgressBar id=@id/mr_picker_route_progress_bar visibility=1 layout_width=4294967295 layout_height=4294967295 indeterminate=True style=16842871>
+  <TextView textAppearance=2130969425 gravity=0x00800003 id=@id/mr_picker_route_name layout_width=1 layout_height=4294967294 textAlignment=5>

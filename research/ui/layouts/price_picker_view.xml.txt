@@ -1,0 +1,6 @@
+# source: res/layout/price_picker_view.xml
+<LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+  <ImageView id=@id/decrease_button layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_minus>
+  <TextView textSize=@dimen/small_font_size textColor=@color/gray gravity=0x00000011 id=@id/currency_text layout_width=@dimen/number_picker_number_width layout_height=4294967295>
+  <EditText textSize=@dimen/small_font_size textColor=@color/gray gravity=0x00000011 id=@id/edit_number_text background=@color/transparent layout_width=4294967294 layout_height=4294967295 minWidth=@dimen/number_picker_number_width digits=0123456789 inputType=0x00000003 imeOptions=0x00000006>
+  <ImageView id=@id/increase_button layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_add>

@@ -1,0 +1,4 @@
+# source: res/layout/order_phone_part.xml
+<LinearLayout orientation=1 paddingTop=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294>
+  <TextView textSize=@dimen/extra_large_font_size textColor=@color/white id=@id/customer_phone_text paddingLeft=@dimen/general_extra_small_size paddingBottom=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294>
+  <TextView textSize=@dimen/extra_large_font_size textColor=@color/white id=@id/shipper_phone_text paddingLeft=@dimen/general_extra_small_size paddingBottom=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294>

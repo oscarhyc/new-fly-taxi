@@ -1,0 +1,2 @@
+# source: res/layout/mr_picker_header_item.xml
+<TextView textAppearance=2130969432 gravity=0x00800003 id=@id/mr_picker_header_name paddingLeft=4097 paddingTop=2049 paddingRight=4097 paddingBottom=2049 layout_width=4294967295 layout_height=4294967294 textAlignment=5>

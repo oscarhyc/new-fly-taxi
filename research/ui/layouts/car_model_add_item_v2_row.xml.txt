@@ -1,0 +1,15 @@
+# source: res/layout/car_model_add_item_v2_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <RelativeLayout background=@drawable/yellow_radius_background layout_width=4294967295 layout_height=4294967294 layout_margin=@dimen/general_small_size>
+    <ImageView id=@id/fly_taxi_image paddingBottom=@dimen/general_medium_size layout_width=4294967294 layout_height=4294967294 src=@drawable/flytaxi_white_translucent_big_logo>
+    <LinearLayout orientation=1 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout gravity=0x00000010 orientation=0 id=@id/title_layout layout_width=4294967295 layout_height=4294967294>
+        <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/fleet_car_orange_background>
+        <TextView textColor=@color/black id=@id/title_text layout_width=4294967294 layout_height=4294967294>
+      <TextView id=@id/member_page_text layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=0 background=@drawable/crystal_aqua_radius_background layout_width=4294967294 layout_height=4294967294>
+          <TextView textColor=@color/electric_blue id=@id/add_car_text paddingLeft=@dimen/general_medium_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_medium_size paddingBottom=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294>
+        <TextView textColor=@color/black layout_width=4294967294 layout_height=4294967294>
+        <LinearLayout orientation=0 background=@drawable/rose_veil_radius_background layout_width=4294967294 layout_height=4294967294>
+          <TextView textColor=@color/crimson_flame id=@id/add_licence_text paddingLeft=@dimen/general_medium_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_medium_size paddingBottom=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294>

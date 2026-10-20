@@ -1,0 +1,2 @@
+# source: res/layout/mr_cast_header_item.xml
+<TextView textAppearance=2130969432 gravity=0x00800003 id=@id/mr_cast_header_name paddingLeft=4097 paddingTop=6145 paddingRight=4097 layout_width=4294967295 layout_height=@dimen/mr_dynamic_dialog_row_height textAlignment=5>

@@ -1,0 +1,18 @@
+# source: res/layout/car_model_bottom_sheet_layout.xml
+<LinearLayout orientation=1 id=@id/bottom_sheet background=@color/off_black layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 background=@color/black focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+    <LinearLayout gravity=0x00000010 orientation=0 background=@color/off_black paddingTop=@dimen/general_extra_small_size paddingBottom=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary gravity=0x00000011 id=@id/left_header_button layout_width=1 layout_height=4294967294>
+      <TextView textSize=@dimen/large_font_size textColor=@color/white gravity=0x00000011 id=@id/header_title layout_width=1 layout_height=4294967295 autoSizeTextType=1 autoSizeStepGranularity=258 autoSizeMinTextSize=2562 autoSizeMaxTextSize=@dimen/large_font_size>
+      <com.flytaxi.layout.GhostV2Button id=@id/right_header_button layout_width=1 layout_height=4294967294 layout_margin=@dimen/ghost_v2_button_edge_size titleColor=@color/black titleSize=@dimen/medium_font_size>
+    <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/car_model_plate_layout padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <LinearLayout background=@color/colorPrimary layout_width=@dimen/general_small_size layout_height=4294967295>
+          <TextView textSize=@dimen/medium_font_size textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/car_model_add_plate_text>
+        <com.flytaxi.layout.EditTextMaterialView id=@id/car_model_plate_edit_text layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/car_model_size_layout padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <LinearLayout background=@color/colorPrimary layout_width=@dimen/general_small_size layout_height=4294967295>
+          <TextView textSize=@dimen/medium_font_size textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/car_model_add_car_size_text>
+        <androidx.recyclerview.widget.RecyclerView id=@id/car_model_sheet_recycler_view layout_width=4294967295 layout_height=4294967295 divider=@0x00000000 filterTouchesWhenObscured=True importantForAccessibility=4>

@@ -1,0 +1,2 @@
+# source: res/layout/floating_remove_bubble_view.xml
+<ImageView layout_width=@dimen/floating_bubble_size layout_height=@dimen/floating_bubble_size src=@drawable/close_default_icon>

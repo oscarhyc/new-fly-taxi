@@ -1,0 +1,3 @@
+# source: res/layout/accessibility_skip_item_row.xml
+<LinearLayout gravity=0x00000001 orientation=0 layout_width=4294967295 layout_height=4294967294>
+  <Button textSize=@dimen/medium_font_size textColor=@color/black id=@id/skip_button background=@drawable/gray_radius_v2_background layout_width=4294967294 layout_height=4294967294 text=@string/skip_text>

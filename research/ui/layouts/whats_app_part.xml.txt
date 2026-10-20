@@ -1,0 +1,7 @@
+# source: res/layout/whats_app_part.xml
+<LinearLayout layout_width=4294967294 layout_height=4294967294>
+  <LinearLayout gravity=0x00000010 orientation=0 id=@id/whats_app_layout layout_width=4294967294 layout_height=4294967294>
+    <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/whatsapp_icon>
+    <LinearLayout orientation=1 layout_width=4294967294 layout_height=4294967294>
+      <TextView textSize=@dimen/extra_small_font_size textColor=@color/gray layout_width=4294967294 layout_height=4294967294 text=@string/whats_app_support_title>
+      <TextView textSize=@dimen/extra_small_font_size textColor=@color/gray id=@id/whats_app_support_description layout_width=4294967294 layout_height=4294967294>

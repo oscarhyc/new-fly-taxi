@@ -1,0 +1,19 @@
+# source: res/layout/customer_service_detail_fragment_layout.xml
+<LinearLayout orientation=1 id=@id/background_layout background=@color/white layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 id=@id/general_layout focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout id=@id/title_layout layout_width=4294967295 layout_height=4294967294>
+      <ImageView id=@id/back_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_white_back>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/title_text layout_width=4294967294 layout_height=4294967294>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/send_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 text=@string/confirm_text>
+    <ScrollView id=@id/main_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/small_font_size textColor=@color/black id=@id/driver_info_text layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=1 id=@id/suspend_type_layout layout_width=4294967295 layout_height=4294967294>
+          <Spinner id=@id/suspend_type_spinner background=@0x00000000 layout_width=4294967295 layout_height=@dimen/general_button_height minWidth=@dimen/min_spinner_title_width>
+          <TextView textSize=@dimen/small_font_size gravity=0x00000010 id=@id/suspend_date_text background=@drawable/red_gray_background paddingLeft=@dimen/general_medium_size layout_width=4294967295 layout_height=@dimen/general_button_height>
+          <com.flytaxi.layout.IconEditText id=@id/suspend_content_box layout_width=4294967295 layout_height=4294967294 editBoxColor=@color/black hintColor=@color/light_gray hintText=@string/cs_tab_suspend_hint iconBackgroundImage=@drawable/red_gray_background textStyle=EXTRA_BIG_MULTI_LINE underline=False>
+        <LinearLayout orientation=1 id=@id/release_type_layout layout_width=4294967295 layout_height=4294967294>
+          <Spinner id=@id/release_type_spinner background=@0x00000000 layout_width=4294967295 layout_height=@dimen/general_button_height minWidth=@dimen/min_spinner_title_width>
+          <com.flytaxi.layout.IconEditText id=@id/release_content_box layout_width=4294967295 layout_height=4294967294 editBoxColor=@color/black hintColor=@color/light_gray hintText=@string/cs_tab_release_hint iconBackgroundImage=@drawable/blue_gray_background textStyle=EXTRA_BIG_MULTI_LINE underline=False>
+    <LinearLayout gravity=0x00000011 id=@id/loading_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+      <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

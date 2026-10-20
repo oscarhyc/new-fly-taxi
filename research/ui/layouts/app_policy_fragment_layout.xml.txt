@@ -1,0 +1,7 @@
+# source: res/layout/app_policy_fragment_layout.xml
+<LinearLayout orientation=1 background=@color/off_black layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout orientation=1 id=@id/main_layout background=@color/black layout_width=4294967295 layout_height=4294967295>
+    <ScrollView background=@color/black layout_width=4294967295 layout_height=1>
+      <LinearLayout orientation=1 background=@color/black layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/policy_description paddingLeft=@dimen/general_medium_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_medium_size paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>

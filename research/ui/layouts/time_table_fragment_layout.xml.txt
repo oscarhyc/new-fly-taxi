@@ -1,0 +1,25 @@
+# source: res/layout/time_table_fragment_layout.xml
+<LinearLayout gravity=0x00000011 orientation=1 id=@id/background_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <LinearLayout orientation=1 id=@id/general_layout layout_width=4294967295 layout_height=4294967295>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary gravity=0x00000011 layout_width=4294967295 layout_height=16843499 layout_margin=@dimen/general_small_size text=@string/time_table_title>
+    <ScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=1>
+      <LinearLayout orientation=1 layout_width=4294967295 layout_height=1>
+        <TextView textSize=@dimen/small_font_size textColor=@color/white gravity=0x00000011 id=@id/setup_picker_text padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 text=@string/time_table_setup_picker_text>
+        <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/white gravity=0x00000011 layout_width=1 layout_height=4294967294 text=@string/time_table_start_time>
+          <TextView textSize=@dimen/small_font_size textColor=@color/white gravity=0x00000011 layout_width=1 layout_height=4294967294 text=@string/time_table_end_time>
+        <LinearLayout orientation=0 id=@id/rest_layout padding=@dimen/general_medium_size visibility=2 layout_width=4294967295 layout_height=4294967294>
+          <com.flytaxi.layout.FontTextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary gravity=0x00000011 layout_width=4294967295 layout_height=4294967294 text=@string/time_table_today_rest_text>
+        <LinearLayout orientation=0 id=@id/time_layout visibility=2 layout_width=4294967295 layout_height=1>
+          <com.flytaxi.layout.FontTextView textSize=@dimen/small_font_size textColor=@color/colorPrimary gravity=0x00000011 id=@id/start_time layout_width=1 layout_height=4294967294>
+          <com.flytaxi.layout.FontTextView textSize=@dimen/small_font_size textColor=@color/colorPrimary gravity=0x00000011 id=@id/end_time layout_width=1 layout_height=4294967294>
+        <LinearLayout orientation=1 id=@id/picker_layout visibility=2 layout_width=4294967295 layout_height=1>
+          <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <com.flytaxi.layout.BigTextSizeNumberPicker id=@id/min_clock_picker descendantFocusability=2 layout_width=1 layout_height=@dimen/picker_height>
+            <com.flytaxi.layout.BigTextSizeNumberPicker id=@id/max_clock_picker descendantFocusability=2 layout_width=1 layout_height=@dimen/picker_height>
+          <CheckBox textColor=@color/colorPrimary id=@id/timetable_delay_checkbox layout_width=4294967295 layout_height=4294967294 button=@drawable/gold_check_box text=@string/timetable_delay_message>
+        <com.flytaxi.layout.GhostButton id=@id/rest_button layout_width=@dimen/rest_button_width layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/red_radius_alpha_background titleColor=@color/red titleSize=@dimen/medium_font_size titleText=@string/time_table_rest_text>
+        <TextView textSize=@dimen/small_font_size textColor=@color/white gravity=0x00000011 id=@id/timetable_description paddingLeft=@dimen/general_small_size paddingTop=@dimen/general_large_size paddingRight=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+        <include id=@id/what_app_view layout_width=4294967294 layout_height=4294967294 layout=@layout/whats_app_part>
+    <LinearLayout orientation=1 paddingLeft=@dimen/general_medium_size paddingRight=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton id=@id/confirm_button layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/white_radius_gold_background titleColor=@color/black titleSize=@dimen/medium_font_size>

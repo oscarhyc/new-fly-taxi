@@ -1,0 +1,20 @@
+# source: res/layout/sign_up_fragment_layout.xml
+<RelativeLayout focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967295>
+    <ScrollView id=@id/main_scroll_view layout_width=4294967295 layout_height=1>
+      <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout gravity=0x00000010 orientation=0 id=@id/youtube_teach_layout background=@color/grey_01 paddingLeft=@dimen/general_small_size paddingTop=@dimen/general_medium_size paddingRight=@dimen/general_small_size paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+          <ImageView layout_width=4294967294 layout_height=4294967294 src=@0x7f0803cd>
+          <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary paddingLeft=@dimen/general_small_size paddingRight=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 text=@string/register_teach_driver_video_text>
+          <ImageView layout_width=4294967294 layout_height=4294967294 src=@0x7f08033f>
+        <LinearLayout orientation=1 id=@id/sign_up_car_type_layout padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/medium_font_size textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/register_car_type_title>
+        <include id=@id/sign_up_driver_info_view layout=@layout/sign_up_driver_info_layout>
+        <LinearLayout orientation=0 paddingLeft=@dimen/general_large_size paddingRight=@dimen/general_large_size layout_width=4294967295 layout_height=4294967295>
+  <ImageView id=@id/whats_app_support_button layout_width=4294967294 layout_height=4294967294 layout_margin=@dimen/general_small_size src=@0x7f0803b9>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/progress_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

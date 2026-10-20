@@ -1,0 +1,8 @@
+# source: res/layout/order_item_main_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <include id=@id/advance_time_view layout=@layout/order_advance_time_part>
+  <include id=@id/first_option_view layout=@layout/order_first_option_part>
+  <TextView textSize=@dimen/extra_small_font_size textColor=@color/gray id=@id/distance_text paddingTop=@dimen/small_box_size paddingBottom=@dimen/small_box_size visibility=2 layout_width=4294967294 layout_height=4294967294>
+  <include id=@id/location_view layout=@layout/order_location_part>
+  <include id=@id/second_option_view layout=@layout/order_second_option_part>
+  <include id=@id/log_view visibility=2 filterTouchesWhenObscured=True importantForAccessibility=4 layout=@layout/order_log_part>

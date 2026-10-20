@@ -1,0 +1,22 @@
+# source: res/layout/calculator_number_pad_layout.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_spacing showDividers=0x00000002>
+  <LinearLayout orientation=0 layout_width=4294967295 layout_height=1>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 gravity=0x00000011 id=@id/number_pad_seven_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=4294967295 text=@string/number_pad_seven>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 gravity=0x00000011 id=@id/number_pad_eight_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=4294967295 text=@string/number_pad_eight>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 id=@id/number_pad_nine_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=4294967295 text=@string/number_pad_nine>
+  <LinearLayout orientation=0 layout_width=4294967295 layout_height=1>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 gravity=0x00000011 id=@id/number_pad_four_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=4294967295 text=@string/number_pad_four>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 gravity=0x00000011 id=@id/number_pad_five_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=4294967295 text=@string/number_pad_five>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 id=@id/number_pad_six_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=4294967295 text=@string/number_pad_six>
+  <LinearLayout orientation=0 layout_width=4294967295 layout_height=1>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 gravity=0x00000011 id=@id/number_pad_one_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=4294967295 text=@string/number_pad_one>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 gravity=0x00000011 id=@id/number_pad_two_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=4294967295 text=@string/number_pad_two>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 id=@id/number_pad_three_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=4294967295 text=@string/number_pad_three>
+  <LinearLayout orientation=0 layout_width=4294967295 layout_height=1>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 gravity=0x00000011 id=@id/number_pad_zero_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=4294967295 text=@string/number_pad_zero>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 gravity=0x00000011 id=@id/number_pad_dot_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=4294967295 text=@string/number_pad_dot>
+    <ImageView id=@id/number_pad_backspace_button background=@drawable/calculator_number_pad_background focusable=True clickable=True layout_width=1 layout_height=4294967295 src=@drawable/number_pad_cancel_cancel>
+  <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+    <Button textSize=@dimen/octopus_number_pad_font_size textColor=@color/grey_10 gravity=0x00000011 id=@id/number_pad_clear_button background=@drawable/calculator_number_pad_background layout_width=1 layout_height=@dimen/bottom_sheet_button_height text=@string/number_pad_ac>
+    <LinearLayout gravity=0x00000011 id=@id/amount_result_button background=@drawable/yellow_radius_background layout_width=1 layout_height=@dimen/bottom_sheet_button_height>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/black layout_width=4294967294 layout_height=4294967294 text=@string/calculator_confirm_text>

@@ -1,0 +1,12 @@
+# source: res/layout/map_navigation_dialog_layout.xml
+<LinearLayout gravity=0x00000011 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 background=@drawable/alert_dialog_background padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 layout_width=4294967295 layout_height=1>
+      <TextView textSize=@dimen/large_font_size textStyle=0x00000001 textColor=@color/dialog_color id=@id/navigation_title layout_width=4294967295 layout_height=4294967294>
+      <TextView textColor=@color/dialog_color id=@id/description layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton ellipsize=3 id=@id/rider_current_location layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@color/blue_taxi_color titleColor=@color/white titleSize=@dimen/small_font_size titleText=@string/google_map_navigation_rider_current_location_text>
+    <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton ellipsize=3 id=@id/pick_up_text layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@color/colorPrimary titleColor=@color/white titleSize=@dimen/small_font_size titleText=@string/google_map_navigation_pickup_text>
+      <LinearLayout layout_width=@dimen/general_small_size layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton ellipsize=3 id=@id/drop_off_text background=@color/transparent layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@color/red titleColor=@color/white titleSize=@dimen/small_font_size titleText=@string/google_map_navigation_dropoff_text>

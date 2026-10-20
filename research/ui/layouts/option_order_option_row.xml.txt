@@ -1,0 +1,34 @@
+# source: res/layout/option_order_option_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary gravity=0x00000011 layout_width=4294967295 layout_height=4294967294 text=@string/drop_off_option_text>
+    <LinearLayout background=@color/white layout_width=4294967295 layout_height=@dimen/divider_size>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_small_spacing showDividers=0x00000002>
+      <com.flytaxi.layout.GhostButton id=@id/two_stop_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_two_stop_text>
+      <com.flytaxi.layout.GhostButton id=@id/three_stop_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_three_stop_text>
+      <com.flytaxi.layout.GhostButton id=@id/return_trip_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_return_trip_text>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_small_spacing showDividers=0x00000002>
+      <com.flytaxi.layout.GhostButton id=@id/fixed_price_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_fixed_price_text>
+      <com.flytaxi.layout.GhostButton id=@id/special_price_ninety_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_special_price_ninety_text>
+      <com.flytaxi.layout.GhostButton id=@id/standard_price_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_standard_price_text>
+    <LinearLayout gravity=0x00000010 orientation=0 id=@id/tips_layout background=@drawable/gray_radius_black_background layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/gray gravity=0x00000011 id=@id/tips_text layout_width=1 layout_height=4294967294 text=@string/dropoff_tips_text>
+      <LinearLayout gravity=0x00000011 layout_width=1 layout_height=4294967294>
+        <com.flytaxi.layout.PriceNumberPickerView id=@id/tip_picker layout_width=4294967294 layout_height=4294967294>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_small_spacing showDividers=0x00000002>
+      <com.flytaxi.layout.GhostButton id=@id/baggage_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_baggage_text>
+      <com.flytaxi.layout.GhostButton id=@id/car_charger_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_car_charger_text>
+      <com.flytaxi.layout.GhostButton id=@id/wheel_chair_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_wheel_chair_text>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_small_spacing showDividers=0x00000002>
+      <com.flytaxi.layout.GhostButton id=@id/five_seat_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_five_seat_text>
+      <com.flytaxi.layout.GhostButton id=@id/six_seat_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_six_seat_text>
+      <com.flytaxi.layout.GhostButton id=@id/receipt_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_receipt_text>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_small_spacing showDividers=0x00000002>
+      <com.flytaxi.layout.GhostButton id=@id/pet_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_pet_text>
+      <com.flytaxi.layout.GhostButton id=@id/hybrid_car_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_hybrid_text>
+      <com.flytaxi.layout.GhostButton id=@id/one_way_button layout_width=1 layout_height=4294967294 titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_one_way_text>
+  <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294 divider=@drawable/linear_layout_small_spacing showDividers=0x00000002>
+    <com.flytaxi.layout.GhostButton ellipsize=3 gravity=0x00000011 id=@id/negative_text layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/gold_radius_alpha_background titleColor=@color/colorPrimary titleSize=@dimen/medium_font_size titleText=@string/back_step_text>
+    <com.flytaxi.layout.GhostButton ellipsize=3 gravity=0x00000011 id=@id/positive_text layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/white_radius_gold_background titleColor=@color/black titleSize=@dimen/medium_font_size titleText=@string/confirm_text>
+  <LinearLayout layout_width=4294967295 layout_height=@dimen/drop_order_bottom_height>

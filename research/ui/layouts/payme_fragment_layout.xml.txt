@@ -1,0 +1,26 @@
+# source: res/layout/payme_fragment_layout.xml
+<RelativeLayout orientation=1 layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <LinearLayout orientation=1 id=@id/general_layout layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout layout_width=4294967295 layout_height=16843499>
+      <ImageView id=@id/back_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_back>
+      <TextView textSize=@dimen/large_font_size textColor=@color/colorPrimary gravity=0x00000011 id=@id/title_text layout_width=4294967294 layout_height=16843499>
+      <TextView textSize=@dimen/small_font_size textColor=@color/gray id=@id/save_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 text=@string/save_record_text>
+    <RelativeLayout layout_width=4294967295 layout_height=1>
+      <ScrollView id=@id/main_layout layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=1 padding=@dimen/general_large_size layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/extra_small_font_size textColor=@color/white id=@id/description_text padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 text=@string/payment_payme_description>
+          <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <TextView textSize=@dimen/extra_small_font_size textColor=@color/white paddingLeft=@dimen/general_small_size layout_width=1 layout_height=4294967294 text=@string/payment_youtube_link_title>
+            <TextView textSize=@dimen/extra_small_font_size textColor=@color/white id=@id/payme_tutorials_text layout_width=4294967294 layout_height=4294967294 text=@string/payme_tutorials_text>
+          <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <TextView textSize=@dimen/small_font_size textColor=@color/light_gray gravity=0x00000011 layout_width=1 layout_height=4294967294 text=@string/payment_pay_demo_link>
+            <com.flytaxi.layout.IconEditText textColor=@color/white id=@id/link_edit_text paddingLeft=@dimen/general_small_size paddingRight=@dimen/general_small_size layout_width=1 layout_height=4294967294 hintColor=@color/dray_gray hintText=@string/payment_pay_demo_code iconBackgroundImage=@drawable/dray_gray_radius_alpha_background underline=False>
+          <CheckBox textSize=@dimen/extra_small_font_size textColor=@color/white id=@id/agree_checkbox layout_width=4294967295 layout_height=4294967294 button=@drawable/gray_check_box text=@string/payment_agree_description>
+      <LinearLayout orientation=1 id=@id/debug_view background=@color/white layout_width=4294967295 layout_height=4294967295>
+        <EditText textColor=@color/black textColorHint=@color/black id=@id/payme_message_box layout_width=4294967295 layout_height=1>
+        <WebView id=@id/payme_webview layout_width=4294967295 layout_height=1>
+  <LinearLayout gravity=0x00000011 id=@id/loading_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

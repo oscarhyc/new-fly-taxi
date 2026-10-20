@@ -1,0 +1,29 @@
+# source: res/layout/main_layout.xml
+<androidx.drawerlayout.widget.DrawerLayout id=@id/drawer_layout layout_width=4294967295 layout_height=4294967295 scaleType=1 keepScreenOn=True filterTouchesWhenObscured=True importantForAccessibility=4>
+  <RelativeLayout layout_width=4294967295 layout_height=4294967294>
+    <RelativeLayout id=@id/main_layout layout_width=4294967295 layout_height=4294967294>
+      <androidx.appcompat.widget.Toolbar id=@id/toolbar layout_width=4294967294 layout_height=16843499 contentInsetStart=1 contentInsetEnd=1 contentInsetLeft=1 contentInsetRight=1 contentInsetEnd=1 contentInsetLeft=1 contentInsetRight=1 contentInsetStart=1>
+        <RelativeLayout layout_width=4294967295 layout_height=4294967294>
+          <ImageView id=@id/toolbar_button layout_width=@dimen/general_tab_bar_height layout_height=@dimen/general_tab_bar_height src=@drawable/image_ic_menu filterTouchesWhenObscured=True importantForAccessibility=4>
+          <com.flytaxi.layout.MaterialTabLayout id=@id/recycler_tab_layout layout_width=4294967295 layout_height=@dimen/general_tab_bar_height overScrollMode=2 filterTouchesWhenObscured=True importantForAccessibility=4 tabBackground=@color/transparent tabGravity=0 tabIndicatorColor=@color/transparent tabIndicatorHeight=1 tabMode=1 tabTextColor=@color/gray>
+      <LinearLayout orientation=1 focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295 filterTouchesWhenObscured=True importantForAccessibility=4>
+        <androidx.viewpager.widget.ViewPager id=@id/main_view_pager layout_width=4294967295 layout_height=4294967295 filterTouchesWhenObscured=True importantForAccessibility=4>
+      <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary gravity=0x00000011 id=@id/title_text layout_width=4294967295 layout_height=16843499 layout_margin=@dimen/general_small_size>
+    <LinearLayout gravity=0x00000011 orientation=1 id=@id/progress_layout background=@color/progress_gray_color visibility=2 layout_width=4294967295 layout_height=4294967295>
+      <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>
+    <RelativeLayout orientation=1 id=@id/black_layout background=@color/black visibility=2 layout_width=4294967295 layout_height=4294967295>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white gravity=0x00000001 layout_width=4294967294 layout_height=4294967294 text=@string/tap_anywhere_exit_text>
+      <LinearLayout gravity=0x00000001 orientation=1 background=@color/black layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/black_top_label layout_width=4294967294 layout_height=4294967294>
+        <TextView textSize=@dimen/black_phone_number_font_size textColor=@color/white ellipsize=0 gravity=0x00000011 id=@id/black_bottom_label layout_width=4294967295 layout_height=4294967294 text=**** autoSizeTextType=1 autoSizeStepGranularity=258 autoSizeMinTextSize=2562 autoSizeMaxTextSize=@dimen/black_phone_number_font_size>
+        <LinearLayout gravity=0x00000011 orientation=0 id=@id/black_whatsapp_layout layout_width=4294967294 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/white layout_width=4294967294 layout_height=4294967294 text=@string/whats_app_chat_customer_title>
+          <ImageView layout_width=@dimen/general_tab_bar_height layout_height=@dimen/general_tab_bar_height src=@drawable/whatsapp_icon>
+    <RelativeLayout orientation=1 id=@id/screen_saver_layout background=@color/black visibility=2 layout_width=4294967295 layout_height=4294967295>
+      <com.flytaxi.layout.FullScreenVideoView id=@id/screen_saver_video_view layout_width=4294967295 layout_height=4294967295>
+      <LinearLayout orientation=1 id=@id/screen_saver_click_layout layout_width=4294967295 layout_height=4294967295>
+      <LinearLayout gravity=0x00000011 orientation=1 id=@id/screen_saver_touch_layout background=@color/transparent_black visibility=2 layout_width=4294967295 layout_height=4294967295>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000011 layout_width=4294967294 layout_height=4294967294 text=@string/screen_saver_remove_description>
+  <LinearLayout layout_width=4294967295 layout_height=4294967295>
+    <include id=@id/slide_menu_view layout=@layout/slide_menu_layout>

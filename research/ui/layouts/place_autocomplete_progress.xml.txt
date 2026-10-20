@@ -1,0 +1,2 @@
+# source: res/layout/place_autocomplete_progress.xml
+<ProgressBar id=@id/place_autocomplete_progress padding=769 visibility=0 indeterminate=True indeterminateTint=4282483955 indeterminateTintMode=9>

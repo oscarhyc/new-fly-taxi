@@ -1,0 +1,8 @@
+# source: res/layout/accept_order_tips_dialog_layout.xml
+<LinearLayout gravity=0x00000011 id=@id/background_layout padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout gravity=0x00000010 orientation=1 background=@drawable/alert_dialog_background padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=7170 textStyle=0x00000001 textColor=@color/dialog_color id=@id/title layout_width=4294967295 layout_height=4294967294 text=@string/order_accepted_tips_title>
+      <TextView textSize=@dimen/large_font_size textColor=@color/dialog_color id=@id/description scrollbars=0x00000200 layout_width=4294967295 layout_height=4294967294 text=@string/order_accepted_tips_description>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton textSize=@dimen/large_font_size id=@id/confirm_button background=@drawable/gold_background paddingLeft=@dimen/general_small_size paddingTop=@dimen/general_large_size paddingRight=@dimen/general_small_size paddingBottom=@dimen/general_large_size layout_width=4294967295 layout_height=4294967294 titleColor=@color/black titleText=@string/order_accepted_tips_confirm_message>

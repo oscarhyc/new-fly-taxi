@@ -1,0 +1,13 @@
+# source: res/layout/announcement_fragment_layout.xml
+<LinearLayout orientation=1 background=@color/white layout_width=4294967295 layout_height=4294967295>
+  <RelativeLayout id=@id/general_layout layout_width=4294967295 layout_height=4294967295>
+    <WebView id=@id/announcement_webview layout_width=4294967295 layout_height=4294967295>
+    <ImageView id=@id/close_button padding=@dimen/general_small_size visibility=1 layout_width=4294967294 layout_height=4294967294 src=@drawable/linking_close_image>
+    <LinearLayout orientation=1 id=@id/linking_layout background=@color/white visibility=2 layout_width=4294967295 layout_height=4294967295>
+      <ImageView id=@id/linking_close_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/linking_close_image>
+      <ScrollView scrollbars=0x00000200 layout_width=4294967295 layout_height=4294967295>
+        <LinearLayout orientation=1 padding=@dimen/general_large_size layout_width=4294967295 layout_height=4294967294>
+          <TextView textColor=@color/black id=@id/linking_title layout_width=4294967295 layout_height=4294967294 textAllCaps=False>
+          <TextView textColor=@color/black id=@id/linking_content layout_width=4294967295 layout_height=4294967294 textAllCaps=False>
+          <com.flytaxi.layout.GhostV2Button id=@id/confirm_button layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/general_button_height titleColor=@color/black titleSize=@dimen/large_font_size titleText=@string/confirm_text>
+          <LinearLayout orientation=0 id=@id/debug_empty_area layout_width=4294967295 layout_height=@dimen/empty_order_height>

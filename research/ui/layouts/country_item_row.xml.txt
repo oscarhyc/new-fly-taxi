@@ -1,0 +1,6 @@
+# source: res/layout/country_item_row.xml
+<LinearLayout orientation=1 id=@id/country_layout layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout gravity=0x00000010 orientation=0 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+    <ImageView id=@id/label_image layout_width=4294967294 layout_height=4294967294>
+    <com.flytaxi.layout.FontTextView id=@id/label_text layout_width=1 layout_height=4294967294>
+  <View background=@color/white layout_width=4294967295 layout_height=@dimen/divider_size>

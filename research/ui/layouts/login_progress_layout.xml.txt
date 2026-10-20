@@ -1,0 +1,5 @@
+# source: res/layout/login_progress_layout.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <include layout_width=4294967295 layout_height=4294967294 layout=@layout/login_network_status_layout>
+  <include layout_width=4294967295 layout_height=4294967294 layout=@layout/login_location_status_layout>
+  <include layout_width=4294967295 layout_height=4294967294 layout=@layout/login_driver_status_layout>

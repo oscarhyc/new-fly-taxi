@@ -11,6 +11,8 @@ product/
   server/src/server.mjs    runnable reference server (Node, zero dependencies)
   server/test/…            contract conformance test (full lifecycle)
   client/                  Android driver app (Kotlin + Compose)
+  spec/reference-data/     business parameters extracted from the live config DB
+                           + design tokens harvested from the app's resources
 ```
 
 ## Run the server + tests (no install needed)
@@ -65,3 +67,20 @@ import/version drift — expect to fix Gradle/Compose version pins there.
 2. Push notifications for new bookings (FCM) instead of polling only.
 3. Driver document verification, plan/subscription and fleet (group) concepts.
 4. Passenger app against the same contract.
+
+## UI rebuild
+
+The reference UI was reverse engineered from the binary layouts and resources, not copied:
+`docs/ui-spec.md` (screen inventory + tokens), `research/ui/layouts/*.txt` (216 decoded view
+trees with resource ids resolved), `research/ui/design-tokens.json`.
+
+Our Compose implementation mirrors the observed structure and scale — e.g.
+`ui/AcceptOrderScreen.kt` reproduces the accept-order screen (countdown timer, progress bar,
+section cards, gold swipe-to-confirm bar) with our own components and our own brand tokens in
+`ui/Theme.kt`.
+
+## Capturing real sessions (deadline-bound)
+
+`device-setup/run-capture.sh` starts mitmproxy with the redacting addon and records one
+manually-driven trip on your own device. It needs the mitmproxy CA installed as a **system**
+certificate (rooted phone); unrooted devices fall back to `docs/manual-observation.md`.

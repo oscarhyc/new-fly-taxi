@@ -1,0 +1,11 @@
+# source: res/layout/root_device_fragment_layout.xml
+<RelativeLayout focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967295>
+    <ScrollView layout_width=4294967294 layout_height=1>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/white padding=@dimen/general_medium_size layout_width=4294967294 layout_height=4294967294 text=@string/root_device_message_description>
+    <LinearLayout padding=@dimen/general_medium_size layout_width=4294967294 layout_height=4294967294>
+      <include id=@id/what_app_view layout_width=4294967294 layout_height=4294967294 layout=@layout/whats_app_part>

@@ -1,0 +1,8 @@
+# source: res/layout/customer_service_item_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294 layout_margin=@dimen/general_small_size>
+  <LinearLayout gravity=0x00000010 orientation=0 background=@drawable/transparent_gold_top_radius_black_background padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/case_id_title layout_width=1 layout_height=4294967294>
+    <ImageView id=@id/web_page_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/webpage>
+  <include id=@id/order_layout layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4 layout=@layout/customer_service_order_row>
+  <include layout_width=4294967295 layout_height=4294967294 layout=@layout/customer_service_user_row>
+  <include layout_width=4294967295 layout_height=4294967294 layout=@layout/customer_service_handle_row>

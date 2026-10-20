@@ -1,0 +1,5 @@
+# source: res/layout/mr_volume_control.xml
+<LinearLayout gravity=0x00000010 paddingLeft=6145 paddingRight=3073 layout_width=4294967295 layout_height=4294967294 minHeight=12289 splitMotionEvents=False paddingStart=6145 paddingEnd=3073>
+  <ImageView gravity=0x00000011 layout_width=6145 layout_height=6145 src=2130969424 scaleType=5>
+  <androidx.mediarouter.app.MediaRouteVolumeSlider id=@id/mr_volume_slider clickable=True layout_width=1 layout_height=4294967294 maxHeight=12289 minHeight=12289 contentDescription=@string/mr_controller_volume_slider>
+  <androidx.mediarouter.app.MediaRouteExpandCollapseButton id=@id/mr_group_expand_collapse background=2130969586 padding=3073 visibility=2 layout_width=12289 layout_height=12289>

@@ -1,0 +1,4 @@
+# source: res/layout/material_clock_period_toggle.xml
+<com.google.android.material.button.MaterialButtonToggleGroup orientation=1 id=@id/material_clock_period_toggle visibility=2 layout_width=@dimen/material_clock_period_toggle_width layout_height=@dimen/material_clock_period_toggle_height contentDescription=@string/material_clock_toggle_content_description checkedButton=@id/material_clock_period_am_button selectionRequired=True singleSelection=True>
+  <com.google.android.material.button.MaterialButton id=@id/material_clock_period_am_button layout_width=4294967294 text=@string/material_timepicker_am insetTop=2049 style=2130969370>
+  <com.google.android.material.button.MaterialButton id=@id/material_clock_period_pm_button layout_width=4294967294 text=@string/material_timepicker_pm insetBottom=2049 style=2130969370>

@@ -1,0 +1,19 @@
+# source: res/layout/hk_order_item_main_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+  <LinearLayout orientation=1 id=@id/order_layout layout_width=4294967295 layout_height=4294967294>
+    <include id=@id/advance_time_view filterTouchesWhenObscured=True importantForAccessibility=4 layout=@layout/order_advance_time_part>
+    <include id=@id/first_option_view filterTouchesWhenObscured=True importantForAccessibility=4 layout=@layout/order_first_option_part>
+    <RelativeLayout layout_width=4294967295 layout_height=4294967294>
+      <ImageView id=@id/secret_top_image layout_width=4294967294 layout_height=4294967294>
+      <LinearLayout gravity=0x00000010 orientation=0 id=@id/group_distance_layout layout_width=4294967295 layout_height=4294967294>
+        <RelativeLayout id=@id/nearby_layout paddingTop=@dimen/small_box_size paddingBottom=@dimen/small_box_size layout_width=4294967294 layout_height=4294967294>
+          <com.airbnb.lottie.LottieAnimationView layout_width=@dimen/reward_light_effect_lottie_width layout_height=@dimen/reward_light_effect_lottie_height lottie_autoPlay=True lottie_loop=True lottie_rawRes=@raw/reward_light_effect_lottie>
+          <LinearLayout orientation=0 background=@drawable/black_radius_background layout_width=4294967294 layout_height=4294967294>
+            <TextView textSize=@dimen/extra_small_font_size textColor=@color/colorPrimary paddingLeft=@dimen/general_extra_small_size paddingRight=@dimen/general_extra_small_size layout_width=4294967294 layout_height=4294967294 text=@string/nearby_text>
+        <LinearLayout gravity=0x00000010 orientation=0 id=@id/distance_layout layout_width=4294967294 layout_height=4294967294 minHeight=@dimen/general_extra_large_size>
+          <TextView textSize=@dimen/extra_small_font_size textColor=@color/gray id=@id/distance_text paddingTop=@dimen/small_box_size paddingBottom=@dimen/small_box_size layout_width=4294967294 layout_height=4294967294>
+      <include id=@id/location_view layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4 layout=@layout/hk_order_location_part>
+    <include id=@id/second_option_view filterTouchesWhenObscured=True importantForAccessibility=4 layout=@layout/order_second_option_part>
+  <LinearLayout gravity=0x00000011 orientation=0 id=@id/confirm_layout background=@color/colorPrimary visibility=2 layout_width=4294967295 layout_height=@dimen/confirm_view_button_height layout_margin=@dimen/general_extra_small_size filterTouchesWhenObscured=True importantForAccessibility=4>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/black layout_width=4294967294 layout_height=4294967294 text=@string/confirm_take_order_text>
+  <include id=@id/log_view importantForAccessibility=4 layout=@layout/order_log_part>

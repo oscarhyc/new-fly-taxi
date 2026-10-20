@@ -1,0 +1,14 @@
+# source: res/layout/m3_alert_dialog.xml
+<androidx.appcompat.widget.AlertDialogLayout gravity=0x00800033 orientation=1 id=@id/parentPanel layout_width=4294967295 layout_height=4294967294>
+  <include layout=@layout/m3_alert_dialog_title>
+  <FrameLayout id=@id/contentPanel layout_width=4294967295 layout_height=4294967294 minHeight=12289>
+    <ImageView id=@id/scrollIndicatorUp background=520093696 visibility=2 layout_width=4294967295 layout_height=257 contentDescription=@0x00000000 backgroundTint=16842800>
+    <androidx.core.widget.NestedScrollView id=@id/scrollView clipToPadding=False layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+        <android.widget.Space id=@id/textSpacerNoTitle visibility=2 layout_width=4294967295 layout_height=@dimen/abc_dialog_padding_top_material>
+        <TextView id=@0x0102000b paddingLeft=2130968966 paddingRight=2130968966 layout_width=4294967295 layout_height=4294967294 style=2130969364>
+        <android.widget.Space id=@id/textSpacerNoButtons visibility=2 layout_width=4294967295 layout_height=@dimen/abc_dialog_padding_top_material>
+    <ImageView id=@id/scrollIndicatorDown background=520093696 visibility=2 layout_width=4294967295 layout_height=257 contentDescription=@0x00000000 backgroundTint=16842800>
+  <FrameLayout id=@id/customPanel layout_width=4294967295 layout_height=4294967294 minHeight=12289>
+    <FrameLayout id=@id/custom layout_width=4294967295 layout_height=4294967294>
+  <include layout_width=4294967295 layout_height=4294967294 layout=@layout/m3_alert_dialog_actions>

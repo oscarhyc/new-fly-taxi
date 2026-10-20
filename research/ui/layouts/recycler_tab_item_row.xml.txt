@@ -1,0 +1,3 @@
+# source: res/layout/recycler_tab_item_row.xml
+<LinearLayout orientation=1 id=@id/tab_layout layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+  <com.flytaxi.layout.GhostButton id=@id/tab_title layout_width=4294967295 layout_height=4294967295 filterTouchesWhenObscured=True importantForAccessibility=4 titleSize=@dimen/tab_font_size>

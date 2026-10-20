@@ -1,0 +1,30 @@
+# source: res/layout/alipay_apply_request_fragment_layout.xml
+<RelativeLayout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout id=@id/general_layout layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout layout_width=4294967295 layout_height=4294967295>
+      <LinearLayout gravity=0x00000011 orientation=1 layout_width=4294967295 layout_height=4294967295>
+        <ScrollView layout_width=4294967295 layout_height=1>
+          <LinearLayout gravity=0x00000001 orientation=1 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+            <ImageView layout_width=24577 layout_height=24577 src=@drawable/payment_alipay_big_logo>
+            <View layout_width=4294967295 layout_height=@dimen/general_medium_size>
+            <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+              <TextView textSize=@dimen/small_font_size textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/payment_alipay_apply_bizcode_description>
+              <TextView textSize=@dimen/small_font_size textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/payment_alipay_required_application_title>
+              <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+                <ImageView layout_width=@dimen/general_extra_large_size layout_height=@dimen/general_extra_large_size src=@drawable/ic_circle_tick>
+                <TextView textSize=@dimen/small_font_size textColor=@color/white layout_width=1 layout_height=4294967294 text=@string/payment_alipay_required_first_docs>
+              <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+                <ImageView layout_width=@dimen/general_extra_large_size layout_height=@dimen/general_extra_large_size src=@drawable/ic_circle_tick>
+                <TextView textSize=@dimen/small_font_size textColor=@color/white layout_width=1 layout_height=4294967294 text=@string/payment_alipay_required_second_docs>
+              <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+                <ImageView layout_width=@dimen/general_extra_large_size layout_height=@dimen/general_extra_large_size src=@drawable/ic_circle_tick>
+                <TextView textSize=@dimen/small_font_size textColor=@color/white layout_width=1 layout_height=4294967294 text=@string/payment_alipay_required_third_docs>
+              <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+                <ImageView layout_width=@dimen/general_extra_large_size layout_height=@dimen/general_extra_large_size src=@drawable/ic_circle_tick>
+                <TextView textSize=@dimen/small_font_size textColor=@color/white layout_width=1 layout_height=4294967294 text=@string/payment_alipay_required_fourth_docs>
+              <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+                <com.flytaxi.layout.GhostV2Button id=@id/apply_request_button layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/general_button_height ghostBackgroundImage=@drawable/gold_radius_v2_background titleColor=@color/black titleSize=@dimen/large_font_size titleText=@string/payment_alipay_required_apply_text>

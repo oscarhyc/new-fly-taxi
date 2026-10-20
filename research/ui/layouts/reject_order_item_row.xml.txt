@@ -1,0 +1,5 @@
+# source: res/layout/reject_order_item_row.xml
+<LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout layout_width=4294967295 layout_height=@dimen/general_radius_size>
+  <TextView textColor=@color/white id=@id/reason_text layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout layout_width=4294967295 layout_height=@dimen/general_radius_size>

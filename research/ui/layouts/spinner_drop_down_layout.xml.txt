@@ -1,0 +1,4 @@
+# source: res/layout/spinner_drop_down_layout.xml
+<LinearLayout orientation=0 background=@color/black padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967295>
+  <ImageView id=@id/left_image paddingRight=@dimen/general_medium_size layout_width=4294967294 layout_height=4294967294>
+  <TextView textSize=@dimen/small_font_size textColor=@color/gray ellipsize=3 id=@id/title layout_width=4294967295 layout_height=4294967294 singleLine=True>

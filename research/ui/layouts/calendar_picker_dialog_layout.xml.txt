@@ -1,0 +1,9 @@
+# source: res/layout/calendar_picker_dialog_layout.xml
+<LinearLayout orientation=1 id=@id/background_layout layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout gravity=0x00000010 layout_width=4294967295 layout_height=1>
+    <com.flytaxi.layout.FontTextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary id=@id/title_text paddingLeft=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294 text=@string/calendar_title>
+  <io.blackbox_vision.materialcalendarview.view.CalendarView id=@id/calendar_view layout_width=4294967295 layout_height=1 minHeight=@dimen/calendar_view_height dateTextAppearance=@0x01030042 calendarBackgroundColor=@color/black calendarButtonBackgroundColor=@color/colorAccent calendarCurrentDayBackgroundColor=@color/black calendarCurrentDayTextColor=@color/white calendarDayOfMonthTextColor=@0x0106000b calendarDayOfWeekTextColor=@color/white calendarDisabledDayBackgroundColor=@color/black calendarDisabledDayTextColor=@color/black calendarSelectedDayBackgroundColor=@color/colorAccent calendarSelectedDayTextColor=@color/black calendarTitleBackgroundColor=@color/black calendarTitleTextColor=@color/colorAccent calendarWeekBackgroundColor=@color/black>
+  <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=1>
+    <Button textSize=@dimen/small_font_size textColor=@color/white id=@id/cancel_button background=@color/transparent layout_width=1 layout_height=4294967294 text=@string/cancel_text>
+    <LinearLayout layout_width=@dimen/general_small_size layout_height=4294967294>
+    <Button textSize=@dimen/small_font_size textColor=@color/white id=@id/confirm_button background=@color/transparent layout_width=1 layout_height=4294967294 text=@string/confirm_text>

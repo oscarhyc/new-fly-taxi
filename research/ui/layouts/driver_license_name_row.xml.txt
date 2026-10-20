@@ -1,0 +1,6 @@
+# source: res/layout/driver_license_name_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <TextView textSize=@dimen/medium_font_size textColor=@color/grey_04 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294 text=@string/driver_doc_type_p_title>
+  <TextView textSize=@dimen/medium_font_size textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=@string/driver_doc_type_p_description>
+  <com.flytaxi.layout.EditTextMaterialView id=@id/profile_name_edit_text layout_width=4294967295 layout_height=4294967294>
+  <TextView textSize=@dimen/medium_font_size textColor=@color/grey_04 id=@id/name_description_text background=@color/grey_01 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>

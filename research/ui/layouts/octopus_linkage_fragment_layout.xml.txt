@@ -1,0 +1,18 @@
+# source: res/layout/octopus_linkage_fragment_layout.xml
+<RelativeLayout gravity=0x00000011 orientation=1 layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <LinearLayout orientation=1 id=@id/general_layout focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout layout_width=4294967295 layout_height=16843499>
+      <ImageView id=@id/back_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_back>
+      <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary gravity=0x00000011 id=@id/description_text layout_width=4294967294 layout_height=16843499 text=@string/octopus_linkage_title>
+      <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary id=@id/success_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 text=@string/confirm_text>
+    <LinearLayout gravity=0x00000011 orientation=1 id=@id/loading_layout visibility=2 layout_width=4294967295 layout_height=1>
+      <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>
+    <ScrollView id=@id/display_layout padding=@dimen/general_medium_size scrollbars=0x00000000 layout_width=4294967295 layout_height=1>
+      <LinearLayout gravity=0x00000001 orientation=1 layout_width=4294967295 layout_height=4294967294>
+        <com.flytaxi.layout.GhostButton id=@id/octopus_button layout_width=@dimen/octopus_icon_width layout_height=@dimen/octopus_icon_width topImage=@drawable/octopus_big_logo>
+        <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/octopus_tutorials_text padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 text=@string/octopus_tutorials_text>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000011 id=@id/octopus_description padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/white gravity=0x00000011 id=@id/octopus_promo_description padding=@dimen/general_small_size visibility=2 layout_width=4294967295 layout_height=4294967294>

@@ -1,0 +1,4 @@
+# source: res/layout/material_time_input.xml
+<com.google.android.material.textfield.TextInputLayout layout_width=4294967294 layout_height=4294967294 errorIconDrawable=@0x00000000 hintEnabled=False>
+  <com.google.android.material.textfield.TextInputEditText layout_width=@dimen/material_clock_display_width layout_height=@dimen/material_clock_display_height textCursorDrawable=@drawable/material_cursor_drawable>
+  <TextView id=@id/material_label focusable=False layout_width=4294967294 layout_height=4294967294>

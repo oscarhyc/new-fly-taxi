@@ -1,0 +1,9 @@
+# source: res/layout/cs_tab_service_fragment_layout.xml
+<RelativeLayout orientation=1 layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout layout_width=4294967295 layout_height=1>
+      <LinearLayout gravity=0x00000011 id=@id/no_record_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+        <TextView textSize=@dimen/small_font_size textColor=@color/white layout_width=4294967294 layout_height=4294967294 text=@string/cs_tab_no_record_text>
+      <androidx.recyclerview.widget.RecyclerView id=@id/cs_tab_recycler_view layout_width=4294967295 layout_height=4294967295 divider=@0x00000000>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/progress_layout background=@color/progress_gray_color visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

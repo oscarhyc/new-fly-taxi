@@ -1,0 +1,2 @@
+# source: res/layout/material_chip_input_combo.xml
+<com.google.android.material.timepicker.ChipTextInputComboView layout_width=4294967294 layout_height=4294967294>

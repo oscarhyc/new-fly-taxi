@@ -1,0 +1,7 @@
+# source: res/layout/license_list_item_row.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <include id=@id/license_name_view layout=@layout/driver_license_name_row>
+  <include id=@id/license_take_photo_view layout=@layout/driver_license_take_photo_row>
+  <include id=@id/license_take_calendar_view layout=@layout/driver_license_calendar_row>
+  <include id=@id/preview_photo_view layout=@layout/driver_license_preview_row>
+  <LinearLayout orientation=0 paddingLeft=@dimen/general_large_size paddingRight=@dimen/general_large_size layout_width=4294967295 layout_height=4294967295>

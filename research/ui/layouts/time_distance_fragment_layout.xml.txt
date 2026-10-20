@@ -1,0 +1,45 @@
+# source: res/layout/time_distance_fragment_layout.xml
+<LinearLayout orientation=1 background=@color/black focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/order_layout layout_width=4294967295 layout_height=@dimen/swipe_bar_height layout_margin=@dimen/general_medium_size>
+    <TextView textColor=@color/white id=@id/order_text layout_width=4294967294 layout_height=4294967294>
+    <TextView textColor=@color/white id=@id/time_text layout_width=4294967294 layout_height=4294967294>
+  <ScrollView orientation=1 layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textColor=@color/white layout_width=@dimen/rest_button_width layout_height=4294967294 text=gps_booking_display_time_sec_min>
+        <com.flytaxi.layout.IconEditText id=@id/gps_booking_display_time_sec_min layout_width=1 layout_height=4294967294 editTextSize=@dimen/menu_font_size hintText=gps_booking_display_time_sec_min textStyle=NUMBER>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textColor=@color/white layout_width=@dimen/rest_button_width layout_height=4294967294 text=gps_booking_display_time_sec>
+        <com.flytaxi.layout.IconEditText id=@id/gps_booking_display_time_sec layout_width=1 layout_height=4294967294 editTextSize=@dimen/menu_font_size hintText=gps_booking_display_time_sec textStyle=NUMBER>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textColor=@color/white layout_width=@dimen/rest_button_width layout_height=4294967294 text=gps_booking_display_radius_meter_min>
+        <com.flytaxi.layout.IconEditText id=@id/gps_booking_display_radius_meter_min layout_width=1 layout_height=4294967294 editTextSize=@dimen/menu_font_size hintText=gps_booking_display_radius_meter_min textStyle=NUMBER>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textColor=@color/white layout_width=@dimen/rest_button_width layout_height=4294967294 text=gps_booking_display_radius_meter>
+        <com.flytaxi.layout.IconEditText id=@id/gps_booking_display_radius_meter layout_width=1 layout_height=4294967294 editTextSize=@dimen/menu_font_size hintText=gps_booking_display_radius_meter textStyle=NUMBER>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=1 layout_width=@dimen/order_report_address_width layout_height=4294967294>
+          <TextView textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=traffic_radius>
+          <TextView textColor=@color/white id=@id/traffic_radius_text layout_width=4294967295 layout_height=4294967294>
+        <SeekBar id=@id/traffic_radius_seek_bar layout_width=1 layout_height=@dimen/general_button_height max=100>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textColor=@color/white layout_width=@dimen/order_report_address_width layout_height=4294967294 text=create_date>
+        <com.flytaxi.layout.IconEditText id=@id/create_date_edit_text layout_width=1 layout_height=4294967294 editTextSize=@dimen/menu_font_size hintText=create_date textStyle=TEXT>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=1 layout_width=@dimen/order_report_address_width layout_height=4294967294>
+          <TextView textColor=@color/white layout_width=4294967295 layout_height=4294967294 text=now_date>
+          <TextView textColor=@color/white id=@id/now_date_text layout_width=4294967295 layout_height=4294967294>
+        <SeekBar id=@id/now_date_seek_bar layout_width=1 layout_height=@dimen/general_button_height max=100>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textColor=@color/white layout_width=@dimen/order_report_address_width layout_height=4294967294 text=gap_offset>
+        <com.flytaxi.layout.IconEditText id=@id/gap_offset_text layout_width=1 layout_height=4294967294 editTextSize=@dimen/menu_font_size hintText=gap_offset textStyle=TEXT>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textColor=@color/white layout_width=@dimen/order_report_address_width layout_height=4294967294 text=order_pickup_location>
+        <com.flytaxi.layout.IconEditText id=@id/pick_up_latitude layout_width=1 layout_height=4294967294 editTextSize=@dimen/menu_font_size hintText=pickup_latitude textStyle=TEXT>
+        <TextView textColor=@color/white layout_width=4294967294 layout_height=4294967294 text=,>
+        <com.flytaxi.layout.IconEditText id=@id/pick_up_longitude layout_width=1 layout_height=4294967294 editTextSize=@dimen/menu_font_size hintText=pickup_longitude textStyle=TEXT>
+      <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textColor=@color/white layout_width=@dimen/order_report_address_width layout_height=4294967294 text=driver_location>
+        <com.flytaxi.layout.IconEditText id=@id/driver_latitude layout_width=1 layout_height=4294967294 editTextSize=@dimen/menu_font_size hintText=driver_latitude textStyle=TEXT>
+        <TextView textColor=@color/white layout_width=4294967294 layout_height=4294967294 text=,>
+        <com.flytaxi.layout.IconEditText id=@id/driver_longitude layout_width=1 layout_height=4294967294 editTextSize=@dimen/menu_font_size hintText=driver_longitude textStyle=TEXT>

@@ -1,0 +1,18 @@
+# source: res/layout/driver_license_calendar_row.xml
+<LinearLayout orientation=1 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <com.flytaxi.layout.EditTextMaterialView id=@id/doc_edit_text layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 id=@id/date_picker_layout background=@drawable/white_radius_v2_background layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout gravity=0x00000050 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/large_font_size textColor=@color/black paddingLeft=@dimen/general_medium_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_small_size paddingBottom=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 text=@string/driver_doc_type_date_first_tips>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/black paddingTop=@dimen/general_small_size paddingBottom=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 text=@string/driver_doc_type_date_second_tips>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/black gravity=0x00000011 layout_width=1 layout_height=4294967294 text=@string/year_text>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/black gravity=0x00000011 layout_width=1 layout_height=4294967294 text=@string/month_text>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/black gravity=0x00000011 layout_width=1 layout_height=4294967294 text=@string/day_text>
+    <RelativeLayout layout_width=4294967294 layout_height=@dimen/picker_height>
+      <LinearLayout orientation=0 id=@id/date_picker_selected_bar background=@color/off_yellow layout_width=4294967295 layout_height=@dimen/time_picker_height>
+      <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <NumberPicker theme=@style/NumberPicker id=@id/year_picker descendantFocusability=2 layout_width=1 layout_height=4294967295>
+        <NumberPicker theme=@style/NumberPicker id=@id/month_picker descendantFocusability=2 layout_width=1 layout_height=4294967295>
+        <NumberPicker theme=@style/NumberPicker id=@id/day_picker descendantFocusability=2 layout_width=1 layout_height=4294967295>
+  <TextView textSize=@dimen/medium_font_size textColor=@color/alert_red id=@id/date_picker_error_message_text visibility=2 layout_width=4294967295 layout_height=4294967294 text=@string/driver_doc_type_error_date_tips>

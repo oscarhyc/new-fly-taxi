@@ -1,0 +1,8 @@
+# source: res/layout/driver_car_model_fragment_layout.xml
+<RelativeLayout focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967295>
+    <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+    <LinearLayout orientation=1 id=@id/main_layout layout_width=4294967295 layout_height=4294967295>
+      <androidx.recyclerview.widget.RecyclerView id=@id/car_model_recycler_view layout_width=4294967295 layout_height=1 divider=@0x00000000 filterTouchesWhenObscured=True importantForAccessibility=4>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/progress_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

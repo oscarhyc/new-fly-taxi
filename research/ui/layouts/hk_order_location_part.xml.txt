@@ -1,0 +1,11 @@
+# source: res/layout/hk_order_location_part.xml
+<LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=0 layout_width=1 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+    <com.flytaxi.layout.FontTextView textColor=@color/white id=@id/pick_up_text layout_width=4294967295 layout_height=4294967294 importantForAccessibility=2>
+  <LinearLayout gravity=0x00000011 orientation=1 layout_width=@dimen/order_icon_width layout_height=4294967294>
+    <com.flytaxi.layout.FontTextView textColor=@color/white gravity=0x00000011 id=@id/point_text layout_width=@dimen/point_circle_size layout_height=4294967294 minHeight=@dimen/point_circle_size filterTouchesWhenObscured=True importantForAccessibility=4>
+    <LinearLayout orientation=0 id=@id/tunnel_layout layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.FontTextView textColor=@color/colorPrimary gravity=0x00000011 id=@id/tunnel_text layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+  <LinearLayout orientation=1 layout_width=1 layout_height=4294967294>
+    <com.flytaxi.layout.FontTextView textColor=@color/white id=@id/drop_off_text layout_width=4294967295 layout_height=4294967294 importantForAccessibility=2>
+    <com.flytaxi.layout.FontTextView textColor=@color/white id=@id/drop_off_2_text layout_width=4294967295 layout_height=4294967294 importantForAccessibility=4>

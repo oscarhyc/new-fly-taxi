@@ -1,0 +1,11 @@
+# source: res/layout/material_calendar_view.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967295>
+  <io.blackbox_vision.materialcalendarview.view.HeaderView id=@id/header_view layout_width=4294967295 layout_height=4294967294>
+  <include id=@id/week_layout layout=@layout/week_view>
+  <LinearLayout orientation=1 id=@id/days_container layout_width=4294967295 layout_height=4294967294>
+    <include layout=@layout/week_view1>
+    <include layout=@layout/week_view2>
+    <include layout=@layout/week_view3>
+    <include layout=@layout/week_view4>
+    <include layout=@layout/week_view5>
+    <include layout=@layout/week_view6>

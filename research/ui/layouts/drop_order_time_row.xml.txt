@@ -1,0 +1,19 @@
+# source: res/layout/drop_order_time_row.xml
+<LinearLayout orientation=1 scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary gravity=0x00000011 layout_width=4294967295 layout_height=4294967294 text=@string/dropoff_picker_time_text>
+    <LinearLayout background=@color/white layout_width=4294967295 layout_height=@dimen/divider_size>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <com.flytaxi.layout.GhostButton id=@id/today_button layout_width=1 layout_height=4294967294 layout_margin=@dimen/general_extra_small_size titleColor=@color/colorPrimary titleSize=@dimen/medium_font_size titleText=@string/dropoff_picker_today_text>
+        <com.flytaxi.layout.GhostButton id=@id/tomorrow_button layout_width=1 layout_height=4294967294 layout_margin=@dimen/general_extra_small_size titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/dropoff_picker_tomorrow_text>
+      <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <com.flytaxi.layout.BigTextSizeNumberPicker id=@id/am_pm_picker descendantFocusability=2 layout_width=1 layout_height=@dimen/picker_height>
+        <com.flytaxi.layout.BigTextSizeNumberPicker id=@id/hour_picker descendantFocusability=2 layout_width=1 layout_height=@dimen/picker_height>
+        <com.flytaxi.layout.BigTextSizeNumberPicker id=@id/minute_picker descendantFocusability=2 layout_width=1 layout_height=@dimen/picker_height>
+  <LinearLayout gravity=0x00000010 orientation=0 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+    <com.flytaxi.layout.GhostButton ellipsize=3 gravity=0x00000011 id=@id/negative_text layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/gold_radius_alpha_background titleColor=@color/colorPrimary titleSize=@dimen/medium_font_size titleText=@string/back_step_text>
+    <LinearLayout layout_width=@dimen/general_small_size layout_height=4294967294>
+    <com.flytaxi.layout.GhostButton ellipsize=3 gravity=0x00000011 id=@id/positive_text layout_width=4294967295 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/white_radius_gold_background titleColor=@color/black titleSize=@dimen/medium_font_size titleText=@string/confirm_text>
+  <LinearLayout layout_width=4294967295 layout_height=@dimen/drop_order_bottom_height>

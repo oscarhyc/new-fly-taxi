@@ -1,0 +1,21 @@
+# source: res/layout/slide_menu_layout.xml
+<androidx.core.widget.NestedScrollView orientation=1 background=@color/slide_menu_background_color layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967295>
+    <LinearLayout background=@color/colorPrimary paddingBottom=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+      <ImageView id=@id/back_button padding=@dimen/general_medium_size visibility=2 layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_white_back>
+      <LinearLayout orientation=1 id=@id/slide_menu_device_info_view padding=@dimen/general_small_size layout_width=1 layout_height=4294967294>
+        <TextView textSize=@dimen/menu_font_size textColor=@color/black gravity=0x00800005 id=@id/mobile_address_text layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/menu_font_size textColor=@color/black gravity=0x00800005 id=@id/mobile_location_text layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/menu_font_size textColor=@color/black gravity=0x00800005 id=@id/gps_time_text layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/menu_font_size textColor=@color/black gravity=0x00800005 id=@id/mobile_info_text layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 background=@color/colorPrimary paddingLeft=@dimen/general_large_size paddingRight=@dimen/general_small_size paddingBottom=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout gravity=0x00000010 orientation=0 id=@id/slide_menu_driver_info_view layout_width=4294967295 layout_height=4294967294>
+        <ImageView id=@id/account_page_image layout_width=@dimen/account_page_image_size layout_height=@dimen/account_page_image_size src=@drawable/driver_image_ic_driver_g scaleType=1>
+        <LinearLayout orientation=1 layout_width=1 layout_height=4294967294>
+          <TextView textSize=@dimen/extra_small_font_size textColor=@color/black gravity=0x00000005 id=@id/driver_id_text layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/extra_small_font_size textColor=@color/black gravity=0x00000005 id=@id/driver_name_text layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/extra_small_font_size textColor=@color/black gravity=0x00000005 id=@id/driver_fleet_name_text layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/extra_small_font_size textColor=@color/black gravity=0x00000005 id=@id/driver_fleet_service_text layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/extra_small_font_size textColor=@color/black gravity=0x00000005 id=@id/driver_phone_text layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/menu_font_size textColor=@color/black gravity=0x00000005 id=@id/account_used_time_text visibility=2 layout_width=4294967295 layout_height=4294967294>
+    <androidx.recyclerview.widget.RecyclerView id=@id/slide_menu_recycle_view layout_width=4294967295 layout_height=1 overScrollMode=2>

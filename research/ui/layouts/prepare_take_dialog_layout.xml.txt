@@ -1,0 +1,9 @@
+# source: res/layout/prepare_take_dialog_layout.xml
+<LinearLayout gravity=0x00000011 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 background=@drawable/alert_dialog_background padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+    <TextView textSize=@dimen/large_font_size textColor=@color/black id=@id/title layout_width=4294967295 layout_height=4294967294>
+    <ScrollView orientation=1 layout_width=4294967295 layout_height=1>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/black_text gravity=0x00000011 id=@id/description layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton gravity=0x00000011 id=@id/positive_text layout_width=4294967295 layout_height=4294967294 ghostBackgroundImage=@drawable/gold_background titleColor=@color/black titleSize=@dimen/medium_font_size>
+      <com.flytaxi.layout.GhostButton id=@id/negative_text visibility=2 layout_width=4294967294 layout_height=4294967294>

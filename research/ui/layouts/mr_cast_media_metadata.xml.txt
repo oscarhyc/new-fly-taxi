@@ -1,0 +1,12 @@
+# source: res/layout/mr_cast_media_metadata.xml
+<FrameLayout layout_width=4294967295 layout_height=29697>
+  <ImageView id=@id/mr_cast_meta_background background=@color/mr_cast_meta_default_background layout_width=4294967295 layout_height=4294967295 scaleType=6>
+  <View id=@id/mr_cast_meta_black_scrim background=@color/mr_cast_meta_black_scrim visibility=2 layout_width=4294967295 layout_height=4294967295>
+  <RelativeLayout paddingLeft=6145 paddingTop=3073 paddingRight=6145 paddingBottom=8193 layout_width=4294967295 layout_height=4294967295>
+    <ImageButton id=@id/mr_cast_close_button background=2130969586 layout_width=6145 layout_height=6145 src=2130969428 contentDescription=@string/mr_controller_close_description>
+    <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <ImageView id=@id/mr_cast_meta_art layout_width=@dimen/mr_cast_meta_art_size layout_height=@dimen/mr_cast_meta_art_size scaleType=3>
+      <LinearLayout gravity=0x00000010 orientation=1 paddingLeft=2049 paddingRight=2049 layout_width=1 layout_height=4294967294>
+        <TextView textAppearance=@style/TextAppearance_MediaRouter_Dynamic_Metadata_PrimaryText ellipsize=3 gravity=0x00800003 id=@id/mr_cast_meta_title layout_width=4294967295 layout_height=4294967294 maxLines=1 textAlignment=5>
+        <TextView textAppearance=@style/TextAppearance_MediaRouter_Dynamic_Metadata_SecondaryText ellipsize=3 gravity=0x00800003 id=@id/mr_cast_meta_subtitle layout_width=4294967295 layout_height=4294967294 maxLines=1 textAlignment=5>
+      <Button textAppearance=@style/TextAppearance_MediaRouter_Dynamic_Metadata_PrimaryText id=@id/mr_cast_stop_button background=@drawable/mr_cast_stop layout_width=29185 layout_height=9218 text=@string/mr_controller_stop_casting textAllCaps=False>

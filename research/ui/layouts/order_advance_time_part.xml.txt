@@ -1,0 +1,3 @@
+# source: res/layout/order_advance_time_part.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <com.flytaxi.layout.OptionTextView textColor=@color/white gravity=0x00000010 id=@id/advance_time_text layout_width=4294967295 layout_height=4294967294 drawableLeft=@drawable/driver_image_2_ic_time filterTouchesWhenObscured=True importantForAccessibility=4>

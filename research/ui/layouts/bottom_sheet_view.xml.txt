@@ -1,0 +1,36 @@
+# source: res/layout/bottom_sheet_view.xml
+<RelativeLayout orientation=1 layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/bottom_extra_price_view background=@drawable/top_radius_white_background paddingTop=@dimen/general_medium_size paddingBottom=@dimen/general_medium_size focusable=True visibility=2 clickable=True layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/bottom_message_min_height>
+    <LinearLayout gravity=0x00000001 orientation=1 layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/small_font_size textStyle=0x00000001 textColor=@color/black layout_width=4294967294 layout_height=4294967294 text=@string/calculator_bottom_sheet_tips_title>
+        <TextView textColor=@color/grey_02 id=@id/currency_text layout_width=4294967294 layout_height=4294967294 text=@string/calculator_bottom_sheet_symbol_title>
+      <TextView layout_width=4294967294 layout_height=4294967294>
+      <RelativeLayout layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout background=@color/picker_transparent_brand_yellow layout_width=4294967295 layout_height=@dimen/general_button_height>
+        <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <NumberPicker theme=@style/ExtraPricePicker id=@id/bottom_extra_price_picker descendantFocusability=2 layout_width=4294967295 layout_height=@dimen/bottom_sheet_picker_height>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.FontTextView textSize=@dimen/extra_small_font_size textColor=@color/black gravity=0x00000011 id=@id/bottom_sheet_extra_price_confirm_button background=@drawable/gold_radius_v2_background layout_width=4294967295 layout_height=@dimen/general_button_height text=@string/confirm_text>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/bottom_luggage_view background=@drawable/top_radius_white_background paddingTop=@dimen/general_medium_size paddingBottom=@dimen/general_medium_size focusable=True visibility=2 clickable=True layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/bottom_message_min_height>
+    <LinearLayout gravity=0x00000001 orientation=1 layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/small_font_size textStyle=0x00000001 textColor=@color/black layout_width=4294967294 layout_height=4294967294 text=@string/calculator_luggage_text>
+      <TextView layout_width=4294967294 layout_height=4294967294>
+      <RelativeLayout layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout background=@color/picker_transparent_brand_yellow layout_width=4294967295 layout_height=@dimen/general_button_height>
+        <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <NumberPicker theme=@style/ExtraPricePicker id=@id/bottom_luggage_picker descendantFocusability=2 layout_width=4294967295 layout_height=@dimen/bottom_sheet_picker_height>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.FontTextView textSize=@dimen/extra_small_font_size textColor=@color/black gravity=0x00000011 id=@id/bottom_sheet_luggage_confirm_button background=@drawable/gold_radius_v2_background layout_width=4294967295 layout_height=@dimen/general_button_height text=@string/confirm_text>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/bottom_pet_view background=@drawable/top_radius_white_background paddingTop=@dimen/general_medium_size paddingBottom=@dimen/general_medium_size focusable=True visibility=2 clickable=True layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/bottom_message_min_height>
+    <LinearLayout gravity=0x00000001 orientation=1 layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+        <TextView textSize=@dimen/small_font_size textStyle=0x00000001 textColor=@color/black layout_width=4294967294 layout_height=4294967294 text=@string/calculator_pet_text>
+      <TextView layout_width=4294967294 layout_height=4294967294>
+      <RelativeLayout layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout background=@color/picker_transparent_brand_yellow layout_width=4294967295 layout_height=@dimen/general_button_height>
+        <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <NumberPicker theme=@style/ExtraPricePicker id=@id/bottom_pet_picker descendantFocusability=2 layout_width=4294967295 layout_height=@dimen/bottom_sheet_picker_height>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.FontTextView textSize=@dimen/extra_small_font_size textColor=@color/black gravity=0x00000011 id=@id/bottom_sheet_pet_confirm_button background=@drawable/gold_radius_v2_background layout_width=4294967295 layout_height=@dimen/general_button_height text=@string/confirm_text>

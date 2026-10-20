@@ -1,0 +1,8 @@
+# source: res/layout/price_confirm_dialog_layout.xml
+<LinearLayout gravity=0x00000011 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 background=@drawable/alert_dialog_background padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=1 layout_width=4294967295 layout_height=1>
+      <TextView textSize=7170 textStyle=0x00000001 textColor=@color/dialog_color id=@id/title layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=6146 textColor=@color/dialog_color id=@id/description scrollbars=0x00000200 layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton textSize=6146 textColor=@color/colorPrimary ellipsize=3 id=@id/positive_text background=@drawable/gold_background paddingLeft=@dimen/general_small_size paddingRight=@dimen/general_small_size layout_width=4294967295 layout_height=@dimen/general_button_height>

@@ -1,0 +1,18 @@
+# source: res/layout/history_fragment_layout.xml
+<RelativeLayout orientation=1 layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 background=@color/black layout_width=4294967295 layout_height=4294967295>
+    <LinearLayout orientation=0 id=@id/record_button_layout padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton gravity=0x00000011 id=@id/take_button layout_width=1 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/gold_radius_alpha_background titleColor=@color/colorPrimary titleSize=@dimen/medium_font_size titleText=@string/history_pickup_title>
+      <LinearLayout layout_width=@dimen/general_small_size layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton gravity=0x00000011 id=@id/give_button layout_width=1 layout_height=@dimen/general_button_height ghostBackgroundImage=@drawable/gray_radius_alpha_background titleColor=@color/gray titleSize=@dimen/medium_font_size titleText=@string/history_dropoff_title>
+    <RelativeLayout layout_width=4294967295 layout_height=1>
+      <LinearLayout gravity=0x00000011 id=@id/bottom_logo_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+        <ImageView layout_width=4294967294 layout_height=4294967294 src=@mipmap/ic_launcher>
+      <LinearLayout gravity=0x00000011 id=@id/no_record_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+        <TextView textSize=@dimen/small_font_size textColor=@color/white layout_width=4294967294 layout_height=4294967294 text=@string/history_no_record_text>
+      <androidx.swiperefreshlayout.widget.SwipeRefreshLayout id=@id/refresh_swipe layout_width=4294967295 layout_height=4294967295>
+        <androidx.recyclerview.widget.RecyclerView id=@id/history_recycler_view layout_width=4294967295 layout_height=4294967295 divider=@0x00000000>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/progress_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>
+  <LinearLayout gravity=0x00000011 orientation=1 id=@id/connect_fail_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+    <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/retry_connect_button padding=@dimen/general_medium_size layout_width=4294967294 layout_height=4294967294 text=@string/retry_connect_message textAlignment=4>

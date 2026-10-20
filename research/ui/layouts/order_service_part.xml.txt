@@ -1,0 +1,14 @@
+# source: res/layout/order_service_part.xml
+<LinearLayout layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 id=@id/service_layout layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967294 layout_height=4294967294>
+      <LinearLayout background=@color/colorPrimary layout_width=@dimen/general_small_size layout_height=4294967295>
+      <TextView textSize=@dimen/small_font_size textColor=@color/white layout_width=4294967294 layout_height=4294967294 text=@string/history_matched_passenger>
+    <com.google.android.flexbox.FlexboxLayout layout_width=4294967295 layout_height=4294967294 alignItems=2 flexWrap=0>
+      <ImageView id=@id/car_model_image layout_width=@dimen/fleet_car_size layout_height=@dimen/fleet_car_size src=@drawable/fleet_car_grey_background>
+      <LinearLayout orientation=1 id=@id/car_title_layout padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/white ellipsize=3 id=@id/car_model_title_text layout_width=4294967295 layout_height=4294967294 singleLine=True>
+        <TextView textSize=@dimen/small_font_size textColor=@color/light_gray_04 ellipsize=3 id=@id/car_model_description_text layout_width=4294967295 layout_height=4294967294 singleLine=True>
+      <LinearLayout gravity=0x00000010 orientation=0 id=@id/service_seat_layout layout_width=4294967294 layout_height=4294967294>
+        <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/fleet_car_seat>
+        <TextView textSize=@dimen/medium_font_size textColor=@color/light_gray_02 id=@id/service_seat_text layout_width=4294967294 layout_height=4294967294>

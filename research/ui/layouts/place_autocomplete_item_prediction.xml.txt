@@ -1,0 +1,6 @@
+# source: res/layout/place_autocomplete_item_prediction.xml
+<RelativeLayout orientation=0 layout_width=4294967295 layout_height=@dimen/place_autocomplete_prediction_height>
+  <include visibility=1 layout_width=@dimen/place_autocomplete_progress_size layout_height=@dimen/place_autocomplete_progress_size layout=@layout/place_autocomplete_progress>
+  <View id=@id/place_autocomplete_separator layout_width=1 layout_height=1>
+  <TextView textSize=@dimen/place_autocomplete_prediction_primary_text textColor=@color/place_autocomplete_prediction_primary_text ellipsize=3 id=@id/place_autocomplete_prediction_primary_text layout_width=4294967294 layout_height=4294967294 lines=1 singleLine=True>
+  <TextView textSize=@dimen/place_autocomplete_prediction_secondary_text textColor=@color/place_autocomplete_prediction_secondary_text ellipsize=3 id=@id/place_autocomplete_prediction_secondary_text layout_width=4294967294 layout_height=4294967294 lines=1 singleLine=True>

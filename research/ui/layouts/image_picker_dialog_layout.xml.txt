@@ -1,0 +1,5 @@
+# source: res/layout/image_picker_dialog_layout.xml
+<LinearLayout id=@id/bottom_sheet layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 background=@color/black layout_width=4294967295 layout_height=4294967294>
+    <com.flytaxi.layout.FontTextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary id=@id/picker_title padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+    <androidx.recyclerview.widget.RecyclerView id=@id/rc_gallery layout_width=4294967295 layout_height=4294967295>

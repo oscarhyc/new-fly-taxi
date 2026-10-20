@@ -1,0 +1,2 @@
+# source: res/layout/material_time_chip.xml
+<com.google.android.material.chip.Chip layout_width=@dimen/material_clock_display_width layout_height=@dimen/material_clock_display_height style=2130968799>

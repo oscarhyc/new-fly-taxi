@@ -1,0 +1,62 @@
+# source: res/layout/setting_fragment_layout.xml
+<RelativeLayout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <LinearLayout orientation=1 id=@id/general_layout background=@color/transparent_black focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout layout_width=4294967295 layout_height=16843499>
+      <ImageView id=@id/back_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_back>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary id=@id/title_text layout_width=4294967294 layout_height=4294967294 text=@string/setting_topic>
+    <ScrollView layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 paddingLeft=@dimen/general_medium_size paddingRight=@dimen/general_medium_size paddingBottom=@dimen/general_large_size layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=1 id=@id/remove_jwt_layout visibility=2 layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/setting_remove_jwt>
+          <com.flytaxi.layout.GhostButton id=@id/remove_jwt_button layout_width=4294967295 layout_height=@dimen/general_button_height titleColor=@color/white titleSize=@dimen/small_font_size titleText=@string/remove_text>
+        <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/setting_new_order_beep_title>
+        <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <com.flytaxi.layout.GhostButton id=@id/beep_on_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/on_text>
+          <com.flytaxi.layout.GhostButton id=@id/beep_off_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/off_text>
+        <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/setting_read_new_order_title>
+        <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <com.flytaxi.layout.GhostButton id=@id/read_order_on_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/on_text>
+          <com.flytaxi.layout.GhostButton id=@id/read_order_off_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/off_text>
+          <ImageView id=@id/read_order_setting_button layout_width=4294967294 layout_height=4294967294 src=@drawable/ic_setting>
+        <LinearLayout orientation=1 id=@id/order_mode_layout layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/setting_order_mode_title>
+          <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <com.flytaxi.layout.GhostButton id=@id/order_mode_all_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/setting_order_all_mode>
+            <com.flytaxi.layout.GhostButton id=@id/order_mode_meter_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/setting_order_meter_mode>
+        <LinearLayout orientation=1 id=@id/display_mode_layout layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/setting_display_mode_title>
+          <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <com.flytaxi.layout.GhostButton id=@id/display_mode_simple_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/setting_display_mode_simple>
+            <com.flytaxi.layout.GhostButton id=@id/display_mode_general_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/setting_display_mode_general>
+        <LinearLayout orientation=1 id=@id/accept_call_customer_layout visibility=2 layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/setting_accept_call_customer_title>
+          <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <com.flytaxi.layout.GhostButton id=@id/accept_call_customer_on_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/on_text>
+            <com.flytaxi.layout.GhostButton id=@id/accept_call_customer_off_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/off_text>
+        <LinearLayout orientation=1 id=@id/mock_order_route_layout visibility=2 layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/setting_mock_route_location_title>
+          <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <com.flytaxi.layout.GhostButton id=@id/mock_order_route_on_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/on_text>
+            <com.flytaxi.layout.GhostButton id=@id/mock_order_route_off_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/off_text>
+        <LinearLayout orientation=1 id=@id/range_order_layout visibility=2 layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/setting_mock_location_title>
+          <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <com.flytaxi.layout.GhostButton id=@id/range_order_on_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/on_text>
+            <com.flytaxi.layout.GhostButton id=@id/range_order_off_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/off_text>
+        <LinearLayout orientation=1 id=@id/display_reject_list_layout visibility=2 layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/setting_display_order_detail_title>
+          <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <com.flytaxi.layout.GhostButton id=@id/display_order_detail_on_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/on_text>
+            <com.flytaxi.layout.GhostButton id=@id/display_order_detail_off_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/off_text>
+        <LinearLayout orientation=1 id=@id/refresh_schedule_layout visibility=2 layout_width=4294967295 layout_height=4294967294>
+          <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/setting_refresh_schedule_title>
+          <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <com.flytaxi.layout.GhostButton id=@id/refresh_schedule_on_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/on_text>
+            <com.flytaxi.layout.GhostButton id=@id/refresh_schedule_off_button layout_width=1 layout_height=@dimen/general_button_height titleColor=@color/gray titleSize=@dimen/small_font_size titleText=@string/off_text>
+        <TextView textSize=@dimen/small_font_size textColor=@color/colorPrimary layout_width=4294967295 layout_height=4294967294 text=@string/setting_font_size_title>
+        <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+          <com.flytaxi.layout.FontTextView textColor=@color/gray id=@id/font_size_display_textview background=@color/transparent layout_width=1 layout_height=4294967294 singleLine=True>
+          <ImageView id=@id/edit_font_size_button layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_pen>

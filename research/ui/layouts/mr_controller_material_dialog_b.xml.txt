@@ -1,0 +1,16 @@
+# source: res/layout/mr_controller_material_dialog_b.xml
+<FrameLayout id=@id/mr_expandable_area layout_width=4294967295 layout_height=4294967295>
+  <LinearLayout orientation=1 id=@id/mr_dialog_area background=2130968835 layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout orientation=0 id=@id/mr_title_bar paddingLeft=6145 paddingRight=3073 layout_width=4294967295 layout_height=4294967294 paddingStart=6145 paddingEnd=3073>
+      <TextView textAppearance=@style/TextAppearance_MediaRouter_Title ellipsize=3 gravity=0x00800013 id=@id/mr_name layout_width=1 layout_height=18433 singleLine=True importantForAccessibility=2 textAlignment=5>
+      <ImageButton id=@id/mr_close background=2130969586 layout_width=12289 layout_height=12289 src=2130969428 contentDescription=@string/mr_controller_close_description>
+    <FrameLayout id=@id/mr_custom_control visibility=2 layout_width=4294967295 layout_height=4294967294>
+    <FrameLayout id=@id/mr_default_control layout_width=4294967295 layout_height=4294967294>
+      <ImageView id=@id/mr_art background=2130968866 visibility=2 layout_width=4294967295 layout_height=4294967294 scaleType=1 adjustViewBounds=True contentDescription=@string/mr_controller_album_art>
+      <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294 splitMotionEvents=False>
+        <LinearLayout theme=2130969429 orientation=1 id=@id/mr_media_main_control paddingTop=4097 paddingBottom=4097 layout_width=4294967295 layout_height=4294967294>
+          <include id=@id/mr_playback_control layout=@layout/mr_playback_control>
+          <View id=@id/mr_control_divider visibility=2 layout_width=4294967295 layout_height=2049>
+          <include id=@id/mr_volume_control layout=@layout/mr_volume_control>
+        <androidx.mediarouter.app.OverlayListView theme=2130969429 scrollbarStyle=0x02000000 id=@id/mr_volume_group_list paddingTop=@dimen/mr_controller_volume_group_list_padding_top visibility=2 clipToPadding=False layout_width=4294967295 layout_height=4294967294 splitMotionEvents=False>
+    <include layout=@layout/abc_alert_dialog_button_bar_material>

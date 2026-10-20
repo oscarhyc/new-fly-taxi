@@ -1,0 +1,17 @@
+# source: res/layout/ride_detail_fragment_layout.xml
+<LinearLayout gravity=0x00000011 orientation=1 id=@id/background_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <LinearLayout orientation=1 id=@id/general_layout layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout layout_width=4294967295 layout_height=16843499>
+      <ImageView id=@id/back_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_back>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary layout_width=4294967294 layout_height=4294967294 text=@string/ride_detail_page_title>
+    <LinearLayout orientation=1 padding=@dimen/general_extra_small_size layout_width=4294967295 layout_height=1>
+      <ScrollView background=@color/black scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+        <LinearLayout orientation=1 id=@id/panel_layout padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+          <include id=@id/order_topic_view layout=@layout/order_topic_part>
+          <include id=@id/location_view layout=@layout/order_location_part>
+          <include id=@id/amount_view layout=@layout/order_amount_part>
+          <androidx.recyclerview.widget.RecyclerView id=@id/order_option_recycler_view visibility=2 layout_width=4294967295 layout_height=4294967294>
+          <TextView textColor=@color/white id=@id/debug_message_text paddingLeft=@dimen/general_small_size paddingRight=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+          <include id=@id/order_detail_payment_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/order_detail_payment_layout>
+    <LinearLayout gravity=0x00000011 id=@id/loading_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+      <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

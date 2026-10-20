@@ -1,0 +1,6 @@
+# source: res/layout/payment_item_row.xml
+<LinearLayout orientation=1 padding=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout gravity=0x00000010 orientation=0 id=@id/payment_layout padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+    <ImageView id=@id/payment_image layout_width=4294967294 layout_height=4294967294>
+    <TextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/payment_text layout_width=1 layout_height=4294967294>
+    <ImageView id=@id/next_arrow_image layout_width=4294967294 layout_height=4294967294 src=@drawable/ic_arrow_line>

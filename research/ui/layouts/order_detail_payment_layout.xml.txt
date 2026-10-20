@@ -1,0 +1,7 @@
+# source: res/layout/order_detail_payment_layout.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <androidx.recyclerview.widget.RecyclerView id=@id/order_confirm_recyclerview layout_width=4294967295 layout_height=1>
+  <LinearLayout orientation=1 id=@id/order_confirm_total_cost_layout layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout background=@color/gray layout_width=4294967295 layout_height=@dimen/divider_size>
+    <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <com.flytaxi.layout.FontTextView textSize=@dimen/large_font_size textColor=@color/white gravity=0x00000005 id=@id/order_confirm_total_cost layout_width=4294967295 layout_height=4294967294>

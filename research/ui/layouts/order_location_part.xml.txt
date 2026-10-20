@@ -1,0 +1,15 @@
+# source: res/layout/order_location_part.xml
+<LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout gravity=0x00000010 orientation=0 id=@id/order_point_navigation_layout layout_width=4294967295 layout_height=4294967294>
+    <com.flytaxi.layout.FontTextView textColor=@color/white gravity=0x00000011 id=@id/address_point_text visibility=2 layout_width=@dimen/point_circle_size layout_height=4294967294 layout_margin=@dimen/general_small_size minHeight=@dimen/point_circle_size filterTouchesWhenObscured=True importantForAccessibility=4>
+    <ImageView id=@id/google_navigation_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/google_map_pin>
+    <ImageView id=@id/amap_navigation_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/amap_map_pin>
+    <ImageView id=@id/waze_navigation_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/waze_map_pin>
+  <LinearLayout orientation=1 id=@id/address_view layout_width=4294967295 layout_height=4294967294>
+    <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+      <ImageView id=@id/pick_up_icon padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/pickup>
+      <com.flytaxi.layout.FontTextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/pick_up_text layout_width=1 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+    <LinearLayout gravity=0x00000010 orientation=0 id=@id/drop_off_location_layout layout_width=4294967295 layout_height=4294967294>
+      <ImageView id=@id/drop_off_icon padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/destination>
+      <com.flytaxi.layout.FontTextView textSize=@dimen/medium_font_size textColor=@color/white id=@id/drop_off_text layout_width=1 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>
+  <com.flytaxi.layout.FontTextView textColor=@color/white id=@id/drop_off_2_text visibility=2 layout_width=4294967295 layout_height=4294967294 filterTouchesWhenObscured=True importantForAccessibility=4>

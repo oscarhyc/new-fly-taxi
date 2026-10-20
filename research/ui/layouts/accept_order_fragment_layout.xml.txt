@@ -1,0 +1,8 @@
+# source: res/layout/accept_order_fragment_layout.xml
+<LinearLayout gravity=0x00000011 orientation=1 id=@id/background_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <LinearLayout orientation=1 id=@id/general_layout layout_width=4294967295 layout_height=4294967295>
+    <ViewFlipper id=@id/main_flipper_layout layout_width=4294967295 layout_height=4294967295>
+      <include layout=@layout/accept_order_main_layout>
+      <include layout=@layout/hk_city_accept_order_main_layout>
+    <LinearLayout gravity=0x00000011 id=@id/loading_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+      <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

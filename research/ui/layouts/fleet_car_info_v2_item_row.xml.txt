@@ -1,0 +1,24 @@
+# source: res/layout/fleet_car_info_v2_item_row.xml
+<LinearLayout orientation=0 paddingLeft=@dimen/general_small_size paddingTop=@dimen/general_medium_size paddingRight=@dimen/general_small_size layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout orientation=1 id=@id/main_layout background=@0x7f080091 layout_width=4294967295 layout_height=4294967294>
+    <RelativeLayout layout_width=4294967295 layout_height=4294967294>
+      <ImageView layout_width=4294967294 layout_height=4294967294 src=@drawable/car_key_light_gray>
+      <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=0 id=@id/panel_layout layout_width=4294967295 layout_height=4294967294>
+          <ImageView id=@id/car_model_image layout_width=@dimen/fleet_big_car_size layout_height=@dimen/fleet_big_car_size src=@drawable/fleet_car_model_grey_background>
+          <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+            <TextView textSize=@dimen/small_font_size textColor=@color/light_grey_01 id=@id/car_model_title_text layout_width=4294967295 layout_height=4294967294>
+            <TextView textSize=@dimen/large_font_size textStyle=0x00000001 textColor=@color/black id=@id/car_model_description_text layout_width=4294967295 layout_height=4294967294>
+            <TextView textSize=@dimen/small_font_size textColor=@color/light_grey_01 id=@id/car_plate_title_text layout_width=4294967295 layout_height=4294967294>
+            <TextView textSize=@dimen/fleet_plate_number_font_size textStyle=0x00000001 textColor=@color/black id=@id/car_plate_description_text layout_width=4294967295 layout_height=4294967294>
+        <LinearLayout orientation=1 id=@id/option_layout layout_width=4294967295 layout_height=4294967294>
+          <View id=@id/option_divider background=@color/colorPrimary layout_width=4294967295 layout_height=@dimen/divider_size>
+          <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+              <LinearLayout orientation=0 layout_width=4294967295 layout_height=4294967294>
+                <LinearLayout id=@id/first_service_button background=@drawable/color_cream_orange_radius_background paddingLeft=@dimen/general_small_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_small_size paddingBottom=@dimen/general_small_size visibility=2 layout_width=4294967294 layout_height=4294967294>
+                  <TextView textColor=@color/black id=@id/first_service_text layout_width=4294967294 layout_height=4294967294>
+                <LinearLayout id=@id/second_service_button background=@drawable/color_cream_orange_radius_background paddingLeft=@dimen/general_small_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_small_size paddingBottom=@dimen/general_small_size visibility=2 layout_width=4294967294 layout_height=4294967294>
+                  <TextView textColor=@color/black id=@id/second_service_text layout_width=4294967294 layout_height=4294967294>
+                <LinearLayout id=@id/third_service_button background=@drawable/color_cream_orange_radius_background paddingLeft=@dimen/general_small_size paddingTop=@dimen/general_small_size paddingRight=@dimen/general_small_size paddingBottom=@dimen/general_small_size visibility=2 layout_width=4294967294 layout_height=4294967294>
+                  <TextView textColor=@color/black id=@id/third_service_text layout_width=4294967294 layout_height=4294967294>

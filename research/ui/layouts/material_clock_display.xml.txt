@@ -1,0 +1,5 @@
+# source: res/layout/material_clock_display.xml
+<LinearLayout orientation=0 id=@id/material_clock_display layout_width=4294967294 layout_height=4294967294 baselineAligned=False layoutDirection=0>
+  <include id=@id/material_hour_tv layout=@layout/material_time_chip>
+  <include layout=@layout/material_clock_display_divider>
+  <include id=@id/material_minute_tv layout=@layout/material_time_chip>

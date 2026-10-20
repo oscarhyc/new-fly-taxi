@@ -1,0 +1,9 @@
+# source: res/layout/speech_dialog_layout.xml
+<LinearLayout layout_width=4294967295 layout_height=4294967294>
+  <LinearLayout background=@drawable/white_radius_background layout_width=4294967295 layout_height=4294967294 layout_margin=@dimen/general_large_size>
+    <LinearLayout gravity=0x00000011 orientation=1 background=@drawable/white_radius_background layout_width=4294967295 layout_height=4294967294>
+      <ImageView id=@id/mic_logo layout_width=@dimen/mic_icon_size layout_height=@dimen/mic_icon_size src=@drawable/driver_image_ic_mic_y>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/black_text gravity=0x00000011 id=@id/description_text layout_width=4294967294 layout_height=4294967294>
+      <TextView textSize=@dimen/small_font_size textColor=@color/gray gravity=0x00000011 id=@id/partial_result_text layout_width=4294967295 layout_height=4294967294>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary gravity=0x00000011 id=@id/error_message_text visibility=2 layout_width=4294967294 layout_height=4294967294>
+      <com.flytaxi.layout.GhostButton id=@id/stop_button padding=@dimen/general_extra_small_size visibility=2 layout_width=4294967295 layout_height=4294967294 titleColor=@color/red titleSize=@dimen/small_font_size titleText=@string/dialog_speech_confirm_text>

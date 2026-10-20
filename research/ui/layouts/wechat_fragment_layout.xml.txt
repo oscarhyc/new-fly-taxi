@@ -1,0 +1,34 @@
+# source: res/layout/wechat_fragment_layout.xml
+<RelativeLayout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <com.flytaxi.layout.LockableScrollView scrollbars=0x00000000 layout_width=4294967295 layout_height=4294967295>
+    <FrameLayout id=@id/background_layout layout_width=4294967295 layout_height=4294967294>
+      <LinearLayout orientation=1 id=@id/background_canvas_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <include id=@id/header_bar_layout layout_width=4294967295 layout_height=4294967294 layout=@layout/header_bar_layout>
+  <LinearLayout id=@id/general_layout layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout layout_width=4294967295 layout_height=4294967295>
+      <LinearLayout gravity=0x00000011 orientation=1 layout_width=4294967295 layout_height=4294967295>
+        <ScrollView layout_width=4294967295 layout_height=1>
+          <LinearLayout gravity=0x00000001 orientation=1 padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294>
+            <View layout_width=4294967295 layout_height=@dimen/general_medium_size>
+            <ImageView layout_width=@dimen/payment_icon_size layout_height=@dimen/payment_icon_size src=@drawable/payment_wechat_big_logo>
+            <View layout_width=4294967295 layout_height=@dimen/general_medium_size>
+            <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+              <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/wechat_description layout_width=4294967295 layout_height=4294967294>
+              <com.flytaxi.layout.GhostV2Button id=@id/wechat_button layout_width=4294967295 layout_height=4294967294 ghostBackgroundImage=@drawable/gold_radius_v2_background titleColor=@color/black titleSize=@dimen/large_font_size titleText=@string/add_wechat_payment_action_text>
+              <TextView textSize=@dimen/small_font_size textColor=@color/white gravity=0x00000011 id=@id/no_business_code_text layout_width=4294967295 layout_height=4294967294 text=@string/no_wechat_business_qr_code>
+      <LinearLayout orientation=1 id=@id/bottom_sheet_background background=@color/transparent_black visibility=2 layout_width=4294967295 layout_height=4294967295>
+      <LinearLayout gravity=0x00000011 orientation=1 id=@id/bottom_message_view background=@drawable/top_radius_white_background padding=@dimen/general_medium_size layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/bottom_message_min_height>
+        <LinearLayout orientation=1 layout_width=4294967295 layout_height=4294967294>
+          <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+              <TextView textSize=@dimen/medium_font_size textStyle=0x00000001 textColor=@color/black layout_width=1 layout_height=4294967294 text=@string/payment_wechat_main_prepare_required_docs>
+              <ImageView id=@id/sheet_close_button layout_width=@dimen/general_extra_large_size layout_height=@dimen/general_extra_large_size src=@drawable/ic_close_cross>
+          <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+            <LinearLayout gravity=0x00000010 orientation=0 layout_width=4294967295 layout_height=4294967294>
+              <ImageView layout_width=@dimen/general_extra_large_size layout_height=@dimen/general_extra_large_size src=@drawable/ic_circle_tick>
+              <TextView textSize=@dimen/small_font_size textColor=@color/black layout_width=1 layout_height=4294967294 text=@string/payment_wechat_main_physical_code>
+        <LinearLayout orientation=1 id=@id/bottom_sheet_button_view layout_width=4294967295 layout_height=4294967294>
+          <com.flytaxi.layout.GhostV2Button id=@id/sheet_apply_request_button layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/general_button_height ghostBackgroundImage=@drawable/gold_radius_v2_background titleColor=@color/black titleSize=@dimen/small_font_size titleText=@string/payment_wechat_main_bizcode_upload>
+          <com.flytaxi.layout.GhostV2Button id=@id/sheet_signup_button layout_width=4294967295 layout_height=4294967294 minHeight=@dimen/general_button_height ghostBackgroundImage=@drawable/gray_radius_v2_background titleColor=@color/black titleSize=@dimen/small_font_size titleText=@string/payment_wechat_main_apply_request>
+      <LinearLayout gravity=0x00000011 id=@id/loading_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+        <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>

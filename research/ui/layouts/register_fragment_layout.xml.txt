@@ -1,0 +1,12 @@
+# source: res/layout/register_fragment_layout.xml
+<LinearLayout orientation=1 id=@id/background_layout layout_width=4294967295 layout_height=4294967295 scaleType=1>
+  <LinearLayout orientation=1 id=@id/general_layout focusable=True focusableInTouchMode=True layout_width=4294967295 layout_height=4294967295>
+    <RelativeLayout layout_width=4294967295 layout_height=16843499>
+      <ImageView id=@id/back_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 src=@drawable/image_ic_back>
+      <TextView textSize=@dimen/medium_font_size textColor=@color/colorPrimary id=@id/title_text layout_width=4294967294 layout_height=4294967294 text=@string/register_topic>
+      <TextView textSize=@dimen/small_font_size textColor=@color/gray id=@id/confirm_button padding=@dimen/general_small_size layout_width=4294967294 layout_height=4294967294 text=@string/confirm_text>
+    <LinearLayout orientation=1 layout_width=4294967295 layout_height=1>
+      <include id=@id/account_info_view layout_width=4294967295 layout_height=4294967295 layout=@layout/register_info_part>
+      <LinearLayout gravity=0x00000011 orientation=1 id=@id/progress_layout visibility=2 layout_width=4294967295 layout_height=4294967295>
+        <ProgressBar layout_width=4294967294 layout_height=4294967294 style=16842874>
+    <TextView textSize=@dimen/small_font_size textColor=@color/white id=@id/error_description background=@color/red padding=@dimen/general_small_size visibility=2 layout_width=4294967295 layout_height=4294967294>
