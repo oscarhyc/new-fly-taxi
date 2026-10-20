@@ -1,0 +1,687 @@
+[
+ {
+  "config_type": "cancel_fee",
+  "config_key": "book_accept_cancel_fee",
+  "config_value": "6"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "book_accept_driver_arrive_dropoff1_max_radius",
+  "config_value": "2000"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "book_accept_driver_arrive_dropoff1_max_radius",
+  "config_value": "1800"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "book_accept_driver_arrive_pickup_max_radius",
+  "config_value": "1000"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "book_accept_driver_arrive_pickup_max_radius",
+  "config_value": "800"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "gps_update_accepted_book_sec",
+  "config_value": "60"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "gps_update_accepted_book_sec",
+  "config_value": "60"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "gps_update_accepted_book_until_minute",
+  "config_value": "30"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "gps_update_accepted_book_until_minute",
+  "config_value": "30"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "gps_update_normal_sec",
+  "config_value": "600"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "gps_update_normal_sec",
+  "config_value": "600"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "pickup_nearby_drivers_radius",
+  "config_value": "1500"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "tel_verify_driver",
+  "config_value": "31189194"
+ },
+ {
+  "config_type": "city_general",
+  "config_key": "tel_verify_user",
+  "config_value": "31189174"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_center_latitude",
+  "config_value": "22.33703"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_center_latitude",
+  "config_value": "44.43568"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_center_longitude",
+  "config_value": "114.1911"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_center_longitude",
+  "config_value": "26.10214"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_lower_latitude",
+  "config_value": "22.19066"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_lower_latitude",
+  "config_value": "44.32094"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_lower_longitude",
+  "config_value": "113.836"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_lower_longitude",
+  "config_value": "25.94631"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_upper_latitude",
+  "config_value": "22.57035"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_upper_latitude",
+  "config_value": "44.56483"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_upper_longitude",
+  "config_value": "114.4094"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_upper_longitude",
+  "config_value": "26.28826"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_zoom_level",
+  "config_value": "12"
+ },
+ {
+  "config_type": "city_map",
+  "config_key": "city_zoom_level",
+  "config_value": "14"
+ },
+ {
+  "config_type": "cs",
+  "config_key": "user_complain_review_reload_sec",
+  "config_value": "300"
+ },
+ {
+  "config_type": "district_stat",
+  "config_key": "district_stat_config_max_district_distance",
+  "config_value": "8000"
+ },
+ {
+  "config_type": "district_stat",
+  "config_key": "district_stat_config_min_book_amount",
+  "config_value": "10"
+ },
+ {
+  "config_type": "district_stat",
+  "config_key": "district_stat_config_min_expired_ratio",
+  "config_value": "0.4"
+ },
+ {
+  "config_type": "driver_doc_reject_reason_type",
+  "config_key": "15",
+  "config_value": "15"
+ },
+ {
+  "config_type": "driver_doc_reject_reason_type",
+  "config_key": "16",
+  "config_value": "16"
+ },
+ {
+  "config_type": "driver_doc_reject_reason_type",
+  "config_key": "17",
+  "config_value": "17"
+ },
+ {
+  "config_type": "driver_doc_reject_reason_type",
+  "config_key": "18",
+  "config_value": "18"
+ },
+ {
+  "config_type": "driver_doc_reject_reason_type",
+  "config_key": "19",
+  "config_value": "19"
+ },
+ {
+  "config_type": "driver_doc_reject_reason_type",
+  "config_key": "20",
+  "config_value": "20"
+ },
+ {
+  "config_type": "driver_doc_reject_reason_type",
+  "config_key": "21",
+  "config_value": "21"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "acc_order_cooldown_sec",
+  "config_value": "600"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "acc_order_cooldown_sec",
+  "config_value": "480"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "acc_order_cooldown_sec",
+  "config_value": "300"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "agreement",
+  "config_value": "系統管理員, 24小時監察柯打情況！會員守則如下\n\n************************************\n1/ 車費\n- 如非註明千足金, 一律為公司價\n- 千足金柯打, 上車及落車文字以橙黃色顯示\n- 單程隧道 (不論公司價或千足金), 單程橋費$30\n- 不能收行李費 及 機場停車場費\n- 所有柯打不可收取五元電召費\n- 公司價最低消費$60, 如未達$60錶一律千足金計算\n\n************************************\n2/ 接柯打\n- 一司機一戶口, 柯打自己按, 自己做, 嚴禁外借戶口及派柯打\n- 盡量滿足乘客多站要求\n- 必須填寫車牌, 並確保車牌正確 (請替更會員特別留意), 若乘客回報車牌不符, 一律派柯打處理\n- 按接訂單後需立即與乘客/出貨人聯絡\n- 按完分鐘, 柯打已作實, 必須10分鐘內到達\n- 已接街客柯打要車前後20分鐘內, 不能接其他街客柯打 (公海柯打不限)\n- 如因任何問題, 按錯order或order發生問題等等, 請立即回報管理處 6899-2675, 保障自己。不適當處理order, 一律當放飛機處理\n- 若未能聯絡乘客取消柯打, 師兄亦可繼續接公海柯打 (不受街客柯打20分鐘冷靜期限制)\n\n************************************\n3/ 投訴系統\n- 實際運作, 請參閱另一公告: 自助投訴及人工智能停賽系統\n- 乘客若數次被不同司機投訴, 系統會將乘客自動加進黑名單, 無法出柯打。師兄若遇到麻煩客, 請如實回報, 並加以描述, 令其他師兄避免中招!\n\n************************************\n\n違規者停賽一星期！再犯者無限期停賽！投訴專線: 5362-9608\n\n"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "agreement",
+  "config_value": "※ 請各會員仔細明瞭平台各規則後才按鍵同意登入， 以免違規被停台※\n\n1）所有會員於平台上接之訂單， 如訂單未能成功辦妥， 會員必須即時聯絡24小時管理熱線， 如實報告取消原因。 讓管理職員可即時跟進有關訂單， 及處理有關加減分數問題。\n\n2）所有訂單自己按，自己做。 嚴禁代派訂單之作弊行為， 嚴重損害其他會員應有利益。\n\n3）飛的會員帳戶屬個人戶口 ，所有會員均須遵守 “1人1證1戶口“規則， 絕對不能外借或共同使用同一戶口， 衍生責任混亂問題。\n\n4）會員登記之電話號碼， 必須確保在使用程式期間能夠聯絡得到。\n\n5）必須按照客人於訂單上顯示之要求收費， 不能向客人提出個人要求或提出修改。\n\n6）接單後須立即與客人聯絡， 訂單作實後， 必須於10分鐘內到達接客地點。\n\n7）司機嚴禁對客人作出任何形式推廣宣傳等行為。\n\n8）請謹慎清楚訂單內容才確認接單， 切勿胡亂接單， 影響平台運作及乘客叫車效率。\n\n9）所有訂單不可收取電召費、行李費、 寵物費。（ 未有 於訂單內註明之寵物除外）。\n\n10）所有已致電管理取消之訂單， 一律嚴禁再聯絡乘客， 如客人回電要求接載， 會員假如可以做回此訂單時， ”必須”即時致電管理處回報， 避免訂單重覆。\n\n11）必須填寫當日正確車牌（ 請替更會員特別留意）， 若發現接客車牌不符， 一律當作代派訂單處理。\n\n12）司機應保持良好態度， 有禮貌， 合力保持平台良好聲譽。\n\n13）會員嚴禁以任何方法干擾本程式， 意圖影響接單之公平性。\n\n如對本平台規則和罰則有任何疑問， 可主動致電24小時管理熱線查詢。\n對於會員因犯規被停台後之一切損失， 本公司並不負上任何責任。"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "agreement",
+  "config_value": "會員守則 (藍的)\n\n接柯打\n柯打自己按，自己做，嚴禁派柯打。\n必須填寫/選擇正確車牌開工，若乘客回報車牌不符，一律當派柯打處理。\n接單後請立即與乘客/貨主聯絡確認。\n如因任何問題，按錯柯打或柯打發生問題等，請立即回報藍的管理員團隊 2981-9499，以保障自己。不適當處理柯打者，一律當作放飛機處理。\n起點為 東涌 / 機場區 之柯打，司機必須於10分鐘內到達才可按接。\n起點為 大嶼南 / 愉景灣 / 迪士尼 之柯打，司機需聯絡乘客並商議好時間，並盡快接到乘客。\n\n的士收費\n可以收取法定電召的士費$5。\n可以依照的士附例，收取行李費每件$6。\n可以依照的士附例，收取動物鳥獸費每只$5。\n如非乘客柯打有小費 或 定食柯打，必須依照法例按錶收費。\n如柯打小費達$20或以上，司機需要免除乘客$5電召費。\n\n關於帳戶\n會員必須使用自己的帳戶，並使用大嶼山的士(藍的)去做柯打。如有違反，一經發現，將會永久停用有關帳戶，並可能會轉交警方處理。\n\n如有任何疑問，請向藍的管理員團隊查詢 2981-9499"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "agreement",
+  "config_value": "[市區的士] 條款及細則\n1) 所有訂單, 不設任何電召費\n2) 會員接獲訂單後, 請立即與乘客聯絡, 並在5-10分鐘內到達。如訂單不能完成, 必須電話通知乘客\n3) 單程隧道費 (如有)\n4) 總機回報熱線: 51848114\n\n* 本台柯打，集合自多個的士電召台及手機app *"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "agreement",
+  "config_value": "[新界的士] 條款及細則\n1) 所有訂單, 不設任何電召費\n2) 會員接獲訂單後, 請立即與乘客聯絡, 並在5-10分鐘內到達。如訂單不能完成, 必須電話通知乘客\n3) 單程隧道費 (如有)\n4) 總機回報熱線: 51848114\n\n* 本台柯打，集合自多個的士電召台及手機app *"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "agreement",
+  "config_value": "[藍色的士] 條款及細則\n1) 所有訂單, 不設任何電召費\n2) 會員接獲訂單後, 請立即與乘客聯絡, 並在5-10分鐘內到達。如訂單不能完成, 必須電話通知乘客\n3) 單程隧道費 (如有)\n4) 總機回報熱線: 51848114\n\n* 本台柯打，集合自多個的士電召台及手機app *"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "background_service_reload_sec",
+  "config_value": "60"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "batch_info_reload_sec",
+  "config_value": "300"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "calculator",
+  "config_value": "[{\"id\":18,\"name\":\"hkg_tunnel_red\",\"surcharge\":50},{\"id\":19,\"name\":\"hkg_tunnel_west\",\"surcharge\":50},{\"id\":20,\"name\":\"hkg_tunnel_east\",\"surcharge\":50},{\"id\":21,\"name\":\"hkg_tunnel_aberdeen\",\"surcharge\":8},{\"id\":22,\"name\":\"hkg_tunnel_tatecairn\",\"surcharge\":20},{\"id\":23,\"name\":\"hkg_tunnel_lion\",\"surcharge\":8},{\"id\":24,\"name\":\"hkg_tunnel_tko\",\"surcharge\":0},{\"id\":25,\"name\":\"hkg_tunnel_shingmun\",\"surcharge\":8},{\"id\":26,\"name\":\"hkg_tunnel_tst\",\"surcharge\":8},{\"id\":27,\"name\":\"hkg_tunnel_tailam\",\"surcharge\":28},{\"id\":28,\"name\":\"hkg_tunnel_lantau\",\"surcharge\":0},{\"id\":40,\"name\":\"hkg_taxi_misc_meter_price\",\"charge\":83, \"min\":70},{\"id\":999,\"name\":\"hkg_baggage_fee\",\"surcharge\":6},{\"id\":999,\"name\":\"hkg_pets_fee\",\"surcharge\":5},{\"id\":999,\"name\":\"hkg_airport_parking_fee\",\"surcharge\":16},{\"id\":86,\"name\":\"hkg_taxi_misc_oneway_tunnel\",\"surcharge\":-25}]"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "calculator",
+  "config_value": "[{\"id\":25,\"name\":\"hkg_tunnel_shingmun\",\"surcharge\":8},{\"id\":27,\"name\":\"hkg_tunnel_tailam\",\"surcharge\":28},{\"id\":28,\"name\":\"hkg_tunnel_lantau\",\"surcharge\":0},{\"id\":40,\"name\":\"hkg_taxi_misc_meter_price\",\"charge\":83, \"min\":70},{\"id\":999,\"name\":\"hkg_baggage_fee\",\"surcharge\":6},{\"id\":999,\"name\":\"hkg_pets_fee\",\"surcharge\":5},{\"id\":999,\"name\":\"hkg_airport_parking_fee\",\"surcharge\":16}]"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "calculator",
+  "config_value": "[{\"id\":999,\"name\":\"hkg_baggage_fee\",\"surcharge\":6},{\"id\":999,\"name\":\"hkg_pets_fee\",\"surcharge\":5},{\"id\":999,\"name\":\"hkg_airport_parking_fee\",\"surcharge\":16}]"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "cancel_ratio_max",
+  "config_value": "0.3"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "cancel_ratio_max",
+  "config_value": "0.3"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "cancel_ratio_max",
+  "config_value": "0.3"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "cancel_ratio_max",
+  "config_value": "0.3"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "complete_ride_manual_ratio_max",
+  "config_value": "0.2"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "complete_ride_manual_ratio_max",
+  "config_value": "0.2"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "complete_ride_manual_ratio_max",
+  "config_value": "0.2"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "contact_list_app_android",
+  "config_value": "com.flytaxi.contact_list"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "contact_list_app_class_name",
+  "config_value": "com.flytaxi.contact_list.activity.callLog.CallLogActivity"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "driver_lose_signal_ratio_max",
+  "config_value": "0.21"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "driver_lose_signal_ratio_max",
+  "config_value": "0.21"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "driver_lose_signal_ratio_max",
+  "config_value": "0.21"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "driver_screen_saver_display_mins",
+  "config_value": "15"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "driver_too_late_ratio_max",
+  "config_value": "0.34"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "driver_too_late_ratio_max",
+  "config_value": "0.34"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "driver_too_late_ratio_max",
+  "config_value": "0.34"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "error_driver_lose_signal_mins",
+  "config_value": "5"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "error_driver_lose_signal_mins",
+  "config_value": "20"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "error_driver_no_gps_mins",
+  "config_value": "5"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "gps_device_update_sec",
+  "config_value": "15"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "gps_update_accepted_book_after_x_minute",
+  "config_value": "75"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "gps_update_accepted_book_before_x_minute",
+  "config_value": "15"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "gps_update_accepted_book_sec",
+  "config_value": "20"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "gps_update_normal_sec",
+  "config_value": "600"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "no_show_ratio_max",
+  "config_value": "0.14"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "no_show_ratio_max",
+  "config_value": "0.14"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "no_show_ratio_max",
+  "config_value": "0.14"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "rider_cancel_ratio_max",
+  "config_value": "0.18"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "rider_cancel_ratio_max",
+  "config_value": "0.18"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "rider_cancel_ratio_max",
+  "config_value": "0.18"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "stop_order_gps_minutes",
+  "config_value": "30"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "warning_driver_arrive_pickup_mins",
+  "config_value": "15"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "warning_driver_arrive_pickup_mins",
+  "config_value": "15"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "warning_driver_lose_signal_local_push_banner_sec",
+  "config_value": "130"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "warning_driver_lose_signal_mins",
+  "config_value": "3"
+ },
+ {
+  "config_type": "driver_general",
+  "config_key": "warning_driver_lose_signal_mins",
+  "config_value": "15"
+ },
+ {
+  "config_type": "driver_screen_order_take",
+  "config_key": "book_refresh_sec",
+  "config_value": "5"
+ },
+ {
+  "config_type": "driver_screen_order_take",
+  "config_key": "book_refresh_sec",
+  "config_value": "10"
+ },
+ {
+  "config_type": "driver_screen_order_take",
+  "config_key": "book_refresh_sec",
+  "config_value": "10"
+ },
+ {
+  "config_type": "driver_screen_order_take",
+  "config_key": "book_refresh_sec_list",
+  "config_value": "0,5,10,15,20,25,30,35,40,45,50,55"
+ },
+ {
+  "config_type": "driver_screen_order_take",
+  "config_key": "book_refresh_sec_list",
+  "config_value": "0,10,20,30,40,50"
+ },
+ {
+  "config_type": "error_driver_too_late_mins",
+  "config_key": "14,21,31,41",
+  "config_value": "15:10:45:10"
+ },
+ {
+  "config_type": "error_driver_too_late_mins",
+  "config_key": "14,21,31,41",
+  "config_value": "20:30:50:10"
+ },
+ {
+  "config_type": "error_driver_too_late_mins",
+  "config_key": "14,21,31,41",
+  "config_value": "20:30:50:10"
+ },
+ {
+  "config_type": "error_driver_too_late_mins",
+  "config_key": "14,21,31,41",
+  "config_value": "20:30:50:10"
+ },
+ {
+  "config_type": "general",
+  "config_key": "android_version_cust",
+  "config_value": "191"
+ },
+ {
+  "config_type": "general",
+  "config_key": "android_version_driver",
+  "config_value": "356"
+ },
+ {
+  "config_type": "general",
+  "config_key": "android_version_driver",
+  "config_value": "42"
+ },
+ {
+  "config_type": "general",
+  "config_key": "app_information_url",
+  "config_value": "https://www.facebook.com/flytaxihk/"
+ },
+ {
+  "config_type": "general",
+  "config_key": "app_information_url",
+  "config_value": "https://info.cargrid.app"
+ },
+ {
+  "config_type": "general",
+  "config_key": "apple_store_url_cust_ios",
+  "config_value": "itms-apps://itunes.apple.com/hk/app/flytaxi-call-hktaxi-app-hk/id787091892?l=hk&mt=8"
+ },
+ {
+  "config_type": "general",
+  "config_key": "apple_store_url_cust_ios",
+  "config_value": "itms-apps://itunes.apple.com/us/app/fastcab-ro/id1460633638?ls=1&mt=8"
+ },
+ {
+  "config_type": "general",
+  "config_key": "apple_store_url_driver_ios",
+  "config_value": "itms-apps://itunes.apple.com/hk/app/id6503943180?l=hk&mt=8"
+ },
+ {
+  "config_type": "general",
+  "config_key": "config_version",
+  "config_value": "20260916"
+ },
+ {
+  "config_type": "general",
+  "config_key": "ios_version_cust",
+  "config_value": "40"
+ },
+ {
+  "config_type": "general",
+  "config_key": "ios_version_driver",
+  "config_value": "61"
+ },
+ {
+  "config_type": "general",
+  "config_key": "play_store_url_cust_android",
+  "config_value": "http://play.google.com/store/apps/details?id=com.flytaxi.hktaxi"
+ },
+ {
+  "config_type": "general",
+  "config_key": "play_store_url_cust_android",
+  "config_value": "http://play.google.com/store/apps/details?id=com.cargrid.fastcab.passenger"
+ },
+ {
+  "config_type": "general",
+  "config_key": "play_store_url_cust_iphone",
+  "config_value": "https://apps.apple.com/hk/app/fly-taxi-%E7%9A%84%E5%A3%AB-hk-taxi-call-app/id787091892"
+ },
+ {
+  "config_type": "general",
+  "config_key": "play_store_url_driver_android",
+  "config_value": "http://play.google.com/store/apps/details?id=com.flytaxi"
+ },
+ {
+  "config_type": "general",
+  "config_key": "play_store_url_driver_android",
+  "config_value": "http://play.google.com/store/apps/details?id=com.hktaxi.callcentre"
+ },
+ {
+  "config_type": "general",
+  "config_key": "play_store_url_driver_android",
+  "config_value": "http://play.google.com/store/apps/details?id=com.cargrid.fastcab.partner"
+ },
+ {
+  "config_type": "take_b_order",
+  "config_key": "takeb_countdown_sec",
+  "config_value": "20"
+ },
+ {
+  "config_type": "take_b_order",
+  "config_key": "takeb_countdown_sec",
+  "config_value": "5"
+ },
+ {
+  "config_type": "take_order",
+  "config_key": "click_threshold2_count",
+  "config_value": "60"
+ },
+ {
+  "config_type": "take_order",
+  "config_key": "click_threshold2_sec",
+  "config_value": "300"
+ },
+ {
+  "config_type": "take_order",
+  "config_key": "click_threshold_count",
+  "config_value": "20"
+ },
+ {
+  "config_type": "take_order",
+  "config_key": "click_threshold_sec",
+  "config_value": "60"
+ },
+ {
+  "config_type": "uber_popup_screen",
+  "config_key": "driver_linking_countdown_sec",
+  "config_value": "30"
+ },
+ {
+  "config_type": "uber_popup_screen",
+  "config_key": "driver_submit_doc_countdown_sec",
+  "config_value": "30"
+ },
+ {
+  "config_type": "uber_popup_screen",
+  "config_key": "rider_popup_countdown_sec",
+  "config_value": "5"
+ },
+ {
+  "config_type": "user",
+  "config_key": "green_taxi_min_company_price",
+  "config_value": "70"
+ },
+ {
+  "config_type": "user",
+  "config_key": "red_taxi_min_company_price",
+  "config_value": "80"
+ },
+ {
+  "config_type": "user_meter_price_if_below",
+  "config_key": "meter_price_if_below",
+  "config_value": "70"
+ },
+ {
+  "config_type": "user_meter_price_if_below",
+  "config_key": "meter_price_if_below",
+  "config_value": "70"
+ },
+ {
+  "config_type": "user_meter_price_if_below",
+  "config_key": "meter_price_if_below",
+  "config_value": "999"
+ },
+ {
+  "config_type": "user_screen_history",
+  "config_key": "cust_history_new_refresh_sec",
+  "config_value": "5"
+ },
+ {
+  "config_type": "user_screen_history",
+  "config_key": "cust_history_new_refresh_sec",
+  "config_value": "5"
+ },
+ {
+  "config_type": "user_screen_history",
+  "config_key": "cust_history_recreate_add_hkd",
+  "config_value": "10"
+ },
+ {
+  "config_type": "user_screen_history",
+  "config_key": "cust_history_show_driver_count",
+  "config_value": "5"
+ },
+ {
+  "config_type": "user_screen_history",
+  "config_key": "cust_history_show_driver_count",
+  "config_value": "5"
+ },
+ {
+  "config_type": "wallet",
+  "config_key": "driver_wallet_reload_sec",
+  "config_value": "10"
+ },
+ {
+  "config_type": "wallet",
+  "config_key": "wallet_get_tran_reload_sec",
+  "config_value": "5"
+ },
+ {
+  "config_type": "wallet",
+  "config_key": "wallet_get_tran_timeout_sec",
+  "config_value": "30"
+ }
+]

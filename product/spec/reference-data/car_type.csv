@@ -1,0 +1,5 @@
+id,type,desc,car_group_id,enable,minute_backoff,pay_mode,car_type_default
+1,red_taxi,red taxi,1,1,9,1,1
+2,green_taxi,green taxi,1,1,7,1,-1
+7,blue_taxi,blue taxi,1,1,7,1,-1
+15,FastCab Standard,FastCab Standard,5,1,-1,3,1

@@ -1,0 +1,11 @@
+id,car_group_id,group_name,is_display
+5,5,ron_car_misc,1
+6,5,ron_car_remark,1
+7,5,ron_car_base_fare,-1
+15,1,hkg_taxi_tunnel,1
+16,1,hkg_taxi_stop,1
+17,1,hkg_taxi_car_feature,1
+18,1,hkg_taxi_time,1
+19,1,hkg_taxi_misc,1
+20,1,hkg_taxi_remark,1
+21,1,hkg_taxi_base_fare,-1
