@@ -68,6 +68,35 @@ import/version drift — expect to fix Gradle/Compose version pins there.
 3. Driver document verification, plan/subscription and fleet (group) concepts.
 4. Passenger app against the same contract.
 
+## Driver screens (Compose)
+
+`ui/Screens.kt` + `ui/AcceptOrderScreen.kt` + `ui/Theme.kt` implement the eight core screens,
+each rebuilt from the decoded reference layout:
+
+| our screen | reference layout |
+|---|---|
+| `LoginScreen` | `login_fragment_layout.xml` |
+| `HomeScreen` (+ tab bar, dispatch list) | `main_layout.xml` |
+| `AcceptOrderScreen` (countdown + swipe bar) | `accept_order_main_layout.xml` |
+| `ActiveOrderScreen` (map, nav chips, swipe bar) | `order_fragment_main_layout.xml` |
+| `OrderCompleteScreen` (fare breakdown) | order completion panel |
+
+## Real-device location (Plan B)
+
+`location/DriverLocationService.kt` is a foreground service (`foregroundServiceType=location`)
+that publishes FusedLocation updates and posts them to the API with the observed cadence:
+**600 s idle**, **20 s while on an order**. The ViewModel starts/stops it from the online state.
+
+## Behaviour-risk engine (server)
+
+The reference app caps per-driver behaviour ratios (cancel 0.30, late 0.34, no-signal 0.21,
+rider-cancel 0.18, no-show 0.14, manual-complete 0.20 over a rolling window of 50 events).
+`server/src/server.mjs` implements the same engine:
+
+- `GET  /api/v1/driver/risk` → ratios, caps, breaches
+- `POST /api/v1/orders/report` → record `late` / `no_signal` / `rider_cancel` / `no_show` / `manual_complete`
+- `POST /api/v1/orders/accept` → refused with `2407` while over a cap
+
 ## UI rebuild
 
 The reference UI was reverse engineered from the binary layouts and resources, not copied:

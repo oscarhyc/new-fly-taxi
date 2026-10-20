@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">new-fly-taxi 司機</string>
+    <string name="channel_location_name">定位服務</string>
+    <string name="location_running_text">正在上報位置</string>
+</resources>

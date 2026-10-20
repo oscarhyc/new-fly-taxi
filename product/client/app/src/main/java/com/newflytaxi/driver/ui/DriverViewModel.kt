@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.newflytaxi.driver.data.*
+import com.newflytaxi.driver.location.LocationHub
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -13,6 +14,8 @@ import kotlinx.coroutines.launch
 
 data class DriverUiState(
     val loggedIn: Boolean = false,
+    val countdownSeconds: Int = 0,
+    val driver: Driver? = null,
     val driver: Driver? = null,
     val online: Boolean = false,
     val orders: List<Order> = emptyList(),
@@ -46,7 +49,10 @@ class DriverViewModel(app: Application) : AndroidViewModel(app) {
         val r = api.login(LoginRequest(tel, pwd, session.deviceId()))
         if (r.statusCode == "200" && r.data != null) {
             session.saveToken(r.data.accessToken)
-            _state.value = _state.value.copy(loggedIn = true, loading = false, message = "已登入")
+            _state.value = _state.value.copy(
+                loggedIn = true, loading = false, message = "已登入",
+                driver = Driver(id = r.data.id, name = null, carNumber = r.data.carNumber),
+            )
             loadConfig()
         } else {
             _state.value = _state.value.copy(loading = false, error = r.message ?: "登入失敗 (${r.statusCode})")
@@ -59,10 +65,11 @@ class DriverViewModel(app: Application) : AndroidViewModel(app) {
         }
     }
 
-    fun setOnline(online: Boolean, lat: Double, lon: Double) = viewModelScope.launch {
+    fun setOnline(online: Boolean) = viewModelScope.launch {
+        val pos = LocationHub.position.value
         api.setOnline(OnlineRequest(online))
         _state.value = _state.value.copy(online = online)
-        if (online) startPolling(lat, lon) else stopPolling()
+        if (online && pos != null) startPolling(pos.first, pos.second) else stopPolling()
     }
 
     /** Dispatch poll: the server pushes nothing, so the client polls like the observed app. */
@@ -87,7 +94,9 @@ class DriverViewModel(app: Application) : AndroidViewModel(app) {
         handle(r, "已接單")
     }
 
-    fun arrivedPickup() = advance { api.arrivedPickup(BidRequest(it)) }
+    fun arrive() = advance { api.arrivedPickup(BidRequest(it)) }
+    fun arrivedPickup() = arrive()
+    fun clearOrder() { _state.value = _state.value.copy(current = null) }
     fun startRide() = advance { api.startRide(BidRequest(it)) }
     fun arrivedDropoff() = advance { api.arrivedDropoff(BidRequest(it)) }
     fun complete() = advance { api.complete(CompleteRequest(it)) }

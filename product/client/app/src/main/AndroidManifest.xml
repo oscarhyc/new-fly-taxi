@@ -13,6 +13,10 @@
         android:label="new-fly-taxi 司機"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewFlyTaxi">
+        <service
+            android:name=".location.DriverLocationService"
+            android:exported="false"
+            android:foregroundServiceType="location" />
         <activity android:name=".ui.MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

@@ -113,6 +113,15 @@ step('lifecycle: accept -> arrived_pickup -> start_ride -> arrived_dropoff -> co
   assert.ok(Array.isArray(r.data.fare.summary), 'fare breakdown present');
 });
 
+step('a second booking is available for the risk test', async () => {
+  const r = await call('/api/v1/orders/available', { lat: 22.3089203, lng: 114.157572 });
+  const other = r.data.find((o) => o.id !== globalThis.__bid);
+  assert.ok(other, 'second seeded order found');
+  globalThis.__bid2 = other.id;
+  const acc = await call('/api/v1/orders/accept', { bid: other.id });
+  assert.equal(acc.status_code, '200', 'second order accepted');
+});
+
 step('double accept is refused with a state conflict', async () => {
   const r = await call('/api/v1/orders/accept', { bid: globalThis.__bid });
   assert.equal(r.http, 409);
@@ -123,6 +132,27 @@ step('order detail exposes the same status + label', async () => {
   const r = await call(`/api/v1/orders/${globalThis.__bid}`, null, { method: 'GET' });
   assert.equal(r.data.status, '51');
   assert.equal(r.data.status_label, 'Completed');
+});
+
+step('risk profile is exposed and starts clean', async () => {
+  const r = await call('/api/v1/driver/risk', null, { method: 'GET' });
+  assert.equal(r.status_code, '200');
+  assert.equal(r.data.restricted, false);
+  assert.equal(r.data.caps.cancel, 0.3);
+  assert.equal(r.data.caps.late, 0.34);
+});
+
+step('behaviour ratios are tracked when a driver is late', async () => {
+  const r = await call('/api/v1/orders/report', { bid: globalThis.__bid2, kind: 'late' });
+  assert.equal(r.status_code, '200');
+  assert.ok(r.data.risk.ratios.late > 0, 'late ratio recorded');
+  assert.equal(r.data.risk.breaches.find((b) => b.kind === 'late').cap, 0.34);
+});
+
+step('a driver over the behaviour cap is refused new bookings (2407)', async () => {
+  const r = await call('/api/v1/orders/accept', { bid: '900002' });
+  assert.equal(r.http, 403);
+  assert.equal(r.status_code, '2407');
 });
 
 let failed = 0;

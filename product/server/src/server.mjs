@@ -28,6 +28,16 @@ export const CONFIG = {
   gps_lost_signal_warn_s: 180,      // warning_driver_lose_signal_mins
   gps_lost_signal_error_s: 300,     // error_driver_lose_signal_mins
   cancel_fee_hkd: 6,                // book_accept_cancel_fee
+  // driver behaviour risk caps — ratios of terminal events over a rolling window
+  risk_window: 50,
+  risk_caps: {
+    cancel: 0.30,                  // driver_general.cancel_ratio_max
+    late: 0.34,                    // driver_general.driver_too_late_ratio_max
+    no_signal: 0.21,               // driver_general.driver_lose_signal_ratio_max
+    rider_cancel: 0.18,            // driver_general.rider_cancel_ratio_max
+    no_show: 0.14,                 // driver_general.no_show_ratio_max
+    manual_complete: 0.20,         // driver_general.complete_ride_manual_ratio_max
+  },
   company_price_floor: { red_taxi: 80, green_taxi: 70 },
   arrive_pickup_max_radius_m: 1000, // book_accept_driver_arrive_pickup_max_radius
   arrive_dropoff_max_radius_m: 2000,// book_accept_driver_arrive_dropoff1_max_radius
@@ -48,8 +58,37 @@ const store = {
   tokens: new Map(),       // token -> driverId
   orders: new Map(),       // bid -> order
   gps: new Map(),          // driverId -> {lat,lng,at}
+  risk: new Map(),         // driverId -> [{kind, at}]
   logs: [],
 };
+
+/* ------------------------------------------------------- driver risk engine
+ * The reference app enforces per-driver behaviour ratios (extracted from its
+ * live config DB). A driver above a cap loses the right to take bookings.
+ */
+const RISK_KINDS = ['cancel', 'late', 'no_signal', 'rider_cancel', 'no_show', 'manual_complete', 'completed', 'expired'];
+
+function recordRisk(driverId, kind) {
+  if (!driverId || !RISK_KINDS.includes(kind)) return;
+  const list = store.risk.get(driverId) || [];
+  list.push({ kind, at: Date.now() });
+  while (list.length > CONFIG.risk_window) list.shift();
+  store.risk.set(driverId, list);
+}
+
+function riskProfile(driverId) {
+  const list = store.risk.get(driverId) || [];
+  const total = list.filter((e) => e.kind !== 'completed' && e.kind !== 'expired').length;
+  const ratios = {};
+  for (const kind of Object.keys(CONFIG.risk_caps)) {
+    const n = list.filter((e) => e.kind === kind).length;
+    ratios[kind] = total ? Number((n / total).toFixed(4)) : 0;
+  }
+  const breaches = Object.entries(ratios)
+    .filter(([k, v]) => v > CONFIG.risk_caps[k])
+    .map(([k, v]) => ({ kind: k, ratio: v, cap: CONFIG.risk_caps[k] }));
+  return { ratios, caps: CONFIG.risk_caps, window: CONFIG.risk_window, events: total, breaches, restricted: breaches.length > 0 };
+}
 
 export const ORDER_STATUS = {
   NEW: '11', CANCEL: '12', EXPIRY: '13', ACCEPTED: '14',
@@ -89,6 +128,8 @@ function seed() {
       dropoff_address: '荃灣西', dlat: 22.3720800, dlon: 114.1140600, ct: '1' },
     { bid: '900003', pickup_address: '兆康站', lat: 22.4087000, lon: 113.9820000,
       dropoff_address: '青衣城', dlat: 22.2846800, dlon: 114.1096100, ct: '1' },
+    { bid: '900004', pickup_address: '屯門市中心', lat: 22.3095000, lon: 114.1600000,
+      dropoff_address: '良景邨', dlat: 22.3150000, dlon: 114.1500000, ct: '1' },
   ];
   for (const s of seeds) {
     store.orders.set(s.bid, {
@@ -235,10 +276,36 @@ function transition(res, bid, from, to, extra = {}) {
   return send(res, 200, ok({ id: o.bid, status: o.status, status_label: STATUS_LABEL[o.status], dup: o.dup, ...extra }));
 }
 
+route('GET', '/api/v1/driver/risk', (req, res) => {
+  const d = requireDriver(req, res); if (!d) return;
+  return send(res, 200, ok(riskProfile(d.id)));
+});
+
+route('POST', '/api/v1/orders/report', async (req, res) => {
+  const d = requireDriver(req, res); if (!d) return;
+  const b = await body(req);
+  const miss = need(b, ['bid', 'kind']); if (miss.length) return send(res, 400, err('101', '參數不足夠'));
+  const o = store.orders.get(String(b.bid));
+  if (!o || o.driver_id !== d.id) return send(res, 403, err('2406', '無權操作此訂單'));
+  const kind = String(b.kind);
+  recordRisk(d.id, kind);
+  const map = { late: ORDER_STATUS.DRIVER_LATE, no_signal: ORDER_STATUS.DRIVER_NO_SIGNAL,
+                rider_cancel: ORDER_STATUS.USER_CANCEL, no_show: ORDER_STATUS.USER_NO_SHOW,
+                manual_complete: ORDER_STATUS.COMPLETE_MANUAL };
+  if (map[kind] && o.status !== ORDER_STATUS.COMPLETE) {
+    o.status = map[kind]; o.dup = nowIso();
+  }
+  return send(res, 200, ok({ id: o.bid, status: o.status, risk: riskProfile(d.id) }));
+});
+
 route('POST', '/api/v1/orders/accept', async (req, res) => {
   const d = requireDriver(req, res); if (!d) return;
   const b = await body(req);
   const miss = need(b, ['bid']); if (miss.length) return send(res, 400, err('101', '參數不足夠'));
+  const risk = riskProfile(d.id);
+  if (risk.restricted) {
+    return send(res, 403, err('2407', '帳戶行為比例超出上限，已暫停接單', risk.breaches));
+  }
   const o = store.orders.get(String(b.bid));
   if (!o) return send(res, 404, err('2401', '找不到訂單'));
   if (o.status !== ORDER_STATUS.NEW) {
@@ -253,6 +320,7 @@ route('POST', '/api/v1/orders/accept', async (req, res) => {
   }
   o.driver_id = d.id;
   o.did = d.id;
+  recordRisk(d.id, 'accepted');
   o.locked_until = Date.now() + CONFIG.accept_lock_s * 1000;
   o.distance = o.distance || 0;
   return transition(res, o.bid, ORDER_STATUS.NEW, ORDER_STATUS.ACCEPTED,
@@ -292,6 +360,7 @@ route('POST', '/api/v1/orders/complete', async (req, res) => {
   const dist = g ? haversine(o.lat, o.lon, o.dlat, o.dlon) : (o.distance || 0);
   const fare = estimateFare(o.ct || '1', dist, { tunnel: !!b.tunnel });
   o.fare = fare; o.distance = Math.round(dist);
+  recordRisk(d.id, 'completed');
   return transition(res, b.bid, ORDER_STATUS.TO_DROPOFF, ORDER_STATUS.COMPLETE, { fare });
 });
 
@@ -300,7 +369,8 @@ route('POST', '/api/v1/orders/cancel', async (req, res) => {
   const b = await body(req);
   const o = store.orders.get(String(b.bid));
   if (!o || o.driver_id !== d.id) return send(res, 403, err('2406', '無權操作此訂單'));
-  const to = o.status === ORDER_STATUS.ACCEPTED ? ORDER_STATUS.DRIVER_CANCEL : ORDER_STATUS.DRIVER_CANCEL;
+  const to = ORDER_STATUS.DRIVER_CANCEL;
+  recordRisk(d.id, 'cancel');
   return transition(res, b.bid, o.status, to);
 });
 
