@@ -81,6 +81,22 @@ each rebuilt from the decoded reference layout:
 | `ActiveOrderScreen` (map, nav chips, swipe bar) | `order_fragment_main_layout.xml` |
 | `OrderCompleteScreen` (fare breakdown) | order completion panel |
 
+## Long-tail screens (A2)
+
+The reference app ships 216 compiled layouts; several of its screens are inflated from XML
+and then filled from code. We keep that structure as data instead of hand-writing 200
+composables:
+
+- `app/src/main/assets/ui-spec.json` — every layout as a resolved JSON element tree
+  (resource ids, text, colours and dimensions already substituted)
+- `ui/SpecRenderer.kt` — generic renderer that draws a layout spec with Compose
+  (LinearLayout→Column/Row, TextView→Text, ImageView→Box, RecyclerView→list slot, …)
+- `ui/MoreScreens.kt` — the code-built screens the XML cannot express: settings, driver
+  documents, car models, meter calculator, earnings, history, payments, complaints,
+  customer service, phone verification, sign-up, and the offline black screen
+
+`docs/screen-map.md` maps every Activity/Fragment to the layouts it inflates.
+
 ## Real-device location (Plan B)
 
 `location/DriverLocationService.kt` is a foreground service (`foregroundServiceType=location`)

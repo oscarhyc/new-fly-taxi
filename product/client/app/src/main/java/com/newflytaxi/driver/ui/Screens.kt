@@ -83,6 +83,7 @@ fun HomeScreen(
     available: List<Order>,
     onToggleOnline: (Boolean) -> Unit,
     onAccept: (Order) -> Unit,
+    onMore: () -> Unit,
 ) {
     var tab by remember { mutableIntStateOf(0) }
     Column(Modifier.fillMaxSize().background(Tokens.Panel)) {
@@ -96,6 +97,8 @@ fun HomeScreen(
                 Text(carNumber, color = Tokens.Gold, fontSize = Tokens.fontSm)
             }
             Switch(online, onToggleOnline)
+            Spacer(Modifier.width(Tokens.spaceSm))
+            Text("更多", color = Tokens.Gold, fontSize = Tokens.fontSm, modifier = Modifier.clickable { onMore() })
         }
         Row(Modifier.fillMaxWidth().background(Tokens.Sheet)) {
             listOf("派單", "行程", "收入").forEachIndexed { i, t ->

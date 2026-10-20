@@ -1,0 +1,887 @@
+{
+ "p076J3.C0790b": {
+  "kind": "other",
+  "layouts": [
+   "splash_screen_fragment_layout"
+  ]
+ },
+ "p036E3.C0445b": {
+  "kind": "other",
+  "layouts": [
+   "octopus_linkage_fragment_layout"
+  ]
+ },
+ "p084K3.C0817b": {
+  "kind": "other",
+  "layouts": [
+   "sunset_account_fragment_layout"
+  ]
+ },
+ "p019C2.AbstractC0245a": {
+  "kind": "other",
+  "layouts": [
+   "history_item_row"
+  ]
+ },
+ "p035E2.AbstractC0440a": {
+  "kind": "other",
+  "layouts": [
+   "empty_item_row",
+   "order_item_row"
+  ]
+ },
+ "p358p3.C6070b": {
+  "kind": "other",
+  "layouts": [
+   "permission_setting_fragment_layout"
+  ]
+ },
+ "p028D3.C0325a": {
+  "kind": "other",
+  "layouts": [
+   "outdated_os_fragment_layout"
+  ]
+ },
+ "p027D2.AbstractC0320a": {
+  "kind": "other",
+  "layouts": [
+   "license_list_item_row"
+  ]
+ },
+ "p116O3.C1139b": {
+  "kind": "other",
+  "layouts": [
+   "webview_fragment_layout"
+  ]
+ },
+ "p274g3.C5051b": {
+  "kind": "other",
+  "layouts": [
+   "announcement_fragment_layout"
+  ]
+ },
+ "p274g3.AbstractC5054e": {
+  "kind": "other",
+  "layouts": [
+   "price_confirm_dialog_layout"
+  ]
+ },
+ "p283h3.C5119c": {
+  "kind": "other",
+  "layouts": [
+   "complain_fragment_layout"
+  ]
+ },
+ "p092L3.C0910e": {
+  "kind": "other",
+  "layouts": [
+   "take_photo_fragment_layout"
+  ]
+ },
+ "p011B2.C0096b": {
+  "kind": "other",
+  "layouts": [
+   "drop_order_contact_row",
+   "drop_order_fixed_price_row",
+   "drop_order_group_row",
+   "drop_order_order_row",
+   "drop_order_time_row",
+   "option_order_option_row"
+  ]
+ },
+ "p156T3.DialogC1579a": {
+  "kind": "other",
+  "layouts": [
+   "car_model_bottom_sheet_layout"
+  ]
+ },
+ "p412v3.C6509e": {
+  "kind": "other",
+  "layouts": [
+   "drop_order_fragment_layout"
+  ]
+ },
+ "p403u3.C6384c": {
+  "kind": "other",
+  "layouts": [
+   "cs_tab_service_fragment_layout"
+  ]
+ },
+ "p188X3.C1938b": {
+  "kind": "other",
+  "layouts": [
+   "recycler_tab_item_row"
+  ]
+ },
+ "p060H3.C0654c": {
+  "kind": "other",
+  "layouts": [
+   "setting_fragment_layout"
+  ]
+ },
+ "p108N3.C1035b": {
+  "kind": "other",
+  "layouts": [
+   "warning_fragment_layout"
+  ]
+ },
+ "p292i3.AbstractC5197e": {
+  "kind": "other",
+  "layouts": [
+   "spinner_layout"
+  ]
+ },
+ "p292i3.C5195c": {
+  "kind": "other",
+  "layouts": [
+   "customer_service_detail_fragment_layout"
+  ]
+ },
+ "p429x3.C6596c": {
+  "kind": "other",
+  "layouts": [
+   "order_fragment_layout"
+  ]
+ },
+ "p429x3.AbstractC6594a": {
+  "kind": "other",
+  "layouts": [
+   "prepare_take_dialog_layout"
+  ]
+ },
+ "p310k3.C5347b": {
+  "kind": "other",
+  "layouts": [
+   "font_size_fragment_layout"
+  ]
+ },
+ "p329m3.C5554c": {
+  "kind": "other",
+  "layouts": [
+   "fleet_car_service_fragment_layout"
+  ]
+ },
+ "p329m3.AbstractC5552a": {
+  "kind": "other",
+  "layouts": [
+   "price_confirm_dialog_layout"
+  ]
+ },
+ "p100M3.C0992d": {
+  "kind": "other",
+  "layouts": [
+   "uber_popup_layout"
+  ]
+ },
+ "p338n3.C5638b": {
+  "kind": "other",
+  "layouts": [
+   "integrity_fail_fragment_layout"
+  ]
+ },
+ "p347o3.C5901c": {
+  "kind": "other",
+  "layouts": [
+   "driver_option_fragment_layout"
+  ]
+ },
+ "p385s3.C6287b": {
+  "kind": "other",
+  "layouts": [
+   "rules_fragment_layout"
+  ]
+ },
+ "p376r3.C6206b": {
+  "kind": "other",
+  "layouts": [
+   "root_device_fragment_layout"
+  ]
+ },
+ "p068I3.C0742d": {
+  "kind": "other",
+  "layouts": [
+   "sign_up_fragment_layout"
+  ]
+ },
+ "p068I3.AbstractC0741c": {
+  "kind": "other",
+  "layouts": [
+   "phone_verify_confirm_dialog_layout"
+  ]
+ },
+ "p320l3.C5441a": {
+  "kind": "other",
+  "layouts": [
+   "accessibility_service_fragment_layout"
+  ]
+ },
+ "p052G3.C0599c": {
+  "kind": "other",
+  "layouts": [
+   "payme_fragment_layout"
+  ]
+ },
+ "p444z2.C6669a": {
+  "kind": "other",
+  "layouts": [
+   "accessibility_info_item_row",
+   "accessibility_setting_item_row",
+   "accessibility_skip_item_row",
+   "accessibility_title_item_row"
+  ]
+ },
+ "p444z2.C6679k": {
+  "kind": "other",
+  "layouts": [
+   "payment_item_row"
+  ]
+ },
+ "p444z2.C6674f": {
+  "kind": "other",
+  "layouts": [
+   "complain_item_row"
+  ]
+ },
+ "p444z2.C6675g": {
+  "kind": "other",
+  "layouts": [
+   "release_spinner_layout",
+   "spinner_drop_down_layout",
+   "suspend_spinner_layout"
+  ]
+ },
+ "p444z2.C6673e": {
+  "kind": "other",
+  "layouts": [
+   "car_model_size_item_row",
+   "car_model_web_taxi_item_row"
+  ]
+ },
+ "p444z2.C6680l": {
+  "kind": "other",
+  "layouts": [
+   "reject_order_item_row"
+  ]
+ },
+ "p444z2.C6681m": {
+  "kind": "other",
+  "layouts": [
+   "main_slide_menu_item_row"
+  ]
+ },
+ "p444z2.C6678j": {
+  "kind": "other",
+  "layouts": [
+   "group_list_item_row"
+  ]
+ },
+ "p444z2.C6677i": {
+  "kind": "other",
+  "layouts": [
+   "fleet_car_info_v2_item_row",
+   "fleet_car_service_item_row",
+   "fleet_car_title_item_row"
+  ]
+ },
+ "p444z2.C6672d": {
+  "kind": "other",
+  "layouts": [
+   "car_model_add_plate_item_row",
+   "car_model_preview_item_v2_row",
+   "car_model_web_fleet_item_row"
+  ]
+ },
+ "p444z2.C6682n": {
+  "kind": "other",
+  "layouts": [
+   "warning_item_row"
+  ]
+ },
+ "p444z2.C6670b": {
+  "kind": "other",
+  "layouts": [
+   "fare_item_row"
+  ]
+ },
+ "p148S3.C1537b": {
+  "kind": "other",
+  "layouts": [
+   "radio_v2_button_layout"
+  ]
+ },
+ "androidx.appcompat.widget.C2316A": {
+  "kind": "other",
+  "layouts": [
+   "simple_spinner_item"
+  ]
+ },
+ "p044F3.C0549c": {
+  "kind": "other",
+  "layouts": [
+   "octopus_calculator_layout"
+  ]
+ },
+ "p003A2.AbstractC0006a": {
+  "kind": "other",
+  "layouts": [
+   "customer_service_item_row"
+  ]
+ },
+ "com.google.android.material.datepicker.YearGridAdapter": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_calendar_year"
+  ]
+ },
+ "com.google.android.material.datepicker.SingleDateSelector": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_picker_text_input_date"
+  ]
+ },
+ "com.google.android.material.datepicker.DaysOfWeekAdapter": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_calendar_day_of_week"
+  ]
+ },
+ "com.google.android.material.datepicker.MonthsPagerAdapter": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_calendar_month_labeled"
+  ]
+ },
+ "com.google.android.material.datepicker.MaterialDatePicker": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_picker_dialog",
+   "mtrl_picker_fullscreen"
+  ]
+ },
+ "com.google.android.material.datepicker.MonthAdapter": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_calendar_day"
+  ]
+ },
+ "com.google.android.material.datepicker.RangeDateSelector": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_picker_text_input_date_range"
+  ]
+ },
+ "com.google.android.material.datepicker.MaterialCalendar": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_calendar_horizontal",
+   "mtrl_calendar_vertical"
+  ]
+ },
+ "com.google.android.material.tabs.TabLayout": {
+  "kind": "other",
+  "layouts": [
+   "design_layout_tab_icon",
+   "design_layout_tab_text"
+  ]
+ },
+ "com.google.android.material.bottomnavigation.BottomNavigationItemView": {
+  "kind": "other",
+  "layouts": [
+   "design_bottom_navigation_item"
+  ]
+ },
+ "com.google.android.material.navigationrail.NavigationRailItemView": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_navigation_rail_item"
+  ]
+ },
+ "com.google.android.material.bottomsheet.BottomSheetDialog": {
+  "kind": "other",
+  "layouts": [
+   "design_bottom_sheet_dialog"
+  ]
+ },
+ "com.google.android.material.sidesheet.SideSheetDialog": {
+  "kind": "other",
+  "layouts": [
+   "m3_side_sheet_dialog"
+  ]
+ },
+ "com.google.android.material.timepicker.TimePickerView": {
+  "kind": "other",
+  "layouts": [
+   "material_timepicker"
+  ]
+ },
+ "com.google.android.material.timepicker.MaterialTimePicker": {
+  "kind": "other",
+  "layouts": [
+   "material_timepicker_dialog"
+  ]
+ },
+ "com.google.android.material.timepicker.ChipTextInputComboView": {
+  "kind": "other",
+  "layouts": [
+   "material_time_chip",
+   "material_time_input"
+  ]
+ },
+ "com.google.android.material.timepicker.RadialViewGroup": {
+  "kind": "other",
+  "layouts": [
+   "material_radial_view_group"
+  ]
+ },
+ "com.google.android.material.timepicker.ClockFaceView": {
+  "kind": "other",
+  "layouts": [
+   "material_clockface_textview",
+   "material_clockface_view"
+  ]
+ },
+ "com.google.android.material.snackbar.Snackbar": {
+  "kind": "other",
+  "layouts": [
+   "design_layout_snackbar_include",
+   "mtrl_layout_snackbar_include"
+  ]
+ },
+ "com.google.android.material.snackbar.BaseTransientBottomBar": {
+  "kind": "other",
+  "layouts": [
+   "design_layout_snackbar",
+   "mtrl_layout_snackbar"
+  ]
+ },
+ "com.google.android.material.textfield.MaterialAutoCompleteTextView": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_auto_complete_simple_item"
+  ]
+ },
+ "com.google.android.material.textfield.EndCompoundLayout": {
+  "kind": "other",
+  "layouts": [
+   "design_text_input_end_icon"
+  ]
+ },
+ "com.google.android.material.textfield.StartCompoundLayout": {
+  "kind": "other",
+  "layouts": [
+   "design_text_input_start_icon"
+  ]
+ },
+ "com.google.android.material.internal.NavigationMenuItemView": {
+  "kind": "other",
+  "layouts": [
+   "design_navigation_menu_item"
+  ]
+ },
+ "com.google.android.material.internal.NavigationMenuPresenter": {
+  "kind": "other",
+  "layouts": [
+   "design_navigation_item",
+   "design_navigation_item_header",
+   "design_navigation_item_separator",
+   "design_navigation_item_subheader",
+   "design_navigation_menu"
+  ]
+ },
+ "com.google.android.material.search.SearchView": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_search_view"
+  ]
+ },
+ "com.google.android.material.search.SearchBar": {
+  "kind": "other",
+  "layouts": [
+   "mtrl_search_bar"
+  ]
+ },
+ "com.google.android.gms.location.places.p237ui.PlaceAutocompleteFragment": {
+  "kind": "fragment",
+  "layouts": [
+   "place_autocomplete_fragment"
+  ]
+ },
+ "com.google.android.gms.location.places.p237ui.SupportPlaceAutocompleteFragment": {
+  "kind": "fragment",
+  "layouts": [
+   "place_autocomplete_fragment"
+  ]
+ },
+ "com.flytaxi.layout.GhostButton": {
+  "kind": "other",
+  "layouts": [
+   "ghout_button_layout"
+  ]
+ },
+ "com.flytaxi.layout.PriceNumberPickerView": {
+  "kind": "other",
+  "layouts": [
+   "price_picker_view"
+  ]
+ },
+ "com.flytaxi.layout.GhostV2Button": {
+  "kind": "other",
+  "layouts": [
+   "ghout_v2_button_layout"
+  ]
+ },
+ "com.flytaxi.layout.IconEditText": {
+  "kind": "other",
+  "layouts": [
+   "icon_edittext_layout"
+  ]
+ },
+ "com.flytaxi.layout.EditTextMaterialView": {
+  "kind": "other",
+  "layouts": [
+   "edit_text_material_layout"
+  ]
+ },
+ "com.flytaxi.fragment.payment.alipayApplyRequest.C3494b": {
+  "kind": "fragment",
+  "layouts": [
+   "alipay_apply_request_fragment_layout"
+  ]
+ },
+ "com.flytaxi.fragment.payment.alipay.C3488b": {
+  "kind": "fragment",
+  "layouts": [
+   "alipay_fragment_layout"
+  ]
+ },
+ "com.flytaxi.fragment.payment.wechat.C3510e": {
+  "kind": "fragment",
+  "layouts": [
+   "wechat_fragment_layout"
+  ]
+ },
+ "com.flytaxi.fragment.payment.main.C3502c": {
+  "kind": "fragment",
+  "layouts": [
+   "payment_fragment_layout"
+  ]
+ },
+ "com.flytaxi.fragment.login.license.C3469c": {
+  "kind": "fragment",
+  "layouts": [
+   "driver_license_fragment_layout"
+  ]
+ },
+ "com.flytaxi.fragment.login.login.C3482e": {
+  "kind": "fragment",
+  "layouts": [
+   "login_fragment_layout"
+  ]
+ },
+ "com.flytaxi.fragment.login.carModel.C3460c": {
+  "kind": "fragment",
+  "layouts": [
+   "driver_car_model_fragment_layout"
+  ]
+ },
+ "com.flytaxi.fragment.login.carModel.AbstractC3458a": {
+  "kind": "fragment",
+  "layouts": [
+   "price_confirm_dialog_layout"
+  ]
+ },
+ "com.flytaxi.fragment.calculator.C3450f": {
+  "kind": "fragment",
+  "layouts": [
+   "calculator_fragment_layout"
+  ]
+ },
+ "com.flytaxi.activity.takePhoto.TakePhotoActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.customerService.CustomerServiceDetailActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.webView.WebViewActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.setting.SettingActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.sunset.SunsetAccountActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.payment.payme.PaymeActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.payment.alipayApplyRequest.AlipayApplyRequestActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.payment.alipay.AlipayActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.payment.wechat.WeChatActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.payment.main.PaymentActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.payment.octopusCalculator.OctopusCalculatorActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.payment.octopus.OctopusLinkageActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.announcement.AnnouncementActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.complain.ComplainActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.rootDevice.RootDeviceActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.phoneVerify.PhoneVerifyActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.uberPopup.UberPopupActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.license.DriverLicenseActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.rules.RulesActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.integrityFail.IntegrityFailActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.option.DriverOptionActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.login.LoginActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.permission.PermissionSettingActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.carModel.DriverCarModelActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.fleetCarService.FleetCarServiceActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.login.accessibilityService.AccessibilityServiceActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.signup.SignUpActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.calculator.CalculatorActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.warning.WarningActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.other.outdatedOS.OutdatedOSActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.uber.uberResult.UberAuthResultActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.main.MainActivity": {
+  "kind": "activity",
+  "layouts": [
+   "main_layout"
+  ]
+ },
+ "com.flytaxi.activity.fontSize.FontSizeActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "com.flytaxi.activity.splashScreen.SplashScreenActivity": {
+  "kind": "activity",
+  "layouts": [
+   "general_layout"
+  ]
+ },
+ "p394t3.C6313c": {
+  "kind": "other",
+  "layouts": [
+   "uber_popup_layout"
+  ]
+ },
+ "p421w3.C6552d": {
+  "kind": "other",
+  "layouts": [
+   "history_fragment_layout"
+  ]
+ },
+ "p301j3.C5310l": {
+  "kind": "other",
+  "layouts": [
+   "subscription_plan_dialog_layout"
+  ]
+ },
+ "p301j3.C5309k": {
+  "kind": "other",
+  "layouts": [
+   "speech_dialog_layout"
+  ]
+ },
+ "p301j3.C5301c": {
+  "kind": "other",
+  "layouts": [
+   "alipay_dialog_layout"
+  ]
+ },
+ "p301j3.C5308j": {
+  "kind": "other",
+  "layouts": [
+   "operation_dialog_layout"
+  ]
+ },
+ "p301j3.C5306h": {
+  "kind": "other",
+  "layouts": [
+   "navigator_dialog_layout"
+  ]
+ },
+ "p301j3.DialogFragmentC5300b": {
+  "kind": "fragment",
+  "layouts": [
+   "alert_dialog_layout"
+  ]
+ },
+ "p301j3.DialogFragmentC5299a": {
+  "kind": "fragment",
+  "layouts": [
+   "accept_order_tips_dialog_layout"
+  ]
+ },
+ "p301j3.DialogFragmentC5303e": {
+  "kind": "fragment",
+  "layouts": [
+   "calendar_picker_dialog_layout"
+  ]
+ },
+ "p301j3.C5304f": {
+  "kind": "other",
+  "layouts": [
+   "map_navigation_dialog_layout"
+  ]
+ },
+ "p301j3.DialogFragmentC5302d": {
+  "kind": "fragment",
+  "layouts": [
+   "banner_dialoggue_dialog_layout"
+  ]
+ },
+ "p367q3.AbstractC6131a": {
+  "kind": "other",
+  "layouts": [
+   "phone_verify_confirm_dialog_layout"
+  ]
+ },
+ "p367q3.C6133c": {
+  "kind": "other",
+  "layouts": [
+   "phone_verify_fragment_layout"
+  ]
+ }
+}
