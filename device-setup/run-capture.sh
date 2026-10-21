@@ -60,3 +60,7 @@ mitmdump -s "$HERE/capture-addon.py" --listen-port "$PORT" \
 echo
 echo "Done. Redacted capture: $OUT/capture-*.jsonl"
 echo "Raw flow file (keep local, contains tokens): $STREAM"
+
+# turn the capture into a report and diff it against the static contract
+python3 "$ROOT/analyze_capture.py" "$OUT" || true
+echo "Report: $ROOT/docs/capture-report.md"

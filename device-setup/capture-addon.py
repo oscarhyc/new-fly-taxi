@@ -17,7 +17,10 @@ import time
 from mitmproxy import http, ctx
 
 OUT_DIR = os.path.expanduser("~/rea-apk/captures")
-INTERESTING = re.compile(r"flytaxiapp\.com$")
+# Hosts to capture. Override with REA_CAPTURE_HOSTS (regex), or REA_CAPTURE_ALL=1 to
+# capture every host (useful when testing against a local server).
+HOSTS = os.environ.get("REA_CAPTURE_HOSTS", r"(flytaxiapp\.com|cargrid-hk-release-config\.s3\.ap-east-1\.amazonaws\.com)$")
+INTERESTING = re.compile(os.environ.get("REA_CAPTURE_ALL") == "1" and r".*" or HOSTS)
 REDACT_KEYS = {
     "tel", "customer_tel", "driver_tel", "mobile", "phone", "pwd", "password",
     "access_token", "login_key", "server_jwt_token", "login_integrity_id",
